@@ -2593,6 +2593,33 @@
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Category of Mooring Area</S100FC:name>
+			<S100FC:definition>Classification of an area in which vessels may be secured to mooring buoys.</S100FC:definition>
+			<S100FC:code>categoryOfMooringArea</S100FC:code>
+			<S100FC:valueType>enumeration</S100FC:valueType>
+			<S100FC:listedValues>
+				<S100FC:listedValue>
+					<S100FC:label>Small Craft Mooring Area</S100FC:label>
+					<S100FC:definition>An area in which yachts and small boats moor.</S100FC:definition>
+					<S100FC:code>1</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>36</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Mooring Area for Visitors</S100FC:label>
+					<S100FC:definition>An area set aside for the mooring of visiting vessels.</S100FC:definition>
+					<S100FC:code>2</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Mooring Area for Tankers</S100FC:label>
+					<S100FC:definition>An area set aside for the mooring of tankers.</S100FC:definition>
+					<S100FC:code>3</S100FC:code>
+				</S100FC:listedValue>
+			</S100FC:listedValues>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Category of Mooring/Warping Facility</S100FC:name>
 			<S100FC:definition>A place or structure to which a vessel can be secured.</S100FC:definition>
 			<S100FC:code>categoryOfMooringWarpingFacility</S100FC:code>
