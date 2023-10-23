@@ -3072,6 +3072,64 @@
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Category of Opening Bridge</S100FC:name>
+			<S100FC:definition>Classification of opening structures spanning and providing passage over a gap or barrier, such as a river or roadway.</S100FC:definition>
+			<S100FC:code>categoryOfOpeningBridge</S100FC:code>
+			<S100FC:alias>CATBRG</S100FC:alias>
+			<S100FC:definitionReference>
+				<S100FC:sourceIdentifier>1125</S100FC:sourceIdentifier>
+				<S100FC:definitionSource ref="IHOREG"/>
+			</S100FC:definitionReference>
+			<S100FC:valueType>enumeration</S100FC:valueType>
+			<S100FC:listedValues>
+				<S100FC:listedValue>
+					<S100FC:label>Swing Bridge</S100FC:label>
+					<S100FC:definition>A movable bridge (or span thereof) which rotates in a horizontal plane about a vertical pivot to allow the passage of vessels.</S100FC:definition>
+					<S100FC:code>3</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>43</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Lifting Bridge</S100FC:label>
+					<S100FC:definition>A movable bridge (or span thereof) which is capable of being lifted vertically to allow vessels to pass beneath.</S100FC:definition>
+					<S100FC:code>4</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>44</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Bascule Bridge</S100FC:label>
+					<S100FC:definition>A counterpoise bridge rotated in a vertical plane about an axis at one or both ends.</S100FC:definition>
+					<S100FC:code>5</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>45</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Pontoon Bridge</S100FC:label>
+					<S100FC:definition>A fixed floating bridge supported by pontoons.</S100FC:definition>
+					<S100FC:code>6</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>46</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Drawbridge</S100FC:label>
+					<S100FC:definition>A general name for bridges of which part or the entire span of the bridge may be raised or drawn aside to allow ships to pass through.</S100FC:definition>
+					<S100FC:code>7</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>47</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+			</S100FC:listedValues>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Category of Pile</S100FC:name>
 			<S100FC:definition>Classification of pile, driven into the earth as a foundation or support for a structure.</S100FC:definition>
 			<S100FC:code>categoryOfPile</S100FC:code>
