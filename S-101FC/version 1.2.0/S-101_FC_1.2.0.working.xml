@@ -4038,37 +4038,6 @@
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
-			<S100FC:name>Category of Runway</S100FC:name>
-			<S100FC:definition>Classification of runway based on primary aircraft type.</S100FC:definition>
-			<S100FC:code>categoryOfRunway</S100FC:code>
-			<S100FC:alias>CATRUN</S100FC:alias>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>56</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG"/>
-			</S100FC:definitionReference>
-			<S100FC:valueType>enumeration</S100FC:valueType>
-			<S100FC:listedValues>
-				<S100FC:listedValue>
-					<S100FC:label>Aeroplane Runway</S100FC:label>
-					<S100FC:definition>A defined rectangular area, on a land aerodrome, prepared for the landing and take-off run of aircraft along its length.</S100FC:definition>
-					<S100FC:code>1</S100FC:code>
-					<S100FC:definitionReference>
-						<S100FC:sourceIdentifier>427</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG"/>
-					</S100FC:definitionReference>
-				</S100FC:listedValue>
-				<S100FC:listedValue>
-					<S100FC:label>Helicopter Landing Pad</S100FC:label>
-					<S100FC:definition>A site on which helicopters may land and take off.</S100FC:definition>
-					<S100FC:code>2</S100FC:code>
-					<S100FC:definitionReference>
-						<S100FC:sourceIdentifier>428</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG"/>
-					</S100FC:definitionReference>
-				</S100FC:listedValue>
-			</S100FC:listedValues>
-		</S100FC:S100_FC_SimpleAttribute>
-		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Category of Schedule</S100FC:name>
 			<S100FC:definition>The type of schedule, for instance opening, closure, etc.</S100FC:definition>
 			<S100FC:code>categoryOfSchedule</S100FC:code>
