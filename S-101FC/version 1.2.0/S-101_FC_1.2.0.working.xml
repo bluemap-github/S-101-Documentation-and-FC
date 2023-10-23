@@ -1077,6 +1077,38 @@
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Category of Dolphin</S100FC:name>
+			<S100FC:definition>Classification of a post or group of posts, used for mooring or warping a vessel.</S100FC:definition>
+			<S100FC:code>categoryOfDolphin</S100FC:code>
+			<S100FC:valueType>enumeration</S100FC:valueType>
+			<S100FC:listedValues>
+				<S100FC:listedValue>
+					<S100FC:label>Mooring Dolphin</S100FC:label>
+					<S100FC:definition>A post or group of posts driven into the seabed or riverbed, used as a mooring point for vessels.</S100FC:definition>
+					<S100FC:code>1</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Deviation Dolphin</S100FC:label>
+					<S100FC:definition>A post or group of posts, which a vessel may swing around for compass adjustment.</S100FC:definition>
+					<S100FC:code>2</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>303</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Berthing Dolphin</S100FC:label>
+					<S100FC:definition>A post or group of posts driven into the seabed or riverbed, used to extend the berth of a vessel by providing extra mooring points.</S100FC:definition>
+					<S100FC:code>3</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Fender/Breasting Dolphin</S100FC:label>
+					<S100FC:definition>A post or group of posts driven into the seabed or riverbed, used to assist in berthing of vessels by taking up some berthing loads; keep vessels from pressing against the pier structure; or to protect structures from possible impact by ships.</S100FC:definition>
+					<S100FC:code>4</S100FC:code>
+				</S100FC:listedValue>
+			</S100FC:listedValues>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Category of Dumping Ground</S100FC:name>
 			<S100FC:definition>Classification of an area based on the type of waste being disposed of.</S100FC:definition>
 			<S100FC:code>categoryOfDumpingGround</S100FC:code>
