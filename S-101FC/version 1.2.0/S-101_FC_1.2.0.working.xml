@@ -4766,6 +4766,15 @@
 						<S100FC:definitionSource ref="IHOREG"/>
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Tie-Up Wall</S100FC:label>
+					<S100FC:definition>A section of wall designated for tying-up vessels awaiting transit. Bollards and mooring devices are available for both large and small ships.</S100FC:definition>
+					<S100FC:code>23</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>305</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
