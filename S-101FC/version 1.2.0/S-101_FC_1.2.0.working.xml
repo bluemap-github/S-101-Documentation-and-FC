@@ -123,6 +123,59 @@
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Bridge Construction</S100FC:name>
+			<S100FC:definition>The bridge’s primary shape and/or construction material.</S100FC:definition>
+			<S100FC:code>bridgeConstruction</S100FC:code>
+			<S100FC:valueType>enumeration</S100FC:valueType>
+			<S100FC:listedValues>
+				<S100FC:listedValue>
+					<S100FC:label>Arch</S100FC:label>
+					<S100FC:definition>A typically curved structural member spanning an opening and serving as a support (as for the wall or other weight above the opening).</S100FC:definition>
+					<S100FC:code>1</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>3454</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Viaduct</S100FC:label>
+					<S100FC:definition>A structure consisting of a series of arches or towers supporting a roadway, waterway, etc., across a depression, etc.</S100FC:definition>
+					<S100FC:code>2</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>50</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"></S100FC:definitionSource>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Pontoon Bridge</S100FC:label>
+					<S100FC:definition>A fixed floating bridge supported by pontoons.</S100FC:definition>
+					<S100FC:code>3</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>46</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"></S100FC:definitionSource>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Suspension Bridge</S100FC:label>
+					<S100FC:definition>A fixed bridge consisting of either a roadway or a truss suspended from two or more cables which pass over towers and are anchored by backstays to a firm foundation.</S100FC:definition>
+					<S100FC:code>4</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>52</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"></S100FC:definitionSource>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Transporter Bridge</S100FC:label>
+					<S100FC:definition>Consists of towers on each side of the watercourse connected by a system of girders on which a carriage runs.</S100FC:definition>
+					<S100FC:code>5</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>48</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"></S100FC:definitionSource>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+			</S100FC:listedValues>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Building Shape</S100FC:name>
 			<S100FC:definition>The specific shape of the building.</S100FC:definition>
 			<S100FC:code>buildingShape</S100FC:code>
