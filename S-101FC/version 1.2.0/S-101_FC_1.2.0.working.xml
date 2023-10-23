@@ -126,6 +126,7 @@
 			<S100FC:name>Bridge Construction</S100FC:name>
 			<S100FC:definition>The bridge’s primary shape and/or construction material.</S100FC:definition>
 			<S100FC:code>bridgeConstruction</S100FC:code>
+			<S100FC:alias>CATBRG</S100FC:alias>
 			<S100FC:valueType>enumeration</S100FC:valueType>
 			<S100FC:listedValues>
 				<S100FC:listedValue>
@@ -143,7 +144,7 @@
 					<S100FC:code>2</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>50</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG"></S100FC:definitionSource>
+						<S100FC:definitionSource ref="IHOREG"/>
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
@@ -152,7 +153,7 @@
 					<S100FC:code>3</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>46</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG"></S100FC:definitionSource>
+						<S100FC:definitionSource ref="IHOREG"/>
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
@@ -161,7 +162,7 @@
 					<S100FC:code>4</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>52</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG"></S100FC:definitionSource>
+						<S100FC:definitionSource ref="IHOREG"/>
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
@@ -170,7 +171,52 @@
 					<S100FC:code>5</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>48</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG"></S100FC:definitionSource>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+			</S100FC:listedValues>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Bridge Function</S100FC:name>
+			<S100FC:definition>A specific role that describes the purpose of a bridge.</S100FC:definition>
+			<S100FC:code>bridgeFunction</S100FC:code>
+			<S100FC:alias>CATBRG</S100FC:alias>
+			<S100FC:valueType>enumeration</S100FC:valueType>
+			<S100FC:listedValues>
+				<S100FC:listedValue>
+					<S100FC:label>Vehicular</S100FC:label>
+					<S100FC:definition>Of, relating to, or designed for vehicles and especially motor vehicles.</S100FC:definition>
+					<S100FC:code>1</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>3451</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Rail</S100FC:label>
+					<S100FC:definition>Of, relating to, or designed for vehicles that run on a guiding track(s), especially trains.</S100FC:definition>
+					<S100FC:code>2</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>3452</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Pedestrian</S100FC:label>
+					<S100FC:definition>Of, relating to, or designed for walking.</S100FC:definition>
+					<S100FC:code>3</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>3453</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
+					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Aqueduct</S100FC:label>
+					<S100FC:definition>A bridge supporting an artificially elevated channel, for the conveyance of water.</S100FC:definition>
+					<S100FC:code>4</S100FC:code>
+					<S100FC:definitionReference>
+						<S100FC:sourceIdentifier>51</S100FC:sourceIdentifier>
+						<S100FC:definitionSource ref="IHOREG"/>
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 			</S100FC:listedValues>
