@@ -511,15 +511,6 @@
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Explosives Anchorage</S100FC:label>
-					<S100FC:definition>An area set apart for anchored ships discharging or receiving explosives.</S100FC:definition>
-					<S100FC:code>4</S100FC:code>
-					<S100FC:definitionReference>
-						<S100FC:sourceIdentifier>32</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG"/>
-					</S100FC:definitionReference>
-				</S100FC:listedValue>
-				<S100FC:listedValue>
 					<S100FC:label>Quarantine Anchorage</S100FC:label>
 					<S100FC:definition>An area where a vessel anchors when satisfying quarantine regulations.</S100FC:definition>
 					<S100FC:code>5</S100FC:code>
@@ -543,15 +534,6 @@
 					<S100FC:code>7</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>35</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG"/>
-					</S100FC:definitionReference>
-				</S100FC:listedValue>
-				<S100FC:listedValue>
-					<S100FC:label>Small Craft Mooring Area</S100FC:label>
-					<S100FC:definition>An area in which yachts and small boats moor.</S100FC:definition>
-					<S100FC:code>8</S100FC:code>
-					<S100FC:definitionReference>
-						<S100FC:sourceIdentifier>36</S100FC:sourceIdentifier>
 						<S100FC:definitionSource ref="IHOREG"/>
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
