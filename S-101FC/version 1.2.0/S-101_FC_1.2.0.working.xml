@@ -3194,6 +3194,11 @@
 						<S100FC:definitionSource ref="IHOREG"/>
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Mooring Post</S100FC:label>
+					<S100FC:definition>A post where to which something (such as a craft) can be moored.</S100FC:definition>
+					<S100FC:code>8</S100FC:code>
+				</S100FC:listedValue>
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
