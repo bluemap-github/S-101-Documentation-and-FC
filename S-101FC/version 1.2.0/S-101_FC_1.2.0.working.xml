@@ -10072,6 +10072,29 @@
 			<S100FC:valueType>real</S100FC:valueType>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Speed Units</S100FC:name>
+			<S100FC:definition>The units for description of speed.</S100FC:definition>
+			<S100FC:code>speedUnits</S100FC:code>
+			<S100FC:valueType>enumeration</S100FC:valueType>
+			<S100FC:listedValues>
+				<S100FC:listedValue>
+					<S100FC:label>Kilometres Per Hour</S100FC:label>
+					<S100FC:definition>A unit of speed, expressing the number of kilometres travelled in one hour.</S100FC:definition>
+					<S100FC:code>2</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Miles Per Hour</S100FC:label>
+					<S100FC:definition>An imperial and United States customary unit of speed expressing the number of statute miles covered in one hour.</S100FC:definition>
+					<S100FC:code>3</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Nautical Miles Per Hour (Knots)</S100FC:label>
+					<S100FC:definition>A nautical unit of speed. One knot is one nautical mile per hour. The name is derived from the knots in the log line.</S100FC:definition>
+					<S100FC:code>3</S100FC:code>
+				</S100FC:listedValue>
+			</S100FC:listedValues>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Station Name</S100FC:name>
 			<S100FC:definition>The name of the reference tide station with reference water level for tidal stream panel observations.</S100FC:definition>
 			<S100FC:code>stationName</S100FC:code>
