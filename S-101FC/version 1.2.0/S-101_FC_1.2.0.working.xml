@@ -10723,14 +10723,13 @@
 			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
-			<S100FC:name>Text Offset Mm</S100FC:name>
-			<S100FC:definition>The distance in millimetres that text associated with a feature is positioned from the feature in an end-user system.</S100FC:definition>
-			<S100FC:code>textOffsetMm</S100FC:code>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>993</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG"/>
-			</S100FC:definitionReference>
+			<S100FC:name>Text Offset Distance</S100FC:name>
+			<S100FC:definition>The distance that text associated with a feature is positioned from the feature in an end-user system.</S100FC:definition>
+			<S100FC:code>textOffsetDistance</S100FC:code>
 			<S100FC:valueType>integer</S100FC:valueType>
+			<S100FC:constraints>
+				<S100CD:textPattern>xx</S100CD:textPattern>
+			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Text Type</S100FC:name>
