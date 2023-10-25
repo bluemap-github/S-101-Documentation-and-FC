@@ -8888,6 +8888,16 @@
 			<S100FC:valueType>integer</S100FC:valueType>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Opening Bridge</S100FC:name>
+			<S100FC:definition>A bridge that is closed when set for carrying road traffic and open when set to permit marine traffic to pass through the waterway it crosses. Modern opening (movable) bridges are either bascule, vertical lift or swing.</S100FC:definition>
+			<S100FC:code>openingBridge</S100FC:code>
+			<S100FC:definitionReference>
+				<S100FC:sourceIdentifier>1123</S100FC:sourceIdentifier>
+				<S100FC:definitionSource ref="IHOREG"/>
+			</S100FC:definitionReference>
+			<S100FC:valueType>boolean</S100FC:valueType>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Orientation Uncertainty</S100FC:name>
 			<S100FC:definition>The best estimate of the accuracy of a bearing.</S100FC:definition>
 			<S100FC:code>orientationUncertainty</S100FC:code>
