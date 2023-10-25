@@ -9762,6 +9762,11 @@
 						<S100FC:definitionSource ref="IHOREG"/>
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Power-driven Vessels Prohibited</S100FC:label>
+					<S100FC:definition>IHO Definition: Any vessel propelled by machinery.</S100FC:definition>
+					<S100FC:code>42</S100FC:code>
+				</S100FC:listedValue>
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
