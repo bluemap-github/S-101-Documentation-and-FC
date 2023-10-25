@@ -5420,6 +5420,7 @@
 					<S100FC:label>Visitors Mooring</S100FC:label>
 					<S100FC:definition>A mooring set aside for the use of visiting vessels.</S100FC:definition>
 					<S100FC:code>29</S100FC:code>
+					<S100FC:alias>CATSCF</S100FC:alias>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>616</S100FC:sourceIdentifier>
 						<S100FC:definitionSource ref="IHOREG"/>
