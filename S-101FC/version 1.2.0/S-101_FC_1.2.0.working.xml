@@ -10984,7 +10984,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Rectangle (Horizontal)</S100FC:label>
-					<S100FC:definition>Where the two longer opposite sides are standing horizontally. A rectangle is a plane figure with four right angles and four straight sides, opposite sides being parallel and equal in length.</S100FC:definition>
+					<S100FC:definition>Where the two longer opposite sides are standing horizontally. A rectangle is a plane figure with four right angles and four straight sides, opposite sides being parallel and equal in length. A vertical rectangle is where the two longer opposite sides are standing vertically.</S100FC:definition>
 					<S100FC:code>20</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>1143</S100FC:sourceIdentifier>
