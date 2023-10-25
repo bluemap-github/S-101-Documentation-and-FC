@@ -10510,15 +10510,6 @@
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Swept by Wire-Drag</S100FC:label>
-					<S100FC:definition>The given area was determined to be free from navigational dangers to a certain depth by towing a buoyed wire at the desired depth by two launches, or a least depth was identified using the same technique.</S100FC:definition>
-					<S100FC:code>6</S100FC:code>
-					<S100FC:definitionReference>
-						<S100FC:sourceIdentifier>1075</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG"/>
-					</S100FC:definitionReference>
-				</S100FC:listedValue>
-				<S100FC:listedValue>
 					<S100FC:label>Swept by Vertical Acoustic System</S100FC:label>
 					<S100FC:definition>The given area has been swept using a system comprised of multiple echo sounder transducers attached to booms deployed from the survey vessel.</S100FC:definition>
 					<S100FC:code>8</S100FC:code>
@@ -10598,6 +10589,11 @@
 						<S100FC:sourceIdentifier>1084</S100FC:sourceIdentifier>
 						<S100FC:definitionSource ref="IHOREG"/>
 					</S100FC:definitionReference>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Mechanically Swept</S100FC:label>
+					<S100FC:definition>The given area was determined to be free from navigational dangers to a certain depth by towing a line or object below the surface at the desired depth; or least depth(s) and position(s) within an area was identified using the same technique.</S100FC:definition>
+					<S100FC:code>18</S100FC:code>
 				</S100FC:listedValue>
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
@@ -10707,6 +10703,24 @@
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
 			<S100FC:valueType>text</S100FC:valueType>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Text Offset Bearing</S100FC:name>
+			<S100FC:definition>The angular distance measured from true north that text associated with a feature is positioned from the feature in an end-user system.</S100FC:definition>
+			<S100FC:code>textOffsetBearing</S100FC:code>
+			<S100FC:valueType>integer</S100FC:valueType>
+			<S100FC:uom>
+				<S100Base:name>Degree</S100Base:name>
+				<S100Base:symbol>°</S100Base:symbol>
+			</S100FC:uom>
+			<S100FC:constraints>
+				<S100CD:textPattern>xxx</S100CD:textPattern>
+				<S100CD:range>
+					<S100Base:lowerBound>0</S100Base:lowerBound>
+					<S100Base:upperBound>360</S100Base:upperBound>
+					<S100Base:closure>closedInterval</S100Base:closure>
+				</S100CD:range>
+			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Text Offset Mm</S100FC:name>
