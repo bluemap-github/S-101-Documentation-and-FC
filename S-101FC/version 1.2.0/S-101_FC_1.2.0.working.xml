@@ -11272,6 +11272,12 @@
 			<S100FC:valueType>real</S100FC:valueType>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Vertical Clearance Unlimited</S100FC:name>
+			<S100FC:definition>A statement that expresses if the vertical clearance for a feature in the open position, such as a bridge span, is unlimited.</S100FC:definition>
+			<S100FC:code>verticalClearanceUnlimited</S100FC:code>
+			<S100FC:valueType>boolean</S100FC:valueType>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Vertical Clearance Value</S100FC:name>
 			<S100FC:definition>The vertical clearance measured from the horizontal plane towards the feature overhead.</S100FC:definition>
 			<S100FC:code>verticalClearanceValue</S100FC:code>
