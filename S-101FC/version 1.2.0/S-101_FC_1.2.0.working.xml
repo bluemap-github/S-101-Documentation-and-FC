@@ -11730,6 +11730,12 @@
 				</S100FC:listedValue>
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
+			<S100FC:S100_FC_SimpleAttribute>
+				<S100FC:name>Visitors Mooring</S100FC:name>
+				<S100FC:definition>A mooring set aside for the use of visiting vessels.</S100FC:definition>
+				<S100FC:code>visitorsMooring</S100FC:code>
+				<S100FC:valueType>boolean</S100FC:valueType>
+			</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Visual Prominence</S100FC:name>
 			<S100FC:definition>The extent to which a feature, either natural or artificial, is visible from seaward.</S100FC:definition>
