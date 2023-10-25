@@ -10732,6 +10732,12 @@
 			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Text Rotation</S100FC:name>
+			<S100FC:definition>A statement that expresses if text associated with a feature is to be rotated in the ECDIS display or not.</S100FC:definition>
+			<S100FC:code>textRotation</S100FC:code>
+			<S100FC:valueType>boolean</S100FC:valueType>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Text Type</S100FC:name>
 			<S100FC:definition>The attribute from which a text string is derived.</S100FC:definition>
 			<S100FC:code>textType</S100FC:code>
