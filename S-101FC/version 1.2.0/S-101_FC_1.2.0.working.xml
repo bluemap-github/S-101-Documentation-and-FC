@@ -14839,7 +14839,7 @@
 				<S100FC:featureType ref="Pile"/>
 				<S100FC:featureType ref="PilotBoardingPlace"/>
 				<S100FC:featureType ref="PilotageDistrict"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="PipelineSubmarineOnLand"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PrecautionaryArea"/>
@@ -18555,9 +18555,9 @@
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
-			<S100FC:name>Pipeline Overhead</S100FC:name>
+			<S100FC:name>Overhead Pipeline</S100FC:name>
 			<S100FC:definition>A string of interconnected pipes, supported by pylons and passing over or nearby navigable waters, used for the transport of matter, nowadays mainly oil or gas.</S100FC:definition>
-			<S100FC:code>PipelineOverhead</S100FC:code>
+			<S100FC:code>OverheadPipeline</S100FC:code>
 			<S100FC:remarks>A pipeline is a string of interconnected pipes used for the transport of matter, nowadays mainly oil or gas (IHO Dictionary, S-32, 5th Edition, 3857).</S100FC:remarks>
 			<S100FC:alias>PIPOHD</S100FC:alias>
 			<S100FC:definitionReference>
@@ -18588,7 +18588,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="false">
+			<S100FC:attributeBinding sequential="true">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -18718,8 +18718,16 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation"/>
 				<S100FC:role ref="providesInformation"/>
-				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+			</S100FC:informationBinding>
+			<S100FC:informationBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="SpatialAssociation"/>
+				<S100FC:role ref="defines"/>
+				<S100FC:informationType ref="SpatialQuality"/>
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
@@ -18729,27 +18737,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
 				<S100FC:role ref="supports"/>
-				<S100FC:featureType ref="Daymark"/>
-				<S100FC:featureType ref="DistanceMark"/>
-				<S100FC:featureType ref="FogSignal"/>
-				<S100FC:featureType ref="LightAllAround"/>
-				<S100FC:featureType ref="LightFogDetector"/>
-				<S100FC:featureType ref="LightSectored"/>
-				<S100FC:featureType ref="PhysicalAISAidToNavigation"/>
 				<S100FC:featureType ref="RadarReflector"/>
-				<S100FC:featureType ref="RadarTransponderBeacon"/>
-				<S100FC:featureType ref="Retroreflector"/>
-				<S100FC:featureType ref="SignalStationTraffic"/>
-				<S100FC:featureType ref="SignalStationWarning"/>
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="UpdatedInformation"/>
-				<S100FC:role ref="updates"/>
-				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -18761,6 +18749,15 @@
 				<S100FC:featureType ref="FairwaySystem"/>
 				<S100FC:featureType ref="TrafficSeparationScheme"/>
 				<S100FC:featureType ref="TwoWayRoute"/>
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdatedInformation"/>
+				<S100FC:role ref="updates"/>
+				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -22302,7 +22299,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -28987,7 +28984,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -29451,7 +29448,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -30864,7 +30861,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -34662,7 +34659,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -34919,7 +34916,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -35162,7 +35159,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -39015,7 +39012,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -39703,7 +39700,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -39799,7 +39796,7 @@
 				<S100FC:association ref="StructureEquipment"/>
 				<S100FC:role ref="supportedBy"/>
 				<S100FC:featureType ref="CableOverhead"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -39988,7 +39985,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -40131,7 +40128,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -40571,7 +40568,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -41062,7 +41059,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -41228,7 +41225,7 @@
 				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
@@ -41893,7 +41890,7 @@
 				<S100FC:featureType ref="Pile"/>
 				<S100FC:featureType ref="PilotBoardingPlace"/>
 				<S100FC:featureType ref="PilotageDistrict"/>
-				<S100FC:featureType ref="PipelineOverhead"/>
+				<S100FC:featureType ref="OverheadPipeline"/>
 				<S100FC:featureType ref="PipelineSubmarineOnLand"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PrecautionaryArea"/>
