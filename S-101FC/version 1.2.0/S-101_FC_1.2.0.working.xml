@@ -7946,7 +7946,7 @@
 			<S100FC:name>Least Depth of Detected Features Measured</S100FC:name>
 			<S100FC:definition>Expression stating if the least depth of detected features in an area was measured.</S100FC:definition>
 			<S100FC:code>leastDepthOfDetectedFeaturesMeasured</S100FC:code>
-			<S100FC:remarks>A feature in this context is any object, whether man-made or not, projecting above the sea floor, which may be a danger for surface navigation (reference: IHO publication S-44).- least depth of detected features measured does not describe the least depth of features that were actually detected during a hydrographic survey, but the ability of the survey to detect the least depth of features with a maximum uncertainty as defined in IHO publication S-44.</S100FC:remarks>
+			<S100FC:remarks>A feature in this context is any object, whether man-made or not, projecting above the seafloor, which may be a danger for surface navigation (reference: IHO publication S-44).- least depth of detected features measured does not describe the least depth of features that were actually detected during a hydrographic survey, but the ability of the survey to detect the least depth of features with a maximum uncertainty as defined in IHO publication S-44.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>206</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
