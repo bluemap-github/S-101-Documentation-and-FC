@@ -36620,6 +36620,13 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attribute ref="interoperabilityIdentifier"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
 				<S100FC:attribute ref="height"/>
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -36742,6 +36749,15 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
+			<S100FC:informationBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="SpatialAssociation"/>
+				<S100FC:role ref="defines"/>
+				<S100FC:informationType ref="SpatialQuality"/>
+			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -36752,11 +36768,9 @@
 				<S100FC:role ref="supportedBy"/>
 				<S100FC:featureType ref="Bridge"/>
 				<S100FC:featureType ref="Building"/>
-				<S100FC:featureType ref="Conveyor"/>
 				<S100FC:featureType ref="Crane"/>
+				<S100FC:featureType ref="Conveyor"/>
 				<S100FC:featureType ref="Landmark"/>
-				<S100FC:featureType ref="LightAllAround"/>
-				<S100FC:featureType ref="LightSectored"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
 				<S100FC:featureType ref="SpanFixed"/>
