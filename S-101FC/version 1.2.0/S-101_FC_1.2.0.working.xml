@@ -10447,6 +10447,16 @@
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Update Number</S100FC:name>
+			<S100FC:definition>Update number of the ENC being referenced.</S100FC:definition>
+			<S100FC:code>updateNumber</S100FC:code>
+			<S100FC:definitionReference>
+				<S100FC:sourceIdentifier>1081</S100FC:sourceIdentifier>
+				<S100FC:definitionSource ref="IHOREG"/>
+			</S100FC:definitionReference>
+			<S100FC:valueType>integer</S100FC:valueType>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Swept Date</S100FC:name>
 			<S100FC:definition>The date that the area was swept by a survey.</S100FC:definition>
 			<S100FC:code>sweptDate</S100FC:code>
@@ -14639,10 +14649,17 @@
 			</S100FC:definitionReference>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
-					<S100Base:lower>1</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true"/>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
-				<S100FC:attribute ref="updateDescription"/>
+				<S100FC:attribute ref="fixedDateRange"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding>
+				<S100FC:multiplicity>
+					<S100Base:lower>1</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="updateNumber"/>
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
