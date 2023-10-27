@@ -8274,7 +8274,6 @@
 			<S100FC:name>Line Spacing Maximum</S100FC:name>
 			<S100FC:definition>The maximum distance between hydrographic survey lines.</S100FC:definition>
 			<S100FC:code>lineSpacingMaximum</S100FC:code>
-			<S100FC:alias>SDISMX</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>934</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
