@@ -8440,7 +8440,7 @@
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Maximum Permitted Vessel Length</S100FC:name>
-			<S100FC:definition></S100FC:definition>
+			<S100FC:definition/>
 			<S100FC:code>maximumPermittedVesselLength</S100FC:code>
 			<S100FC:valueType>real</S100FC:valueType>
 		</S100FC:S100_FC_SimpleAttribute>
@@ -17015,6 +17015,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation"/>
 				<S100FC:role ref="providesInformation"/>
+				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -17187,6 +17188,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation"/>
 				<S100FC:role ref="providesInformation"/>
+				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -18520,6 +18522,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation"/>
 				<S100FC:role ref="providesInformation"/>
+				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -23316,6 +23319,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation"/>
 				<S100FC:role ref="providesInformation"/>
+				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -23720,7 +23724,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="pictorialRepresentation"/>
 			</S100FC:attributeBinding>
-						<S100FC:informationBinding roleType="association">
+			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -28096,6 +28100,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation"/>
 				<S100FC:role ref="providesInformation"/>
+				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -28236,6 +28241,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation"/>
 				<S100FC:role ref="providesInformation"/>
+				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -32902,6 +32908,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation"/>
 				<S100FC:role ref="providesInformation"/>
+				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -32978,7 +32985,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="maximumPermittedVesselLength"/>
-			</S100FC:attributeBinding>			
+			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
@@ -33019,7 +33026,7 @@
 					<S100FC:value>42</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="restriction"/>
-			</S100FC:attributeBinding>			
+			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
@@ -33219,6 +33226,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation"/>
 				<S100FC:role ref="providesInformation"/>
+				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -33748,6 +33756,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation"/>
 				<S100FC:role ref="providesInformation"/>
+				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -35722,7 +35731,6 @@
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
-		
 		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Light All Around</S100FC:name>
 			<S100FC:definition>An all around light is a light that is visible over the whole horizon of interest to marine navigation and having no change in the characteristics of the light.</S100FC:definition>
@@ -38671,14 +38679,14 @@
 					<S100Base:upper xsi:nil="true" infinite="true"/>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="featureName"/>
-			</S100FC:attributeBinding>	
+			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="fixedDateRange"/>
-			</S100FC:attributeBinding>		
+			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
@@ -38726,21 +38734,21 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="visitorMooring"/>
-			</S100FC:attributeBinding>			
+			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="scaleMinimum"/>
-			</S100FC:attributeBinding>		
+			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="information"/>
-			</S100FC:attributeBinding>	
+			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
@@ -38748,7 +38756,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="pictorialRepresentation"/>
 			</S100FC:attributeBinding>
-						<S100FC:informationBinding roleType="association">
+			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -39380,6 +39388,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation"/>
 				<S100FC:role ref="providesInformation"/>
+				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -43750,7 +43759,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="textRotation"/>
-			</S100FC:attributeBinding>			
+			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
