@@ -21215,12 +21215,19 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="false">
+			<S100FC:attributeBinding sequential="true">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="featureName"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="fixedDateRange"/>
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
@@ -21235,6 +21242,13 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="horizontalWidth"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="true" infinite="true"/>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="periodicDateRange"/>
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
@@ -21299,6 +21313,15 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
+			<S100FC:informationBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="SpatialAssociation"/>
+				<S100FC:role ref="defines"/>
+				<S100FC:informationType ref="SpatialQuality"/>
+			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -21307,6 +21330,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
 				<S100FC:role ref="supports"/>
+				<S100FC:featureType ref="Bollard"/>
 				<S100FC:featureType ref="Daymark"/>
 				<S100FC:featureType ref="DistanceMark"/>
 				<S100FC:featureType ref="FogSignal"/>
@@ -21324,20 +21348,20 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
-				<S100FC:association ref="UpdatedInformation"/>
-				<S100FC:role ref="updates"/>
-				<S100FC:featureType ref="UpdateInformation"/>
+				<S100FC:association ref="AidsToNavigationAssociation"/>
+				<S100FC:role ref="componentOf"/>
+				<S100FC:featureType ref="FairwaySystem"/>
+				<S100FC:featureType ref="TrafficSeparationScheme"/>
+				<S100FC:featureType ref="TwoWayRoute"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
-				<S100FC:association ref="AidsToNavigationAssociation"/>
-				<S100FC:role ref="componentOf"/>
-				<S100FC:featureType ref="FairwaySystem"/>
-				<S100FC:featureType ref="TrafficSeparationScheme"/>
-				<S100FC:featureType ref="TwoWayRoute"/>
+				<S100FC:association ref="UpdatedInformation"/>
+				<S100FC:role ref="updates"/>
+				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
