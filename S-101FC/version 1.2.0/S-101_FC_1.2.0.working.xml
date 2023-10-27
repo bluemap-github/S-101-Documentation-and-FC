@@ -17344,7 +17344,7 @@
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
-		<S100FC:S100_FC_FeatureType>
+		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Helipad</S100FC:name>
 			<S100FC:definition>A site on which helicopters may land and take off.</S100FC:definition>
 			<S100FC:code>Helipad</S100FC:code>
@@ -23352,7 +23352,7 @@
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
-		<S100FC:S100_FC_FeatureType>
+		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Dolphin</S100FC:name>
 			<S100FC:definition>A post or group of posts, used for mooring or warping a vessel, or as an aid to navigation. The dolphin may be in the water, on a wharf or on the beach.</S100FC:definition>
 			<S100FC:code>Dolphin</S100FC:code>
@@ -23625,6 +23625,148 @@
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
+		</S100FC:S100_FC_FeatureType>
+		<S100FC:S100_FC_FeatureType isAbstract="false">
+			<S100FC:name>Bollard</S100FC:name>
+			<S100FC:definition>Small shaped post, mounted on a wharf or dolphin used to secure ship's lines.</S100FC:definition>
+			<S100FC:code>Bollard</S100FC:code>
+			<S100FC:definitionReference>
+				<S100FC:sourceIdentifier>649 </S100FC:sourceIdentifier>
+				<S100FC:definitionSource ref="IHOREG"/>
+			</S100FC:definitionReference>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:permittedValues>
+					<S100FC:value>1</S100FC:value>
+					<S100FC:value>2</S100FC:value>
+					<S100FC:value>5</S100FC:value>
+				</S100FC:permittedValues>
+				<S100FC:attribute ref="condition"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="true">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="true" infinite="true"/>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="featureName"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper>1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="fixedDateRange"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="true" infinite="true"/>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="periodicDateRange"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="reportedDate"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="true" infinite="true"/>
+				</S100FC:multiplicity>
+				<S100FC:permittedValues>
+					<S100FC:value>1</S100FC:value>
+					<S100FC:value>3</S100FC:value>
+					<S100FC:value>4</S100FC:value>
+					<S100FC:value>6</S100FC:value>
+					<S100FC:value>7</S100FC:value>
+					<S100FC:value>8</S100FC:value>
+					<S100FC:value>12</S100FC:value>
+					<S100FC:value>14</S100FC:value>
+					<S100FC:value>17</S100FC:value>
+				</S100FC:permittedValues>
+				<S100FC:attribute ref="status"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="scaleMinimum"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="true" infinite="true"/>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="information"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="pictorialRepresentation"/>
+			</S100FC:attributeBinding>
+						<S100FC:informationBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="AdditionalInformation"/>
+				<S100FC:role ref="providesInformation"/>
+				<S100FC:informationType ref="NauticalInformation"/>
+			</S100FC:informationBinding>
+			<S100FC:informationBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="SpatialAssociation"/>
+				<S100FC:role ref="defines"/>
+				<S100FC:informationType ref="SpatialQuality"/>
+			</S100FC:informationBinding>
+			<S100FC:featureUseType>geographic</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="composition">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="StructureEquipment"/>
+				<S100FC:role ref="supportedBy"/>
+				<S100FC:featureType ref="Dolphin"/>
+				<S100FC:featureType ref="FortifiedStructure"/>
+				<S100FC:featureType ref="Hulk"/>
+				<S100FC:featureType ref="Landmark"/>
+				<S100FC:featureType ref="OffshorePlatform"/>
+				<S100FC:featureType ref="Pile"/>
+				<S100FC:featureType ref="PylonBridgeSupport"/>
+				<S100FC:featureType ref="ShorelineConstruction"/>
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdatedInformation"/>
+				<S100FC:role ref="updates"/>
+				<S100FC:featureType ref="UpdateInformation"/>
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="composition">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="TextAssociation"/>
+				<S100FC:role ref="positions"/>
+				<S100FC:featureType ref="TextPlacement"/>
+			</S100FC:featureBinding>
+			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Mooring/Warping Facility</S100FC:name>
