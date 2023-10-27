@@ -8279,12 +8279,14 @@
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
 			<S100FC:valueType>integer</S100FC:valueType>
+			<S100FC:uom>
+				<S100Base:name></S100Base:name>
+			</S100FC:uom>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Line Spacing Minimum</S100FC:name>
 			<S100FC:definition>The minimum distance between hydrographic survey lines.</S100FC:definition>
 			<S100FC:code>lineSpacingMinimum</S100FC:code>
-			<S100FC:alias>SDISMN</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>935</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
