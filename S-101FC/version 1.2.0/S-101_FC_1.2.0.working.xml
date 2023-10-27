@@ -17054,7 +17054,7 @@
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="true">1</S100Base:upper>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation"/>
 				<S100FC:role ref="componentOf"/>
@@ -17068,15 +17068,6 @@
 				<S100FC:association ref="UpdatedInformation"/>
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="aggregation">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="RangeSystemAggregation"/>
-				<S100FC:role ref="componentOf"/>
-				<S100FC:featureType ref="RangeSystem"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
