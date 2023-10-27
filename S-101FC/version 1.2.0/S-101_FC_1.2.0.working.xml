@@ -10457,6 +10457,34 @@
 			<S100FC:valueType>integer</S100FC:valueType>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Update Type</S100FC:name>
+			<S100FC:definition>An action performed when the contents of a dataset are changed.</S100FC:definition>
+			<S100FC:code>updateType</S100FC:code>
+			<S100FC:valueType>enumeration</S100FC:valueType>
+			<S100FC:listedValues>
+				<S100FC:listedValue>
+					<S100FC:label>Insert</S100FC:label>
+					<S100FC:definition>To put or introduce into the body of something.</S100FC:definition>
+					<S100FC:code>1</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Delete</S100FC:label>
+					<S100FC:definition>To eliminate especially by removing, cutting out or erasing.</S100FC:definition>
+					<S100FC:code>2</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Modify</S100FC:label>
+					<S100FC:definition>To make basic or fundamental changes to the characteristics of something, often to give a new orientation to or to serve a new end.</S100FC:definition>
+					<S100FC:code>3</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Move</S100FC:label>
+					<S100FC:definition>To change the place or position of something.</S100FC:definition>
+					<S100FC:code>4</S100FC:code>
+				</S100FC:listedValue>
+			</S100FC:listedValues>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Swept Date</S100FC:name>
 			<S100FC:definition>The date that the area was swept by a survey.</S100FC:definition>
 			<S100FC:code>sweptDate</S100FC:code>
