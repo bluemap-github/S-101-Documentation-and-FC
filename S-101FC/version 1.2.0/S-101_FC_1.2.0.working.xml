@@ -13473,6 +13473,11 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:permittedValues>
+					<S100FC:value>2</S100FC:value>
+					<S100FC:value>3</S100FC:value>
+					<S100FC:value>4</S100FC:value>
+				</S100FC:permittedValues>
 				<S100FC:attribute ref="speedUnits"/>
 			</S100FC:subAttributeBinding>
 			<S100FC:subAttributeBinding sequential="false">
@@ -14868,8 +14873,7 @@
 				<S100FC:featureType ref="RecommendedTrack"/>
 				<S100FC:featureType ref="RecommendedTrafficLanePart"/>
 				<S100FC:featureType ref="RescueStation"/>
-				<S100FC:featureType ref="RestrictedAreaNavigational"/>
-				<S100FC:featureType ref="RestrictedAreaRegulatory"/>
+				<S100FC:featureType ref="RestrictedArea"/>
 				<S100FC:featureType ref="Retroreflector"/>
 				<S100FC:featureType ref="River"/>
 				<S100FC:featureType ref="Road"/>
@@ -29514,8 +29518,7 @@
 				<S100FC:featureType ref="RangeSystem"/>
 				<S100FC:featureType ref="RecommendedRouteCentreline"/>
 				<S100FC:featureType ref="RecommendedTrack"/>
-				<S100FC:featureType ref="RestrictedAreaNavigational"/>
-				<S100FC:featureType ref="RestrictedAreaRegulatory"/>
+				<S100FC:featureType ref="RestrictedArea"/>
 				<S100FC:featureType ref="SafeWaterBeacon"/>
 				<S100FC:featureType ref="SafeWaterBuoy"/>
 				<S100FC:featureType ref="SpecialPurposeGeneralBeacon"/>
@@ -31795,8 +31798,7 @@
 				<S100FC:featureType ref="DeepWaterRoutePart"/>
 				<S100FC:featureType ref="InshoreTrafficZone"/>
 				<S100FC:featureType ref="PrecautionaryArea"/>
-				<S100FC:featureType ref="RestrictedAreaNavigational"/>
-				<S100FC:featureType ref="RestrictedAreaRegulatory"/>
+				<S100FC:featureType ref="RestrictedArea"/>
 				<S100FC:featureType ref="SeparationZoneOrLine"/>
 				<S100FC:featureType ref="TrafficSeparationScheme"/>
 				<S100FC:featureType ref="TrafficSeparationSchemeBoundary"/>
@@ -35526,12 +35528,12 @@
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
-			<S100FC:name>Restricted Area Navigational</S100FC:name>
-			<S100FC:definition>A specified area on land or water designated by an appropriate authority within which access or navigation is restricted in accordance with certain specified conditions. A navigational restricted area is an area where the restrictions have a direct impact on the navigation of a vessel in the area.</S100FC:definition>
-			<S100FC:code>RestrictedAreaNavigational</S100FC:code>
+			<S100FC:name>Restricted Area</S100FC:name>
+			<S100FC:definition>A specified area on land or water designated by an appropriate authority within which access or navigation is restricted in accordance with certain specified conditions.</S100FC:definition>
+			<S100FC:code>RestrictedArea</S100FC:code>
 			<S100FC:alias>RESARE</S100FC:alias>
 			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>329</S100FC:sourceIdentifier>
+				<S100FC:sourceIdentifier>645</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
 			<S100FC:attributeBinding sequential="false">
@@ -35596,13 +35598,33 @@
 				<S100FC:permittedValues>
 					<S100FC:value>1</S100FC:value>
 					<S100FC:value>2</S100FC:value>
+					<S100FC:value>3</S100FC:value>
+					<S100FC:value>4</S100FC:value>
+					<S100FC:value>5</S100FC:value>
+					<S100FC:value>6</S100FC:value>
 					<S100FC:value>7</S100FC:value>
 					<S100FC:value>8</S100FC:value>
+					<S100FC:value>9</S100FC:value>
+					<S100FC:value>10</S100FC:value>
+					<S100FC:value>11</S100FC:value>
+					<S100FC:value>12</S100FC:value>
 					<S100FC:value>13</S100FC:value>
 					<S100FC:value>14</S100FC:value>
+					<S100FC:value>15</S100FC:value>
+					<S100FC:value>16</S100FC:value>
+					<S100FC:value>17</S100FC:value>
+					<S100FC:value>18</S100FC:value>
+					<S100FC:value>19</S100FC:value>
+					<S100FC:value>20</S100FC:value>
+					<S100FC:value>21</S100FC:value>
+					<S100FC:value>22</S100FC:value>
+					<S100FC:value>23</S100FC:value>
+					<S100FC:value>24</S100FC:value>
 					<S100FC:value>25</S100FC:value>
 					<S100FC:value>26</S100FC:value>
 					<S100FC:value>27</S100FC:value>
+					<S100FC:value>39</S100FC:value>
+					<S100FC:value>42</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="restriction"/>
 			</S100FC:attributeBinding>
@@ -35655,178 +35677,34 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:featureUseType>geographic</S100FC:featureUseType>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="UpdatedInformation"/>
-				<S100FC:role ref="updates"/>
-				<S100FC:featureType ref="UpdateInformation"/>
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="TextAssociation"/>
-				<S100FC:role ref="positions"/>
-				<S100FC:featureType ref="TextPlacement"/>
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="aggregation">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="TrafficSeparationSchemeAggregation"/>
-				<S100FC:role ref="componentOf"/>
-				<S100FC:featureType ref="TrafficSeparationScheme"/>
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="aggregation">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="FairwayAuxiliary"/>
-				<S100FC:role ref="auxiliaryTo"/>
-				<S100FC:featureType ref="Fairway"/>
-			</S100FC:featureBinding>
-			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
-		</S100FC:S100_FC_FeatureType>
-		<S100FC:S100_FC_FeatureType isAbstract="false">
-			<S100FC:name>Restricted Area Regulatory</S100FC:name>
-			<S100FC:definition>A specified area on land or water designated by an appropriate authority within which access or navigation is restricted in accordance with certain specified conditions. A regulatory restricted area is an area where the restrictions have no direct impact on the navigation of a vessel in the area, but impact on the activities that can take place within the area.</S100FC:definition>
-			<S100FC:code>RestrictedAreaRegulatory</S100FC:code>
-			<S100FC:alias>RESARE</S100FC:alias>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>331</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG"/>
-			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="false">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true"/>
-				</S100FC:multiplicity>
-				<S100FC:permittedValues>
-					<S100FC:value>1</S100FC:value>
-					<S100FC:value>4</S100FC:value>
-					<S100FC:value>5</S100FC:value>
-					<S100FC:value>6</S100FC:value>
-					<S100FC:value>7</S100FC:value>
-					<S100FC:value>8</S100FC:value>
-					<S100FC:value>9</S100FC:value>
-					<S100FC:value>10</S100FC:value>
-					<S100FC:value>12</S100FC:value>
-					<S100FC:value>14</S100FC:value>
-					<S100FC:value>18</S100FC:value>
-					<S100FC:value>19</S100FC:value>
-					<S100FC:value>20</S100FC:value>
-					<S100FC:value>21</S100FC:value>
-					<S100FC:value>22</S100FC:value>
-					<S100FC:value>23</S100FC:value>
-					<S100FC:value>25</S100FC:value>
-					<S100FC:value>27</S100FC:value>
-					<S100FC:value>28</S100FC:value>
-					<S100FC:value>29</S100FC:value>
-					<S100FC:value>30</S100FC:value>
-					<S100FC:value>31</S100FC:value>
-					<S100FC:value>32</S100FC:value>
-				</S100FC:permittedValues>
-				<S100FC:attribute ref="categoryOfRestrictedArea"/>
-			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true"/>
-				</S100FC:multiplicity>
-				<S100FC:attribute ref="featureName"/>
-			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="false">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:attribute ref="fixedDateRange"/>
-			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="false">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true"/>
-				</S100FC:multiplicity>
-				<S100FC:attribute ref="periodicDateRange"/>
-			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="false">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true"/>
-				</S100FC:multiplicity>
-				<S100FC:permittedValues>
-					<S100FC:value>3</S100FC:value>
-					<S100FC:value>4</S100FC:value>
-					<S100FC:value>5</S100FC:value>
-					<S100FC:value>6</S100FC:value>
-					<S100FC:value>9</S100FC:value>
-					<S100FC:value>10</S100FC:value>
-					<S100FC:value>11</S100FC:value>
-					<S100FC:value>12</S100FC:value>
-					<S100FC:value>15</S100FC:value>
-					<S100FC:value>16</S100FC:value>
-					<S100FC:value>17</S100FC:value>
-					<S100FC:value>18</S100FC:value>
-					<S100FC:value>19</S100FC:value>
-					<S100FC:value>20</S100FC:value>
-					<S100FC:value>21</S100FC:value>
-					<S100FC:value>22</S100FC:value>
-					<S100FC:value>23</S100FC:value>
-					<S100FC:value>24</S100FC:value>
-					<S100FC:value>39</S100FC:value>
-				</S100FC:permittedValues>
-				<S100FC:attribute ref="restriction"/>
-			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="false">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true"/>
-				</S100FC:multiplicity>
-				<S100FC:permittedValues>
-					<S100FC:value>1</S100FC:value>
-					<S100FC:value>2</S100FC:value>
-					<S100FC:value>3</S100FC:value>
-					<S100FC:value>4</S100FC:value>
-					<S100FC:value>5</S100FC:value>
-					<S100FC:value>6</S100FC:value>
-					<S100FC:value>7</S100FC:value>
-					<S100FC:value>9</S100FC:value>
-					<S100FC:value>18</S100FC:value>
-					<S100FC:value>28</S100FC:value>
-				</S100FC:permittedValues>
-				<S100FC:attribute ref="status"/>
-			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="false">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:attribute ref="scaleMinimum"/>
-			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="false">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true"/>
-				</S100FC:multiplicity>
-				<S100FC:attribute ref="information"/>
-			</S100FC:attributeBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
-				<S100FC:association ref="AdditionalInformation"/>
-				<S100FC:role ref="providesInformation"/>
-				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:association ref="SpatialAssociation"/>
+				<S100FC:role ref="defines"/>
+				<S100FC:informationType ref="SpatialQuality"/>
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="aggregation">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="FairwayAuxiliary"/>
+				<S100FC:role ref="auxiliaryTo"/>
+				<S100FC:featureType ref="Fairway"/>
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="aggregation">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="TrafficSeparationSchemeAggregation"/>
+				<S100FC:role ref="componentOf"/>
+				<S100FC:featureType ref="TrafficSeparationScheme"/>
+			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
@@ -35845,26 +35723,9 @@
 				<S100FC:role ref="positions"/>
 				<S100FC:featureType ref="TextPlacement"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="aggregation">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="TrafficSeparationSchemeAggregation"/>
-				<S100FC:role ref="componentOf"/>
-				<S100FC:featureType ref="TrafficSeparationScheme"/>
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="aggregation">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="FairwayAuxiliary"/>
-				<S100FC:role ref="auxiliaryTo"/>
-				<S100FC:featureType ref="Fairway"/>
-			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
+		
 		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Light All Around</S100FC:name>
 			<S100FC:definition>An all around light is a light that is visible over the whole horizon of interest to marine navigation and having no change in the characteristics of the light.</S100FC:definition>
@@ -43385,8 +43246,7 @@
 				<S100FC:featureType ref="RecommendedRouteCentreline"/>
 				<S100FC:featureType ref="RecommendedTrack"/>
 				<S100FC:featureType ref="RescueStation"/>
-				<S100FC:featureType ref="RestrictedAreaNavigational"/>
-				<S100FC:featureType ref="RestrictedAreaRegulatory"/>
+				<S100FC:featureType ref="RestrictedArea"/>
 				<S100FC:featureType ref="River"/>
 				<S100FC:featureType ref="Road"/>
 				<S100FC:featureType ref="Runway"/>
