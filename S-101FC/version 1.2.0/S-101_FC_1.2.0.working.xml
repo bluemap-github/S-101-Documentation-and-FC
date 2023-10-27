@@ -13424,6 +13424,13 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="speedLimit"/>
 			</S100FC:subAttributeBinding>
+			<S100FC:subAttributeBinding>
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper>1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="speedUnits"/>
+			</S100FC:subAttributeBinding>
 			<S100FC:subAttributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
