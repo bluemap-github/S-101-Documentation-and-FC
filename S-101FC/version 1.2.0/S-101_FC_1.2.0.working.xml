@@ -13469,20 +13469,6 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="fixedDateRange"/>
 			</S100FC:subAttributeBinding>
-			<S100FC:subAttributeBinding sequential="false">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:attribute ref="horizontalPositionUncertainty"/>
-			</S100FC:subAttributeBinding>
-			<S100FC:subAttributeBinding sequential="false">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:attribute ref="verticalUncertainty"/>
-			</S100FC:subAttributeBinding>
 		</S100FC:S100_FC_ComplexAttribute>
 	</S100FC:S100_FC_ComplexAttributes>
 	<S100FC:S100_FC_Roles>
