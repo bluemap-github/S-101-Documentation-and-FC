@@ -17016,6 +17016,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -17190,6 +17191,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -17322,6 +17324,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -17450,6 +17453,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -17855,6 +17859,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -18009,6 +18014,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -18305,6 +18311,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -19946,6 +19953,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -21039,6 +21047,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -21137,6 +21146,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -22675,6 +22685,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -23342,6 +23353,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -23949,6 +23961,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -24173,6 +24186,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -24533,6 +24547,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -24788,6 +24803,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -32311,6 +32327,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -32950,6 +32967,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -33116,6 +33134,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -33271,6 +33290,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -33404,6 +33424,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
@@ -42897,6 +42918,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
