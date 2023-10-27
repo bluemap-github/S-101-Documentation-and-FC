@@ -17470,7 +17470,7 @@
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Bridge</S100FC:name>
-			<S100FC:definition>(1) An elevated structure extending across or over the weather deck of a vessel, or part of such a structure. The term is sometimes modified to indicate the intended use, such as navigating bridge or signal bridge.  (2) A structure erected over a depression or an obstacle such as a body of water, railroad, etc., to provide a roadway for vehicles or pedestrians.</S100FC:definition>
+			<S100FC:definition>A structure erected over a depression or an obstacle such as a body of water, railroad, etc., to provide a roadway for vehicles or pedestrians.</S100FC:definition>
 			<S100FC:code>Bridge</S100FC:code>
 			<S100FC:remarks>A bridge may consist of portions which cover the land and the water.</S100FC:remarks>
 			<S100FC:alias>BRIDGE</S100FC:alias>
@@ -17489,15 +17489,35 @@
 					<S100FC:value>3</S100FC:value>
 					<S100FC:value>4</S100FC:value>
 					<S100FC:value>5</S100FC:value>
+				</S100FC:permittedValues>
+				<S100FC:attribute ref="bridgeConstruction"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="true" infinite="true"/>
+				</S100FC:multiplicity>
+				<S100FC:permittedValues>
+					<S100FC:value>1</S100FC:value>
+					<S100FC:value>2</S100FC:value>
+					<S100FC:value>3</S100FC:value>
+					<S100FC:value>4</S100FC:value>
+				</S100FC:permittedValues>
+				<S100FC:attribute ref="bridgeFunction"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:permittedValues>
+					<S100FC:value>3</S100FC:value>
+					<S100FC:value>4</S100FC:value>
+					<S100FC:value>5</S100FC:value>
 					<S100FC:value>6</S100FC:value>
 					<S100FC:value>7</S100FC:value>
-					<S100FC:value>8</S100FC:value>
-					<S100FC:value>9</S100FC:value>
-					<S100FC:value>10</S100FC:value>
-					<S100FC:value>11</S100FC:value>
-					<S100FC:value>12</S100FC:value>
 				</S100FC:permittedValues>
-				<S100FC:attribute ref="categoryOfBridge"/>
+				<S100FC:attribute ref="categoryOfOpeningBridge"/>
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="true">
 				<S100FC:multiplicity>
@@ -17548,7 +17568,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="false">
+			<S100FC:attributeBinding sequential="true">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -17582,6 +17602,13 @@
 					<S100FC:value>11</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="natureOfConstruction"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="openingBridge"/>
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
@@ -17657,7 +17684,27 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
+			<S100FC:informationBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper>1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="SpatialAssociation"/>
+				<S100FC:role ref="defines"/>
+				<S100FC:informationType ref="SpatialQuality"/>
+			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="aggregation">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="BridgeAggregation"/>
+				<S100FC:role ref="consistsOf"/>
+				<S100FC:featureType ref="SpanFixed"/>
+				<S100FC:featureType ref="SpanOpening"/>
+				<S100FC:featureType ref="PylonBridgeSupport"/>
+			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
@@ -17683,31 +17730,20 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
-				<S100FC:association ref="UpdatedInformation"/>
-				<S100FC:role ref="updates"/>
-				<S100FC:featureType ref="UpdateInformation"/>
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation"/>
 				<S100FC:role ref="componentOf"/>
 				<S100FC:featureType ref="FairwaySystem"/>
 				<S100FC:featureType ref="TrafficSeparationScheme"/>
 				<S100FC:featureType ref="TwoWayRoute"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="aggregation">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true"/>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
-				<S100FC:association ref="BridgeAggregation"/>
-				<S100FC:role ref="consistsOf"/>
-				<S100FC:featureType ref="PylonBridgeSupport"/>
-				<S100FC:featureType ref="SpanFixed"/>
-				<S100FC:featureType ref="SpanOpening"/>
+				<S100FC:association ref="UpdatedInformation"/>
+				<S100FC:role ref="updates"/>
+				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
