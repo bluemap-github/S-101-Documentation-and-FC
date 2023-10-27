@@ -14836,7 +14836,6 @@
 				<S100FC:featureType ref="MarinePollutionRegulationsArea"/>
 				<S100FC:featureType ref="MilitaryPracticeArea"/>
 				<S100FC:featureType ref="MooringTrot"/>
-				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="NavigationalSystemOfMarks"/>
 				<S100FC:featureType ref="NavigationLine"/>
 				<S100FC:featureType ref="Obstruction"/>
@@ -17017,6 +17016,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -17190,6 +17190,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -17321,6 +17322,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -17448,6 +17450,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -17852,6 +17855,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -18005,6 +18009,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -18300,6 +18305,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -19940,6 +19946,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -21032,6 +21039,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -21129,6 +21137,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -22666,6 +22675,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -23332,6 +23342,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -23938,6 +23949,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -24161,6 +24173,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -24520,6 +24533,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -24774,6 +24788,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -32296,6 +32311,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -32934,6 +32950,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -33099,6 +33116,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -33253,6 +33271,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -33385,6 +33404,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
@@ -36559,7 +36579,7 @@
 				<S100FC:featureType ref="LateralBuoy"/>
 				<S100FC:featureType ref="LightFloat"/>
 				<S100FC:featureType ref="LightVessel"/>
-				<S100FC:featureType ref="MooringBouy"/>
+				<S100FC:featureType ref="MooringBuoy"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
 				<S100FC:featureType ref="PipelineOverhead"/>
@@ -38769,7 +38789,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
-				<S100FC:attribute ref="visitorMooring"/>
+				<S100FC:attribute ref="visitorsMooring"/>
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
@@ -42877,6 +42897,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
+				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
