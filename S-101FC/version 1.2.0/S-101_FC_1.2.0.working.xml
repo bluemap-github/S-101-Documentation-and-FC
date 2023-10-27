@@ -41895,6 +41895,13 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attribute ref="interoperabilityIdentifier"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
 				<S100FC:attribute ref="mMSICode"/>
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -41939,6 +41946,15 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
+			<S100FC:informationBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="SpatialAssociation"/>
+				<S100FC:role ref="defines"/>
+				<S100FC:informationType ref="SpatialQuality"/>
+			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -41948,39 +41964,40 @@
 				<S100FC:association ref="StructureEquipment"/>
 				<S100FC:role ref="supportedBy"/>
 				<S100FC:featureType ref="CardinalBeacon"/>
-				<S100FC:featureType ref="IsolatedDangerBeacon"/>
-				<S100FC:featureType ref="LateralBeacon"/>
-				<S100FC:featureType ref="SafeWaterBeacon"/>
-				<S100FC:featureType ref="SpecialPurposeGeneralBeacon"/>
+				<S100FC:featureType ref="CardinalBuoy"/>
 				<S100FC:featureType ref="Bridge"/>
 				<S100FC:featureType ref="Building"/>
-				<S100FC:featureType ref="CardinalBuoy"/>
-				<S100FC:featureType ref="EmergencyWreckMarkingBuoy"/>
-				<S100FC:featureType ref="InstallationBuoy"/>
-				<S100FC:featureType ref="IsolatedDangerBuoy"/>
-				<S100FC:featureType ref="LateralBuoy"/>
-				<S100FC:featureType ref="SafeWaterBuoy"/>
-				<S100FC:featureType ref="SpecialPurposeGeneralBuoy"/>
-				<S100FC:featureType ref="Conveyor"/>
 				<S100FC:featureType ref="Crane"/>
+				<S100FC:featureType ref="Conveyor"/>
 				<S100FC:featureType ref="Daymark"/>
+				<S100FC:featureType ref="Dolphin"/>
+				<S100FC:featureType ref="EmergencyWreckMarkingBuoy"/>
 				<S100FC:featureType ref="FishingFacility"/>
 				<S100FC:featureType ref="FloatingDock"/>
 				<S100FC:featureType ref="FortifiedStructure"/>
 				<S100FC:featureType ref="Hulk"/>
+				<S100FC:featureType ref="InstallationBuoy"/>
+				<S100FC:featureType ref="IsolatedDangerBeacon"/>
+				<S100FC:featureType ref="IsolatedDangerBuoy"/>
 				<S100FC:featureType ref="Landmark"/>
+				<S100FC:featureType ref="LateralBeacon"/>
+				<S100FC:featureType ref="LateralBuoy"/>
 				<S100FC:featureType ref="LightFloat"/>
 				<S100FC:featureType ref="LightVessel"/>
-				<S100FC:featureType ref="MooringWarpingFacility"/>
+				<S100FC:featureType ref="MooringBuoy"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
 				<S100FC:featureType ref="PipelineOverhead"/>
 				<S100FC:featureType ref="Pontoon"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
+				<S100FC:featureType ref="SafeWaterBeacon"/>
+				<S100FC:featureType ref="SafeWaterBuoy"/>
 				<S100FC:featureType ref="ShorelineConstruction"/>
 				<S100FC:featureType ref="SiloTank"/>
 				<S100FC:featureType ref="SpanFixed"/>
 				<S100FC:featureType ref="SpanOpening"/>
+				<S100FC:featureType ref="SpecialPurposeGeneralBeacon"/>
+				<S100FC:featureType ref="SpecialPurposeGeneralBuoy"/>
 				<S100FC:featureType ref="WindTurbine"/>
 				<S100FC:featureType ref="Wreck"/>
 			</S100FC:featureBinding>
