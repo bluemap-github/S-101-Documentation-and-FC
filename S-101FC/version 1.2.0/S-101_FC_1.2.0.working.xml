@@ -12158,7 +12158,6 @@
 			<S100FC:name>Frequency Pair</S100FC:name>
 			<S100FC:definition>A pair of frequencies for transmitting and receiving radio signals. The shore station transmits and receives on the frequencies indicated.</S100FC:definition>
 			<S100FC:code>frequencyPair</S100FC:code>
-			<S100FC:alias>FRQPAR</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>230</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
