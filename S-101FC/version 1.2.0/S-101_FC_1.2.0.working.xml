@@ -29211,6 +29211,13 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attribute ref="interoperabilityIdentifier"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
 				<S100FC:attribute ref="maximumPermittedDraught"/>
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -29236,25 +29243,16 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
+			<S100FC:informationBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="SpatialAssociation"/>
+				<S100FC:role ref="defines"/>
+				<S100FC:informationType ref="SpatialQuality"/>
+			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="UpdatedInformation"/>
-				<S100FC:role ref="updates"/>
-				<S100FC:featureType ref="UpdateInformation"/>
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="aggregation">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="RangeSystemAggregation"/>
-				<S100FC:role ref="componentOf"/>
-				<S100FC:featureType ref="RangeSystem"/>
-			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
@@ -29263,33 +29261,24 @@
 				<S100FC:association ref="RangeSystemAggregation"/>
 				<S100FC:role ref="consistsOf"/>
 				<S100FC:featureType ref="CardinalBeacon"/>
-				<S100FC:featureType ref="IsolatedDangerBeacon"/>
-				<S100FC:featureType ref="LateralBeacon"/>
-				<S100FC:featureType ref="SafeWaterBeacon"/>
-				<S100FC:featureType ref="SpecialPurposeGeneralBeacon"/>
 				<S100FC:featureType ref="Building"/>
 				<S100FC:featureType ref="Daymark"/>
+				<S100FC:featureType ref="Dolphin"/>
 				<S100FC:featureType ref="FortifiedStructure"/>
+				<S100FC:featureType ref="IsolatedDangerBeacon"/>
 				<S100FC:featureType ref="Landmark"/>
+				<S100FC:featureType ref="LateralBeacon"/>
 				<S100FC:featureType ref="LightAllAround"/>
 				<S100FC:featureType ref="LightSectored"/>
-				<S100FC:featureType ref="MooringWarpingFacility"/>
 				<S100FC:featureType ref="NavigationLine"/>
 				<S100FC:featureType ref="Pile"/>
 				<S100FC:featureType ref="RadarTransponderBeacon"/>
 				<S100FC:featureType ref="RangeSystem"/>
 				<S100FC:featureType ref="RecommendedRouteCentreline"/>
 				<S100FC:featureType ref="RecommendedTrack"/>
+				<S100FC:featureType ref="SafeWaterBeacon"/>
 				<S100FC:featureType ref="SiloTank"/>
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="TextAssociation"/>
-				<S100FC:role ref="positions"/>
-				<S100FC:featureType ref="TextPlacement"/>
+				<S100FC:featureType ref="SpecialPurposeGeneralBeacon"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -29299,6 +29288,24 @@
 				<S100FC:association ref="FairwayAuxiliary"/>
 				<S100FC:role ref="auxiliaryTo"/>
 				<S100FC:featureType ref="Fairway"/>
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdatedInformation"/>
+				<S100FC:role ref="updates"/>
+				<S100FC:featureType ref="UpdateInformation"/>
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="composition">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="TextAssociation"/>
+				<S100FC:role ref="positions"/>
+				<S100FC:featureType ref="TextPlacement"/>
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
