@@ -13624,7 +13624,7 @@
 		</S100FC:S100_FC_InformationAssociation>
 		<S100FC:S100_FC_InformationAssociation isAbstract="false">
 			<S100FC:name>Spatial Association</S100FC:name>
-			<S100FC:definition/>
+			<S100FC:definition>An association for the binding between a spatial type and its spatial quality information.</S100FC:definition>
 			<S100FC:code>SpatialAssociation</S100FC:code>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>8000019</S100FC:sourceIdentifier>
