@@ -5417,16 +5417,6 @@
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Visitors Mooring</S100FC:label>
-					<S100FC:definition>A mooring set aside for the use of visiting vessels.</S100FC:definition>
-					<S100FC:code>29</S100FC:code>
-					<S100FC:alias>CATSCF</S100FC:alias>
-					<S100FC:definitionReference>
-						<S100FC:sourceIdentifier>616</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG"/>
-					</S100FC:definitionReference>
-				</S100FC:listedValue>
-				<S100FC:listedValue>
 					<S100FC:label>Scrubbing Berth</S100FC:label>
 					<S100FC:definition>A place where vessels may berth for the purpose of careening.</S100FC:definition>
 					<S100FC:code>30</S100FC:code>
@@ -8279,9 +8269,6 @@
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
 			<S100FC:valueType>integer</S100FC:valueType>
-			<S100FC:uom>
-				<S100Base:name/>
-			</S100FC:uom>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Line Spacing Minimum</S100FC:name>
@@ -8440,7 +8427,7 @@
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Maximum Permitted Vessel Length</S100FC:name>
-			<S100FC:definition/>
+			<S100FC:definition>The maximum draught of a vessel permitted in a channel or dock, at a berth, or at an anchorage or mooring.</S100FC:definition>
 			<S100FC:code>maximumPermittedVesselLength</S100FC:code>
 			<S100FC:valueType>real</S100FC:valueType>
 		</S100FC:S100_FC_SimpleAttribute>
@@ -13268,30 +13255,6 @@
 					<S100Base:upper xsi:nil="true" infinite="true"/>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="shapeInformation"/>
-			</S100FC:subAttributeBinding>
-		</S100FC:S100_FC_ComplexAttribute>
-		<S100FC:S100_FC_ComplexAttribute>
-			<S100FC:name>Update Description</S100FC:name>
-			<S100FC:definition>The textual description of changes included in an update.</S100FC:definition>
-			<S100FC:code>updateDescription</S100FC:code>
-			<S100FC:remarks>The sub-attribute text is populated with a brief description of the changes made when the Update is applied; for example Navigational aids inserted; Changes to depths alongside and new pontoons added.</S100FC:remarks>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>259</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG"/>
-			</S100FC:definitionReference>
-			<S100FC:subAttributeBinding sequential="false">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:attribute ref="language"/>
-			</S100FC:subAttributeBinding>
-			<S100FC:subAttributeBinding sequential="false">
-				<S100FC:multiplicity>
-					<S100Base:lower>1</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:attribute ref="text"/>
 			</S100FC:subAttributeBinding>
 		</S100FC:S100_FC_ComplexAttribute>
 		<S100FC:S100_FC_ComplexAttribute>
