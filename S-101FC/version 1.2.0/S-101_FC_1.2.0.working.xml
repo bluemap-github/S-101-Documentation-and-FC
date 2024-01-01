@@ -10097,7 +10097,7 @@
 					<S100FC:code>3</S100FC:code>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Nautical Miles Per Hour (Knots)</S100FC:label>
+					<S100FC:label>Knots</S100FC:label>
 					<S100FC:definition>A nautical unit of speed. One knot is one nautical mile per hour. The name is derived from the knots in the log line.</S100FC:definition>
 					<S100FC:code>3</S100FC:code>
 				</S100FC:listedValue>
