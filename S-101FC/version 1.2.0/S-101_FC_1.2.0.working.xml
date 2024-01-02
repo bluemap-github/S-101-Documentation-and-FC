@@ -10086,7 +10086,7 @@
 				<S100FC:listedValue>
 					<S100FC:label>Knots</S100FC:label>
 					<S100FC:definition>A nautical unit of speed. One knot is one nautical mile per hour. The name is derived from the knots in the log line.</S100FC:definition>
-					<S100FC:code>3</S100FC:code>
+					<S100FC:code>4</S100FC:code>
 				</S100FC:listedValue>
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
@@ -13430,7 +13430,7 @@
 			</S100FC:subAttributeBinding>
 			<S100FC:subAttributeBinding>
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:permittedValues>
@@ -14088,15 +14088,6 @@
 				<S100FC:attribute ref="information"/>
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="UpdatedInformation"/>
-				<S100FC:role ref="updates"/>
-				<S100FC:featureType ref="UpdateInformation"/>
-			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -14169,15 +14160,6 @@
 				<S100FC:attribute ref="information"/>
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="UpdatedInformation"/>
-				<S100FC:role ref="updates"/>
-				<S100FC:featureType ref="UpdateInformation"/>
-			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -14224,15 +14206,6 @@
 				<S100FC:attribute ref="information"/>
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="UpdatedInformation"/>
-				<S100FC:role ref="updates"/>
-				<S100FC:featureType ref="UpdateInformation"/>
-			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -14305,7 +14278,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="surveyDateRange"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -14389,15 +14362,6 @@
 				<S100FC:attribute ref="information"/>
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="UpdatedInformation"/>
-				<S100FC:role ref="updates"/>
-				<S100FC:featureType ref="UpdateInformation"/>
-			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -14440,15 +14404,6 @@
 				<S100FC:attribute ref="information"/>
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="UpdatedInformation"/>
-				<S100FC:role ref="updates"/>
-				<S100FC:featureType ref="UpdateInformation"/>
-			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -14798,7 +14753,6 @@
 				<S100FC:featureType ref="MarinePollutionRegulationsArea"/>
 				<S100FC:featureType ref="MilitaryPracticeArea"/>
 				<S100FC:featureType ref="MooringTrot"/>
-				<S100FC:featureType ref="NavigationalSystemOfMarks"/>
 				<S100FC:featureType ref="NavigationLine"/>
 				<S100FC:featureType ref="Obstruction"/>
 				<S100FC:featureType ref="OffshorePlatform"/>
@@ -14814,8 +14768,6 @@
 				<S100FC:featureType ref="PrecautionaryArea"/>
 				<S100FC:featureType ref="ProductionStorageArea"/>
 				<S100FC:featureType ref="PylonBridgeSupport"/>
-				<S100FC:featureType ref="QualityOfBathymetricData"/>
-				<S100FC:featureType ref="QualityOfNonBathymetricData"/>
 				<S100FC:featureType ref="QualityOfSurvey"/>
 				<S100FC:featureType ref="RadarLine"/>
 				<S100FC:featureType ref="RadarRange"/>
@@ -14850,7 +14802,6 @@
 				<S100FC:featureType ref="SlopingGround"/>
 				<S100FC:featureType ref="SmallCraftFacility"/>
 				<S100FC:featureType ref="Sounding"/>
-				<S100FC:featureType ref="SoundingDatum"/>
 				<S100FC:featureType ref="SpanFixed"/>
 				<S100FC:featureType ref="SpanOpening"/>
 				<S100FC:featureType ref="Spring"/>
@@ -17316,7 +17267,6 @@
 				<S100FC:role ref="positions"/>
 				<S100FC:featureType ref="TextPlacement"/>
 			</S100FC:featureBinding>
-			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
@@ -17369,7 +17319,7 @@
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="true">1</S100Base:upper>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="reportedDate"/>
 			</S100FC:attributeBinding>
