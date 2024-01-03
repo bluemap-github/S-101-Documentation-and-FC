@@ -41187,7 +41187,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -41210,11 +41210,11 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
 				<S100FC:role ref="supportedBy"/>
-				<S100FC:featureType ref="CardinalBeacon"/>
-				<S100FC:featureType ref="CardinalBuoy"/>
 				<S100FC:featureType ref="Bridge"/>
 				<S100FC:featureType ref="Building"/>
 				<S100FC:featureType ref="Crane"/>
+				<S100FC:featureType ref="CardinalBeacon"/>
+				<S100FC:featureType ref="CardinalBuoy"/>
 				<S100FC:featureType ref="Conveyor"/>
 				<S100FC:featureType ref="Dolphin"/>
 				<S100FC:featureType ref="EmergencyWreckMarkingBuoy"/>
