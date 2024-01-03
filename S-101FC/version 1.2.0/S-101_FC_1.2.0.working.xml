@@ -16967,6 +16967,14 @@
 				<S100FC:association ref="StructureEquipment"/>
 				<S100FC:role ref="supports"/>
 				<S100FC:featureType ref="LightSectored"/>
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="composition">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="true" infinite="true"/>
+				</S100FC:multiplicity>
+				<S100FC:association ref="StructureEquipment"/>
+				<S100FC:role ref="supports"/>
 				<S100FC:featureType ref="LightAirObstruction"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
