@@ -9813,8 +9813,7 @@
 			</S100FC:definitionReference>
 			<S100FC:valueType>real</S100FC:valueType>
 			<S100FC:uom>
-				<S100Base:name>degrees</S100Base:name>
-				<S100Base:definition>degrees of arc</S100Base:definition>
+				<S100Base:name>Degree</S100Base:name>
 				<S100Base:symbol>°</S100Base:symbol>
 			</S100FC:uom>
 			<S100FC:quantitySpecification>planeAngle</S100FC:quantitySpecification>
