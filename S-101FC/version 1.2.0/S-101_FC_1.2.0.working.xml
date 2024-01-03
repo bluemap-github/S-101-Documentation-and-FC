@@ -30880,30 +30880,38 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation"/>
 				<S100FC:role ref="consistsOf"/>
-				<S100FC:featureType ref="Building"/>
 				<S100FC:featureType ref="CardinalBeacon"/>
 				<S100FC:featureType ref="CardinalBuoy"/>
-				<S100FC:featureType ref="Crane"/>
 				<S100FC:featureType ref="Daymark"/>
-				<S100FC:featureType ref="Dolphin"/>
 				<S100FC:featureType ref="EmergencyWreckMarkingBuoy"/>
-				<S100FC:featureType ref="FishingFacility"/>
-				<S100FC:featureType ref="FortifiedStructure"/>
 				<S100FC:featureType ref="IsolatedDangerBeacon"/>
 				<S100FC:featureType ref="IsolatedDangerBuoy"/>
-				<S100FC:featureType ref="Landmark"/>
 				<S100FC:featureType ref="LateralBeacon"/>
 				<S100FC:featureType ref="LateralBuoy"/>
 				<S100FC:featureType ref="LightFloat"/>
 				<S100FC:featureType ref="LightVessel"/>
-				<S100FC:featureType ref="MooringBuoy"/>
-				<S100FC:featureType ref="OffshorePlatform"/>
 				<S100FC:featureType ref="Pile"/>
 				<S100FC:featureType ref="SafeWaterBeacon"/>
 				<S100FC:featureType ref="SafeWaterBuoy"/>
-				<S100FC:featureType ref="SiloTank"/>
 				<S100FC:featureType ref="SpecialPurposeGeneralBeacon"/>
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy"/>
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>1</S100Base:lower>
+					<S100Base:upper xsi:nil="true" infinite="true"/>
+				</S100FC:multiplicity>
+				<S100FC:association ref="AidsToNavigationAssociation"/>
+				<S100FC:role ref="consistsOf"/>
+				<S100FC:featureType ref="Building"/>
+				<S100FC:featureType ref="Crane"/>
+				<S100FC:featureType ref="Dolphin"/>
+				<S100FC:featureType ref="FishingFacility"/>
+				<S100FC:featureType ref="FortifiedStructure"/>
+				<S100FC:featureType ref="Landmark"/>
+				<S100FC:featureType ref="MooringBuoy"/>
+				<S100FC:featureType ref="OffshorePlatform"/>
+				<S100FC:featureType ref="SiloTank"/>
 				<S100FC:featureType ref="WindTurbine"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
