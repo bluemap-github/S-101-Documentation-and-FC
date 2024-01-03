@@ -24374,12 +24374,11 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
 				<S100FC:role ref="supports"/>
-				<S100FC:featureType ref="Bollard"/>
 				<S100FC:featureType ref="Daymark"/>
 				<S100FC:featureType ref="DistanceMark"/>
 				<S100FC:featureType ref="FogSignal"/>
