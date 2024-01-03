@@ -42444,13 +42444,12 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
 				<S100FC:role ref="supportedBy"/>
-				<S100FC:featureType ref="CardinalBeacon"/>
-				<S100FC:featureType ref="CardinalBuoy"/>
 				<S100FC:featureType ref="Bridge"/>
 				<S100FC:featureType ref="Building"/>
 				<S100FC:featureType ref="Crane"/>
+				<S100FC:featureType ref="CardinalBeacon"/>
+				<S100FC:featureType ref="CardinalBuoy"/>
 				<S100FC:featureType ref="Conveyor"/>
-				<S100FC:featureType ref="Daymark"/>
 				<S100FC:featureType ref="Dolphin"/>
 				<S100FC:featureType ref="EmergencyWreckMarkingBuoy"/>
 				<S100FC:featureType ref="FishingFacility"/>
@@ -42481,6 +42480,15 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy"/>
 				<S100FC:featureType ref="WindTurbine"/>
 				<S100FC:featureType ref="Wreck"/>
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="composition">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="StructureEquipment"/>
+				<S100FC:role ref="supportedBy"/>
+				<S100FC:featureType ref="Daymark"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -42931,13 +42939,12 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
 				<S100FC:role ref="supportedBy"/>
-				<S100FC:featureType ref="CardinalBeacon"/>
-				<S100FC:featureType ref="CardinalBuoy"/>
 				<S100FC:featureType ref="Bridge"/>
 				<S100FC:featureType ref="Building"/>
 				<S100FC:featureType ref="Crane"/>
+				<S100FC:featureType ref="CardinalBeacon"/>
+				<S100FC:featureType ref="CardinalBuoy"/>
 				<S100FC:featureType ref="Conveyor"/>
-				<S100FC:featureType ref="Daymark"/>
 				<S100FC:featureType ref="Dolphin"/>
 				<S100FC:featureType ref="EmergencyWreckMarkingBuoy"/>
 				<S100FC:featureType ref="FishingFacility"/>
@@ -42968,6 +42975,25 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy"/>
 				<S100FC:featureType ref="WindTurbine"/>
 				<S100FC:featureType ref="Wreck"/>
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="composition">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="StructureEquipment"/>
+				<S100FC:role ref="supportedBy"/>
+				<S100FC:featureType ref="LightAllAround"/>
+				<S100FC:featureType ref="LightSectored"/>
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="composition">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="StructureEquipment"/>
+				<S100FC:role ref="supportedBy"/>
+				<S100FC:featureType ref="Daymark"/>
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
