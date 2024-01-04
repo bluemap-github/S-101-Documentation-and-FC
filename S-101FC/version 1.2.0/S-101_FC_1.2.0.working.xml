@@ -15270,15 +15270,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -15361,15 +15353,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -15441,15 +15425,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -15541,15 +15517,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -15621,15 +15589,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -15698,15 +15658,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -15787,15 +15739,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -15874,15 +15818,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -16007,15 +15943,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -16134,15 +16062,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -16276,15 +16196,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -16413,15 +16325,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -16554,15 +16458,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -16623,15 +16519,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -16760,15 +16648,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -17080,15 +16960,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -17272,15 +17144,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -17405,15 +17269,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -17533,15 +17389,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -17779,15 +17627,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -17955,15 +17795,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -18126,15 +17958,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -18439,15 +18263,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -18681,15 +18497,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -18887,15 +18695,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -19168,15 +18968,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -19430,15 +19222,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -19541,15 +19325,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -19672,15 +19448,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -19821,15 +19589,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -20148,15 +19908,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -20490,15 +20242,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -20807,15 +20551,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -21029,15 +20765,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -21299,15 +21027,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -21398,15 +21118,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -21601,15 +21313,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -21845,15 +21549,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -22058,15 +21754,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -22329,15 +22017,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -22503,15 +22183,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -22642,15 +22314,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -22733,15 +22397,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -22977,15 +22633,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -23193,15 +22841,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -23441,15 +23081,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -23661,15 +23293,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -23904,15 +23528,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -24089,15 +23705,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -24285,15 +23893,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -24510,15 +24110,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -24687,15 +24279,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -24870,15 +24454,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -25002,15 +24578,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -25126,15 +24694,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -25196,15 +24756,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -25343,15 +24895,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -25447,15 +24991,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -25557,15 +25093,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -25640,15 +25168,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -25733,15 +25253,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -25866,15 +25378,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -26022,15 +25526,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -26107,15 +25603,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -26187,15 +25675,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -26248,15 +25728,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -26321,15 +25793,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -26367,15 +25831,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -26447,15 +25903,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -26530,15 +25978,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -26600,15 +26040,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -26673,15 +26105,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -26735,15 +26159,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -26923,15 +26339,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -27153,15 +26561,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -27469,15 +26869,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -27623,15 +27015,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -27693,15 +27077,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -27819,15 +27195,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -28100,15 +27468,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -28333,15 +27693,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -28514,15 +27866,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -28655,15 +27999,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -28867,15 +28203,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -29022,15 +28350,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -29249,15 +28569,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -29374,15 +28686,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -29569,15 +28873,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -29670,15 +28966,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -29893,15 +29181,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -30030,15 +29310,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -30276,15 +29548,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -30458,15 +29722,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -30550,15 +29806,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -30724,15 +29972,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -30895,15 +30135,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -31118,15 +30350,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -31220,15 +30444,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -31404,15 +30620,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -31539,15 +30747,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -31679,15 +30879,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -31767,15 +30959,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -31857,15 +31041,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -31978,15 +31154,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -32100,15 +31268,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -32190,15 +31350,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -32371,15 +31523,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -32471,15 +31615,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -32570,15 +31706,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -32746,15 +31874,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -32868,15 +31988,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -32967,15 +32079,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -33071,15 +32175,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -33208,15 +32304,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -33386,15 +32474,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -33553,15 +32633,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -33709,15 +32781,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -33843,15 +32907,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -33980,15 +33036,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -34138,15 +33186,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -34242,15 +33282,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -34375,15 +33407,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -34490,15 +33514,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -34598,15 +33614,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -34682,15 +33690,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -34750,15 +33750,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -34820,15 +33812,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -34887,15 +33871,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -34969,15 +33945,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35098,15 +34066,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35180,15 +34140,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35264,15 +34216,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35355,15 +34299,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35477,15 +34413,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35546,15 +34474,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35638,15 +34558,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35739,15 +34651,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35814,15 +34718,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -35912,15 +34808,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35987,15 +34875,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -36167,15 +35047,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -36457,15 +35329,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -36753,15 +35617,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -37021,15 +35877,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -37301,15 +36149,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -37557,15 +36397,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -37825,15 +36657,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -38080,15 +36904,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -38335,15 +37151,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -38657,15 +37465,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -38886,15 +37686,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -39127,15 +37919,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -39330,15 +38114,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -39632,15 +38408,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -39965,15 +38733,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -40285,15 +39045,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -40605,15 +39357,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -40992,15 +39736,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -41361,15 +40097,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -41667,15 +40395,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -41913,15 +40633,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -42092,15 +40804,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -42249,15 +40953,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -42426,15 +41122,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -42604,15 +41292,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -42794,15 +41474,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -42944,15 +41616,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -43099,15 +41763,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -43314,15 +41970,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -43395,15 +42043,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -43510,15 +42150,7 @@
 				<S100FC:informationType ref="NonStandardWorkingDay"/>
 				<S100FC:informationType ref="ServiceHours"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -43645,15 +42277,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -43829,15 +42453,7 @@
 				<S100FC:role ref="providesInformation"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
@@ -44010,15 +42626,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -44243,15 +42851,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -44392,15 +42992,7 @@
 				<S100FC:informationType ref="ContactDetails"/>
 				<S100FC:informationType ref="NauticalInformation"/>
 			</S100FC:informationBinding>
-			<S100FC:informationBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="SpatialAssociation"/>
-				<S100FC:role ref="defines"/>
-				<S100FC:informationType ref="SpatialQuality"/>
-			</S100FC:informationBinding>
+			
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
