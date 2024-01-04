@@ -1106,7 +1106,7 @@
 					<S100FC:code>3</S100FC:code>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Fender/Breasting Dolphin</S100FC:label>
+					<S100FC:label>Fender or Breasting Dolphin</S100FC:label>
 					<S100FC:definition>A post or group of posts driven into the seabed or riverbed, used to assist in berthing of vessels by taking up some berthing loads; keep vessels from pressing against the pier structure; or to protect structures from possible impact by ships.</S100FC:definition>
 					<S100FC:code>4</S100FC:code>
 				</S100FC:listedValue>
@@ -13609,7 +13609,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="speedLimit"/>
 			</S100FC:subAttributeBinding>
-			<S100FC:subAttributeBinding>
+			<S100FC:subAttributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -37884,10 +37884,25 @@
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="maximumPermittedDraught"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="maximumPermittedVesselLength"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
 				</S100FC:multiplicity>
 				<S100FC:permittedValues>
 					<S100FC:value>7</S100FC:value>
+					<S100FC:value>8</S100FC:value>
 					<S100FC:value>11</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="natureOfConstruction"/>
@@ -37914,6 +37929,13 @@
 					<S100FC:value>18</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="status"/>
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="verticalLength"/>
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
