@@ -11386,6 +11386,10 @@
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
 			<S100FC:valueType>real</S100FC:valueType>
+			<S100FC:uom>
+				<S100Base:name>minute</S100Base:name>
+				<S100Base:symbol>'</S100Base:symbol>
+			</S100FC:uom>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Value of Depth Contour</S100FC:name>
