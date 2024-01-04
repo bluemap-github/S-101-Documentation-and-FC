@@ -31328,7 +31328,7 @@
 				<S100FC:featureType ref="SpanFixed"/>
 				<S100FC:featureType ref="SpanOpening"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="aggregation">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
