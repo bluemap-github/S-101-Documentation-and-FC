@@ -7029,17 +7029,6 @@
 			<S100FC:valueType>text</S100FC:valueType>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
-			<S100FC:name>Display Name</S100FC:name>
-			<S100FC:definition>A statement expressing if a feature name is to be displayed in certain system display settings or not.</S100FC:definition>
-			<S100FC:code>displayName</S100FC:code>
-			<S100FC:remarks>Where it is allowable to encode multiple instances of feature name for a single feature instance, only one feature name instance can indicate that the name is to be displayed (display name set to True).</S100FC:remarks>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>94</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG"/>
-			</S100FC:definitionReference>
-			<S100FC:valueType>boolean</S100FC:valueType>
-		</S100FC:S100_FC_SimpleAttribute>
-		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Display Uncertainties</S100FC:name>
 			<S100FC:definition>A statement defining whether an encoded feature is to have its horizontal position and vertical accuracies displayed or not.</S100FC:definition>
 			<S100FC:code>displayUncertainties</S100FC:code>
@@ -8622,6 +8611,29 @@
 			<S100FC:valueType>text</S100FC:valueType>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Name Usage</S100FC:name>
+			<S100FC:definition>Classification of the type and display level of the name of a feature in an end-use system.</S100FC:definition>
+			<S100FC:code>nameUsage</S100FC:code>
+			<S100FC:valueType>enumeration</S100FC:valueType>
+			<S100FC:listedValues>
+				<S100FC:listedValue>
+					<S100FC:label>Default Name Display</S100FC:label>
+					<S100FC:definition>The name is intended to be displayed when the end-user system is set to the default name/text display setting.</S100FC:definition>
+					<S100FC:code>1</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Alternate Name Display</S100FC:label>
+					<S100FC:definition>The name is intended to be displayed when the end-user system is set to an alternate name/text display setting, for example an alternate language.</S100FC:definition>
+					<S100FC:code>2</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>No Chart Display</S100FC:label>
+					<S100FC:definition>The name or text is not intended to be displayed.</S100FC:definition>
+					<S100FC:code>3</S100FC:code>
+				</S100FC:listedValue>
+			</S100FC:listedValues>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Nationality</S100FC:name>
 			<S100FC:definition>Identifier of membership of a particular nation.</S100FC:definition>
 			<S100FC:code>nationality</S100FC:code>
@@ -9863,7 +9875,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Power-driven Vessels Prohibited</S100FC:label>
-					<S100FC:definition>IHO Definition: Any vessel propelled by machinery.</S100FC:definition>
+					<S100FC:definition>An area within which any vessel propelled by machinery is prohibited.</S100FC:definition>
 					<S100FC:code>42</S100FC:code>
 				</S100FC:listedValue>
 			</S100FC:listedValues>
@@ -12291,13 +12303,6 @@
 			</S100FC:definitionReference>
 			<S100FC:subAttributeBinding sequential="false">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:attribute ref="displayName"/>
-			</S100FC:subAttributeBinding>
-			<S100FC:subAttributeBinding sequential="false">
-				<S100FC:multiplicity>
 					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
@@ -12309,6 +12314,18 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="name"/>
+			</S100FC:subAttributeBinding>
+			<S100FC:subAttributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:permittedValues>
+					<S100FC:value>1</S100FC:value>
+					<S100FC:value>2</S100FC:value>
+					<S100FC:value>3</S100FC:value>
+				</S100FC:permittedValues>
+				<S100FC:attribute ref="nameUsage"/>
 			</S100FC:subAttributeBinding>
 		</S100FC:S100_FC_ComplexAttribute>
 		<S100FC:S100_FC_ComplexAttribute>
@@ -15084,7 +15101,7 @@
 				<S100FC:sourceIdentifier>196</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -15200,7 +15217,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -15312,7 +15329,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -15393,7 +15410,7 @@
 				<S100FC:sourceIdentifier>628</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -15472,7 +15489,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -15545,7 +15562,7 @@
 				<S100FC:sourceIdentifier>201</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -15616,7 +15633,7 @@
 				<S100FC:sourceIdentifier>202</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -15684,7 +15701,7 @@
 				<S100FC:sourceIdentifier>203</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -15771,7 +15788,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -15871,7 +15888,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfLandRegion"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -15997,7 +16014,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -16104,7 +16121,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -16250,7 +16267,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colour"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -16382,7 +16399,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -16476,7 +16493,7 @@
 				<S100FC:sourceIdentifier>210</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -16564,7 +16581,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -16736,7 +16753,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -17063,7 +17080,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -17172,7 +17189,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -17291,7 +17308,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -17492,7 +17509,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -18077,7 +18094,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -18358,7 +18375,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="iceFactor"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -18538,7 +18555,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -18812,7 +18829,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -19098,7 +19115,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -19238,7 +19255,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -19355,7 +19372,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -19463,7 +19480,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -19695,7 +19712,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -20068,7 +20085,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -20346,7 +20363,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -20618,7 +20635,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -20862,7 +20879,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -21035,7 +21052,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfCheckpoint"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -21179,7 +21196,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -21412,7 +21429,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -21623,7 +21640,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -21826,7 +21843,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -22061,7 +22078,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -22199,7 +22216,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -22311,7 +22328,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="distanceMarkVisible"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -22472,7 +22489,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="depthRangeMinimumValue"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -22684,7 +22701,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -22892,7 +22909,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -23139,7 +23156,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfCargo"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -23356,7 +23373,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -23581,7 +23598,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -23731,7 +23748,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -23930,7 +23947,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="depthRangeMinimumValue"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -24133,7 +24150,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -24313,7 +24330,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -24433,7 +24450,7 @@
 				<S100FC:sourceIdentifier>249</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -24555,7 +24572,7 @@
 				<S100FC:sourceIdentifier>625</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -24670,7 +24687,7 @@
 				<S100FC:sourceIdentifier>629</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -24809,7 +24826,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfSeaArea"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -24883,7 +24900,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfTidalStream"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -24967,7 +24984,7 @@
 				<S100FC:sourceIdentifier>255</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -25079,7 +25096,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfWaterTurbulence"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -25142,7 +25159,7 @@
 				<S100FC:sourceIdentifier>257</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -25232,7 +25249,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="displayUncertainties"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -25368,7 +25385,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="dredgedDate"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -25786,7 +25803,7 @@
 				<S100FC:sourceIdentifier>264</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -25879,7 +25896,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfWeedKelp"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -25940,7 +25957,7 @@
 				<S100FC:sourceIdentifier>266</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -26057,7 +26074,7 @@
 				<S100FC:sourceIdentifier>81</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -26135,7 +26152,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="expositionOfSounding"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -26329,7 +26346,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="expositionOfSounding"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -26606,7 +26623,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="expositionOfSounding"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -26835,7 +26852,7 @@
 				<S100FC:sourceIdentifier>601</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -27047,7 +27064,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -27213,7 +27230,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="expositionOfSounding"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -27490,7 +27507,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -27734,7 +27751,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -27836,7 +27853,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfCable"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -27995,7 +28012,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="depthRangeMaximumValue"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -28164,7 +28181,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfPipelinePipe"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -28325,7 +28342,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -28645,7 +28662,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="depthRangeMinimumValue"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -28825,7 +28842,7 @@
 				<S100FC:sourceIdentifier>631</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -28944,7 +28961,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="depthRangeMinimumValue"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -29153,7 +29170,7 @@
 				<S100FC:sourceIdentifier>632</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -29325,7 +29342,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="depthRangeMinimumValue"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -29660,7 +29677,7 @@
 				<S100FC:sourceIdentifier>633</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -29906,7 +29923,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="depthRangeMinimumValue"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -30087,7 +30104,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="depthRangeMinimumValue"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -30294,7 +30311,7 @@
 				<S100FC:sourceIdentifier>634</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -30543,7 +30560,7 @@
 				<S100FC:sourceIdentifier>292</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -31185,7 +31202,7 @@
 				<S100FC:sourceIdentifier>635</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -31357,7 +31374,7 @@
 				<S100FC:sourceIdentifier>300</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -31448,7 +31465,7 @@
 				<S100FC:sourceIdentifier>301</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -31538,7 +31555,7 @@
 				<S100FC:sourceIdentifier>636</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -31666,7 +31683,7 @@
 				<S100FC:sourceIdentifier>303</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -31800,7 +31817,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfFerry"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -31901,7 +31918,7 @@
 				<S100FC:sourceIdentifier>304</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -31997,7 +32014,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="communicationChannel"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -32110,7 +32127,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="communicationChannel"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -32255,7 +32272,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfCargo"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -32389,7 +32406,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfMooringArea"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -32583,7 +32600,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfCargo"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -32687,7 +32704,7 @@
 				<S100FC:sourceIdentifier>309</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -32833,7 +32850,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="dateDisused"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -32955,7 +32972,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfMilitaryPracticeArea"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -33108,7 +33125,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="jurisdiction"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -33186,7 +33203,7 @@
 				<S100FC:sourceIdentifier>313</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -33424,7 +33441,7 @@
 				<S100FC:sourceIdentifier>315</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -33579,7 +33596,7 @@
 				<S100FC:sourceIdentifier>317</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -33758,7 +33775,7 @@
 				<S100FC:sourceIdentifier>320</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -33840,7 +33857,7 @@
 				<S100FC:sourceIdentifier>321</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -33958,7 +33975,7 @@
 				<S100FC:sourceIdentifier>322</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -34031,7 +34048,7 @@
 				<S100FC:sourceIdentifier>323</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -34106,7 +34123,7 @@
 				<S100FC:sourceIdentifier>141</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -34212,7 +34229,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -34436,7 +34453,7 @@
 				<S100FC:sourceIdentifier>325</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -34542,7 +34559,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="communicationChannel"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -34610,7 +34627,7 @@
 				<S100FC:sourceIdentifier>327</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -34690,7 +34707,7 @@
 				<S100FC:sourceIdentifier>328</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -34790,7 +34807,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfRestrictedArea"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -34999,7 +35016,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="exhibitionConditionOfLight"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -35332,7 +35349,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="exhibitionConditionOfLight"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -35591,7 +35608,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colour"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -35848,7 +35865,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="exhibitionConditionOfLight"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -36122,7 +36139,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colourPattern"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -36381,7 +36398,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colourPattern"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -36627,7 +36644,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colourPattern"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -36873,7 +36890,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colourPattern"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -37186,7 +37203,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colourPattern"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -37428,7 +37445,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colourPattern"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -37641,7 +37658,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colourPattern"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -37860,7 +37877,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colourPattern"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -38118,7 +38135,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -38442,7 +38459,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -38753,7 +38770,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -39064,7 +39081,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -39442,7 +39459,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -39792,7 +39809,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="elevation"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -40113,7 +40130,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colourPattern"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -40358,7 +40375,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="colourPattern"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -40854,7 +40871,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfFogSignal"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -41071,7 +41088,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="estimatedRangeOfTransmission"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -41231,7 +41248,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="estimatedRangeOfTransmission"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -41390,7 +41407,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="estimatedRangeOfTransmission"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -41508,7 +41525,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfRadarTransponderBeacon"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -41741,7 +41758,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="destination"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -41856,7 +41873,7 @@
 				<S100FC:sourceIdentifier>362</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG"/>
 			</S100FC:definitionReference>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -41925,7 +41942,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="communicationChannel"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -42055,7 +42072,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="communicationChannel"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -42230,7 +42247,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="communicationChannel"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -42403,7 +42420,7 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="communicationChannel"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -42533,7 +42550,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="condition"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
@@ -42763,7 +42780,7 @@
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfSmallCraftFacility"/>
 			</S100FC:attributeBinding>
-			<S100FC:attributeBinding sequential="true">
+			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true"/>
