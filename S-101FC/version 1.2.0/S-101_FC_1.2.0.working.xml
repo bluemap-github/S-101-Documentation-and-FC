@@ -15155,7 +15155,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -15297,7 +15297,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -15388,7 +15388,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -15460,7 +15460,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -15541,7 +15541,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -15612,7 +15612,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -15680,7 +15680,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -15760,7 +15760,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -15838,7 +15838,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -15962,7 +15962,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -16080,7 +16080,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -16213,7 +16213,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -16341,7 +16341,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -16473,7 +16473,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -16533,7 +16533,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -16661,7 +16661,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -17029,7 +17029,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -17155,7 +17155,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -17279,7 +17279,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -17398,7 +17398,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -17693,7 +17693,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -18315,7 +18315,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -18510,7 +18510,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -18745,7 +18745,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -19223,7 +19223,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -19325,7 +19325,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -19447,7 +19447,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -19587,7 +19587,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -19980,7 +19980,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -20286,7 +20286,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -20594,7 +20594,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -20824,7 +20824,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -21028,7 +21028,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -21118,7 +21118,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -21350,7 +21350,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -21611,7 +21611,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -21750,7 +21750,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -22059,7 +22059,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -22186,7 +22186,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -22316,7 +22316,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -22451,7 +22451,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -22633,7 +22633,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -22840,7 +22840,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -23127,7 +23127,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -23299,7 +23299,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -23581,7 +23581,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -23715,7 +23715,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -23886,7 +23886,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -24131,7 +24131,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -24299,7 +24299,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -24444,7 +24444,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -24567,7 +24567,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -24682,7 +24682,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -24755,7 +24755,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -24881,7 +24881,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -24976,7 +24976,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -25077,7 +25077,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -25151,7 +25151,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -25235,7 +25235,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -25359,7 +25359,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -25515,7 +25515,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -25591,7 +25591,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -25877,7 +25877,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -25951,7 +25951,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -26012,7 +26012,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -26129,7 +26129,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -26308,7 +26308,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -26556,7 +26556,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -26845,7 +26845,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -26981,7 +26981,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -27198,7 +27198,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -27431,7 +27431,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -27712,7 +27712,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -27836,7 +27836,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -27959,7 +27959,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -28162,7 +28162,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -28308,7 +28308,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -28526,7 +28526,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -28828,7 +28828,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -28947,7 +28947,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -29164,7 +29164,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -29321,7 +29321,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -29508,7 +29508,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -29823,7 +29823,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -30091,7 +30091,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -30305,7 +30305,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -30440,7 +30440,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -30690,7 +30690,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -31368,7 +31368,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -31459,7 +31459,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -31550,7 +31550,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -31673,7 +31673,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -31798,7 +31798,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -31911,7 +31911,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -32001,7 +32001,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -32096,7 +32096,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -32224,7 +32224,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -32393,7 +32393,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -32551,7 +32551,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -32698,7 +32698,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -32823,7 +32823,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -32951,7 +32951,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -33100,7 +33100,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -33195,7 +33195,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -33320,7 +33320,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -33525,7 +33525,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -33659,7 +33659,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -33852,7 +33852,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -33972,7 +33972,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -34045,7 +34045,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -34120,7 +34120,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -34202,7 +34202,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -34315,7 +34315,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -34550,7 +34550,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -34625,7 +34625,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -34705,7 +34705,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -34771,7 +34771,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -34960,7 +34960,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -35310,7 +35310,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -35589,7 +35589,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -35832,7 +35832,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -36068,7 +36068,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -36327,7 +36327,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -36586,7 +36586,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -36832,7 +36832,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -37078,7 +37078,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -37391,7 +37391,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -37589,7 +37589,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -37821,7 +37821,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -38046,7 +38046,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -38370,7 +38370,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -38694,7 +38694,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -39005,7 +39005,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -39316,7 +39316,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -39694,7 +39694,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -40089,7 +40089,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -40333,7 +40333,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -40570,7 +40570,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -41079,7 +41079,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -41238,7 +41238,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -41366,7 +41366,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -41507,7 +41507,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -41716,7 +41716,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -41868,7 +41868,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -41931,7 +41931,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -42037,7 +42037,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -42216,7 +42216,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -42391,7 +42391,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -42510,7 +42510,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -42734,7 +42734,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -42874,7 +42874,7 @@
 				<S100FC:role ref="updates"/>
 				<S100FC:featureType ref="UpdateInformation"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -42941,7 +42941,7 @@
 				<S100FC:attribute ref="scaleMinimum"/>
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>cartographic</S100FC:featureUseType>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
