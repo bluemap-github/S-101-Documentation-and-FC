@@ -22391,7 +22391,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -22435,7 +22435,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -23692,7 +23692,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -35216,7 +35216,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -35275,7 +35275,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -35285,7 +35285,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -35518,7 +35518,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -35762,7 +35762,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -35806,7 +35806,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -35816,7 +35816,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -36033,7 +36033,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -36051,7 +36051,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -40007,7 +40007,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -40693,7 +40693,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -40737,7 +40737,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -40747,7 +40747,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -41009,7 +41009,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -41053,7 +41053,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -41063,7 +41063,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -41178,7 +41178,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -41222,7 +41222,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -41646,7 +41646,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -41690,7 +41690,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -41700,7 +41700,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -42156,7 +42156,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -42200,7 +42200,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -42331,7 +42331,7 @@
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
@@ -42375,7 +42375,7 @@
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
+					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment"/>
