@@ -21580,6 +21580,8 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation"/>
 				<S100FC:role ref="componentOf"/>
+				<S100FC:featureType ref="ArchipelagicSeaLane"/>
+				<S100FC:featureType ref="DeepWaterRoute"/>
 				<S100FC:featureType ref="FairwaySystem"/>
 				<S100FC:featureType ref="TrafficSeparationScheme"/>
 				<S100FC:featureType ref="TwoWayRoute"/>
