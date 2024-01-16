@@ -17673,7 +17673,7 @@
 				<S100FC:role ref="supports"/>
 				<S100FC:featureType ref="LightAirObstruction"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -17838,7 +17838,7 @@
 				<S100FC:role ref="supports"/>
 				<S100FC:featureType ref="LightAirObstruction"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -18000,7 +18000,7 @@
 				<S100FC:role ref="supports"/>
 				<S100FC:featureType ref="LightAirObstruction"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -18295,7 +18295,7 @@
 				<S100FC:role ref="supports"/>
 				<S100FC:featureType ref="LightAirObstruction"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -18725,7 +18725,7 @@
 				<S100FC:role ref="supports"/>
 				<S100FC:featureType ref="RadarReflector"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -19015,7 +19015,7 @@
 				<S100FC:role ref="supports"/>
 				<S100FC:featureType ref="LightAirObstruction"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -21330,7 +21330,7 @@
 				<S100FC:role ref="supports"/>
 				<S100FC:featureType ref="Bollard"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -22041,7 +22041,7 @@
 				<S100FC:role ref="supports"/>
 				<S100FC:featureType ref="Bollard"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -24113,7 +24113,7 @@
 				<S100FC:featureType ref="SignalStationTraffic"/>
 				<S100FC:featureType ref="SignalStationWarning"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
@@ -24281,7 +24281,7 @@
 				<S100FC:featureType ref="SignalStationTraffic"/>
 				<S100FC:featureType ref="SignalStationWarning"/>
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
