@@ -7311,7 +7311,7 @@
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:valueType>integer</S100FC:valueType>
-						<S100FC:uom>
+			<S100FC:uom>
 				<S100Base:name>Hertz</S100Base:name>
 				<S100Base:symbol>Hz</S100Base:symbol>
 			</S100FC:uom>
@@ -16980,23 +16980,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightAirObstruction" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -17654,23 +17638,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightAirObstruction" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -17819,23 +17787,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightAirObstruction" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -17981,23 +17933,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightAirObstruction" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -18276,23 +18212,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightAirObstruction" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -18706,23 +18626,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="RadarReflector" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -18987,32 +18891,8 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="Bollard" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightAirObstruction" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -19913,32 +19793,8 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="Bollard" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightAirObstruction" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -20246,14 +20102,6 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -20554,23 +20402,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightAirObstruction" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -20775,23 +20607,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="Bollard" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -21320,14 +21136,6 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="Bollard" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -21554,23 +21362,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="Bollard" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -22022,23 +21814,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="Bollard" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -22434,14 +22210,6 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>1</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -23089,23 +22857,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightAirObstruction" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -23534,23 +23286,7 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="Bollard" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -26539,14 +26275,6 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -27169,14 +26897,6 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -27665,32 +27385,8 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="Bollard" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightAirObstruction" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -29268,14 +28964,6 @@
 				<S100FC:featureType ref="SafeWaterBuoy" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBeacon" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>1</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
 				<S100FC:featureType ref="Dolphin" />
@@ -29286,14 +28974,6 @@
 				<S100FC:featureType ref="OffshorePlatform" />
 				<S100FC:featureType ref="SiloTank" />
 				<S100FC:featureType ref="WindTurbine" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>1</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Conveyor" />
 				<S100FC:featureType ref="FloatingDock" />
@@ -29761,14 +29441,6 @@
 				<S100FC:featureType ref="SafeWaterBuoy" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBeacon" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>1</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
 				<S100FC:featureType ref="Dolphin" />
@@ -29779,14 +29451,6 @@
 				<S100FC:featureType ref="OffshorePlatform" />
 				<S100FC:featureType ref="SiloTank" />
 				<S100FC:featureType ref="WindTurbine" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>1</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Conveyor" />
 				<S100FC:featureType ref="FloatingDock" />
@@ -30395,14 +30059,6 @@
 				<S100FC:featureType ref="SafeWaterBuoy" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBeacon" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>1</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
 				<S100FC:featureType ref="Dolphin" />
@@ -31293,14 +30949,6 @@
 				<S100FC:featureType ref="SafeWaterBuoy" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBeacon" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
 				<S100FC:featureType ref="Dolphin" />
@@ -31311,14 +30959,6 @@
 				<S100FC:featureType ref="OffshorePlatform" />
 				<S100FC:featureType ref="SiloTank" />
 				<S100FC:featureType ref="WindTurbine" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Conveyor" />
 				<S100FC:featureType ref="FloatingDock" />
@@ -35259,6 +34899,9 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
+				<S100FC:featureType ref="LightAllAround" />
+				<S100FC:featureType ref="LightSectored" />
+				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35274,25 +34917,6 @@
 				<S100FC:featureType ref="LightSectored" />
 				<S100FC:featureType ref="RadarTransponderBeacon" />
 				<S100FC:featureType ref="Retroreflector" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
-				<S100FC:featureType ref="LightAllAround" />
-				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
-				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -35548,6 +35172,9 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBeacon" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
+				<S100FC:featureType ref="LightAllAround" />
+				<S100FC:featureType ref="LightSectored" />
+				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -35563,25 +35190,6 @@
 				<S100FC:featureType ref="LightSectored" />
 				<S100FC:featureType ref="RadarTransponderBeacon" />
 				<S100FC:featureType ref="Retroreflector" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
-				<S100FC:featureType ref="LightAllAround" />
-				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
-				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -35815,24 +35423,8 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="LightAllAround" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -36060,14 +35652,6 @@
 				<S100FC:featureType ref="SpanFixed" />
 				<S100FC:featureType ref="SpanOpening" />
 				<S100FC:featureType ref="WindTurbine" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="LightAllAround" />
 				<S100FC:featureType ref="LightSectored" />
 			</S100FC:featureBinding>
@@ -38357,14 +37941,6 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -38681,14 +38257,6 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -38992,14 +38560,6 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -39303,14 +38863,6 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -39681,14 +39233,6 @@
 				<S100FC:featureType ref="Retroreflector" />
 				<S100FC:featureType ref="SignalStationTraffic" />
 				<S100FC:featureType ref="SignalStationWarning" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
 				<S100FC:featureType ref="LightSectored" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -40771,24 +40315,8 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="LightAllAround" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -41087,24 +40615,8 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="LightAllAround" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -41256,14 +40768,6 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -41724,24 +41228,8 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="LightAllAround" />
 				<S100FC:featureType ref="LightSectored" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -42234,14 +41722,6 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>1</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -42409,14 +41889,6 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
-			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="composition">
-				<S100FC:multiplicity>
-					<S100Base:lower>1</S100Base:lower>
-					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
 				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
