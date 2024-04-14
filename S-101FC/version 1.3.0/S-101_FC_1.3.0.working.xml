@@ -13721,6 +13721,11 @@
 			<S100FC:definition>A pointer to a specific feature(s).</S100FC:definition>
 			<S100FC:code>thePositionProvider</S100FC:code>
 		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
+			<S100FC:name>The Primary Feature</S100FC:name>
+			<S100FC:definition>A pointer to a feature to which incidental, secondary or supplementary features are related.</S100FC:definition>
+			<S100FC:code>thePrimaryFeature</S100FC:code>
+		</S100FC:S100_FC_Role>
 		
 		<!-- legacy roles -->
 		<S100FC:S100_FC_Role>
