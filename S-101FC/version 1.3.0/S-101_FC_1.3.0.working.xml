@@ -13726,6 +13726,11 @@
 			<S100FC:definition>A pointer to a feature to which incidental, secondary or supplementary features are related.</S100FC:definition>
 			<S100FC:code>thePrimaryFeature</S100FC:code>
 		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
+			<S100FC:name>The Quality Information</S100FC:name>
+			<S100FC:definition>A pointer to an information type providing spatial quality information.</S100FC:definition>
+			<S100FC:code>theQualityInformation</S100FC:code>
+		</S100FC:S100_FC_Role>
 		
 		<!-- legacy roles -->
 		<S100FC:S100_FC_Role>
