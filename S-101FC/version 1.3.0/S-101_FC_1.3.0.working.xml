@@ -7044,16 +7044,6 @@
 			<S100FC:valueType>text</S100FC:valueType>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
-			<S100FC:name>Display Uncertainties</S100FC:name>
-			<S100FC:definition>A statement defining whether an encoded feature is to have its horizontal position and vertical accuracies displayed or not.</S100FC:definition>
-			<S100FC:code>displayUncertainties</S100FC:code>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>984</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
-			<S100FC:valueType>boolean</S100FC:valueType>
-		</S100FC:S100_FC_SimpleAttribute>
-		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Distance Mark Visible</S100FC:name>
 			<S100FC:definition>A statement indicating whether a distance mark is visible or not.</S100FC:definition>
 			<S100FC:code>distanceMarkVisible</S100FC:code>
