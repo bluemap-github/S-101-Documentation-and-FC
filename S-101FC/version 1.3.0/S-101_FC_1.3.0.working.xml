@@ -6070,6 +6070,39 @@
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Category of Structure</S100FC:name>
+			<S100FC:definition>Classification of a covered or partially covered area where different use types of vessel can berth.</S100FC:definition>
+			<S100FC:code>categoryOfStructure</S100FC:code>
+			<S100FC:valueType>enumeration</S100FC:valueType>
+			<S100FC:listedValues>
+				<S100FC:listedValue>
+					<S100FC:label>Boathouse</S100FC:label>
+					<S100FC:definition>A building or shed, usually built partly over water, for sheltering a boat or boats.</S100FC:definition>
+					<S100FC:code>1</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Covered Bulk Terminal</S100FC:label>
+					<S100FC:definition>A covered or partially covered terminal for the handling of bulk materials such as iron ore, coal, etc.</S100FC:definition>
+					<S100FC:code>2</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Covered Wharf</S100FC:label>
+					<S100FC:definition>A covered or partially covered structure serving as a berthing place for vessels.</S100FC:definition>
+					<S100FC:code>3</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Covered Service Terminal</S100FC:label>
+					<S100FC:definition>A covered or partially covered terminal within which the floating equipment (dredges, tugs …) of harbour services are berthed and serviced.</S100FC:definition>
+					<S100FC:code>4</S100FC:code>
+				</S100FC:listedValue>
+				<S100FC:listedValue>
+					<S100FC:label>Covered Passenger Terminal</S100FC:label>
+					<S100FC:definition>A covered or partially covered terminal for the loading and unloading of passengers.</S100FC:definition>
+					<S100FC:code>5</S100FC:code>
+				</S100FC:listedValue>
+			</S100FC:listedValues>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Category of Tidal Stream</S100FC:name>
 			<S100FC:definition>Classification of the alternating horizontal movement of water associated with the rise and fall of the tide caused by tide producing forces.</S100FC:definition>
 			<S100FC:code>categoryOfTidalStream</S100FC:code>
