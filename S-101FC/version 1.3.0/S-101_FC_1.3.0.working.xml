@@ -13741,7 +13741,11 @@
 			<S100FC:definition>A pointer to a feature that describes changes made to a dataset.</S100FC:definition>
 			<S100FC:code>theUpdate</S100FC:code>
 		</S100FC:S100_FC_Role>
-			
+		<S100FC:S100_FC_Role>
+			<S100FC:name>The Updated Object</S100FC:name>
+			<S100FC:definition>A pointer to a feature that has been updated.</S100FC:definition>
+			<S100FC:code>theUpdatedObject</S100FC:code>
+		</S100FC:S100_FC_Role>
 		
 		<!-- legacy roles -->
 		<S100FC:S100_FC_Role>
