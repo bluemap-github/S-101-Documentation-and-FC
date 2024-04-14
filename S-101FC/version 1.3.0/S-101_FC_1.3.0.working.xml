@@ -7036,7 +7036,7 @@
 			<S100FC:name>Destination</S100FC:name>
 			<S100FC:definition>The place or general direction to which a vessel is going or directed.</S100FC:definition>
 			<S100FC:code>destination</S100FC:code>
-			<S100FC:remarks>In addition to a place name of a port, harbour area or terminal, the place could include generalities such as The north-west, or upriver.</S100FC:remarks>
+			<S100FC:remarks>The attribute destination should contain no more than 100 characters.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>93</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
