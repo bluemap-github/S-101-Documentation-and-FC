@@ -7317,6 +7317,13 @@
 			</S100FC:uom>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Drawing Index</S100FC:name>
+			<S100FC:definition>A numeric value used to indicate that datasets are intended to form a seamless presentation.</S100FC:definition>
+			<S100FC:code>drawingIndex</S100FC:code>
+			<S100FC:remarks>The attribute drawing index is required where the datasets intended to form a seamless presentation do not share a common minimum display scale. Also required if the dataset may need to form a seamless presentation with one or more S-57 datasets, in which case the value should correspond to the usage band of the adjoining or overlapping S-57 dataset(s).</S100FC:remarks>
+			<S100FC:valueType>integer</S100FC:valueType>
+		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Full Seafloor Coverage Achieved</S100FC:name>
 			<S100FC:definition>Expression stating if full seafloor coverage has been achieved in the area covered by hydrographic surveys.</S100FC:definition>
 			<S100FC:code>fullSeafloorCoverageAchieved</S100FC:code>
