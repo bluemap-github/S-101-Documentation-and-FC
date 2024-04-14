@@ -13909,6 +13909,13 @@
 			<S100FC:role ref="theCollection" />
 			<S100FC:role ref="theComponent" />
 		</S100FC:S100_FC_FeatureAssociation>
+		<S100FC:S100_FC_FeatureAssociation>
+			<S100FC:name>Roofed Structure Aggregation</S100FC:name>
+			<S100FC:definition>A feature association for the binding between a roofed structure over navigable water and its supporting features.</S100FC:definition>
+			<S100FC:code>RoofedStructureAggregation</S100FC:code>
+			<S100FC:role ref="theStructure" />
+			<S100FC:role ref="theSupport" />
+		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
 			<S100FC:name>Structure/equipment</S100FC:name>
 			<S100FC:definition>A feature association for the binding between a navigation aid equipment feature and the structure that supports it.</S100FC:definition>
