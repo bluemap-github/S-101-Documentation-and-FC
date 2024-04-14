@@ -13833,6 +13833,17 @@
 			<S100FC:role ref="theComponent" />
 		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
+			<S100FC:name>Deep Water route aggregation</S100FC:name>
+			<S100FC:definition>feature association for the binding between a Deep Water route and its component features.</S100FC:definition>
+			<S100FC:code>DeepWaterRouteAggregation</S100FC:code>
+			<S100FC:definitionReference>
+				<S100FC:sourceIdentifier>9000011</S100FC:sourceIdentifier>
+				<S100FC:definitionSource ref="IHOREG" />
+			</S100FC:definitionReference>
+			<S100FC:role ref="theCollection" />
+			<S100FC:role ref="theComponent" />
+		</S100FC:S100_FC_FeatureAssociation>
+		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
 			<S100FC:name>Structure/equipment</S100FC:name>
 			<S100FC:definition>A feature association for the binding between a navigation aid equipment feature and the structure that supports it.</S100FC:definition>
 			<S100FC:code>StructureEquipment</S100FC:code>
@@ -13860,17 +13871,6 @@
 			<S100FC:code>TwoWayRouteAggregation</S100FC:code>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>9000005</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
-			<S100FC:role ref="componentOf" />
-			<S100FC:role ref="consistsOf" />
-		</S100FC:S100_FC_FeatureAssociation>
-		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
-			<S100FC:name>Deep Water route aggregation</S100FC:name>
-			<S100FC:definition>feature association for the binding between a Deep Water route and its component features.</S100FC:definition>
-			<S100FC:code>DeepWaterRouteAggregation</S100FC:code>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>9000011</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:role ref="componentOf" />
