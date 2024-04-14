@@ -13822,6 +13822,17 @@
 			<S100FC:role ref="theComponent" />
 		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
+			<S100FC:name>Caution area association</S100FC:name>
+			<S100FC:definition>A feature association for the binding between a caution area and the traffic systems (such as routeing measures) to which the cautionary information applies.</S100FC:definition>
+			<S100FC:code>CautionAreaAssociation</S100FC:code>
+			<S100FC:definitionReference>
+				<S100FC:sourceIdentifier>9000010</S100FC:sourceIdentifier>
+				<S100FC:definitionSource ref="IHOREG" />
+			</S100FC:definitionReference>
+			<S100FC:role ref="theCollection" />
+			<S100FC:role ref="theComponent" />
+		</S100FC:S100_FC_FeatureAssociation>
+		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
 			<S100FC:name>Structure/equipment</S100FC:name>
 			<S100FC:definition>A feature association for the binding between a navigation aid equipment feature and the structure that supports it.</S100FC:definition>
 			<S100FC:code>StructureEquipment</S100FC:code>
@@ -13849,17 +13860,6 @@
 			<S100FC:code>TwoWayRouteAggregation</S100FC:code>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>9000005</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
-			<S100FC:role ref="componentOf" />
-			<S100FC:role ref="consistsOf" />
-		</S100FC:S100_FC_FeatureAssociation>
-		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
-			<S100FC:name>Caution area association</S100FC:name>
-			<S100FC:definition>A feature association for the binding between a caution area and the traffic systems (such as routeing measures) to which the cautionary information applies.</S100FC:definition>
-			<S100FC:code>CautionAreaAssociation</S100FC:code>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>9000010</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:role ref="componentOf" />
