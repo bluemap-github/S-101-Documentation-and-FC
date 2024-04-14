@@ -2990,7 +2990,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Current Farm</S100FC:label>
-					<S100FC:definition>A collection of collocated devices which harness tidal energy and are organized as a single power generation unit.</S100FC:definition>
+					<S100FC:definition>A collection of collocated devices which harness current (for example tidal) energy and are organized as a single power generation unit. </S100FC:definition>
 					<S100FC:code>3</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>343</S100FC:sourceIdentifier>
