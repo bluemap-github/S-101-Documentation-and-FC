@@ -9372,15 +9372,6 @@
 						<S100FC:definitionSource ref="IHOREG" />
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
-				<S100FC:listedValue>
-					<S100FC:label>Position Doubtful</S100FC:label>
-					<S100FC:definition>Of uncertain position. The expression is used principally on charts to indicate that a wreck, shoal, etc., has been reported in various positions and not definitely determined in any.</S100FC:definition>
-					<S100FC:code>5</S100FC:code>
-					<S100FC:definitionReference>
-						<S100FC:sourceIdentifier>1266</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
-				</S100FC:listedValue>
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
