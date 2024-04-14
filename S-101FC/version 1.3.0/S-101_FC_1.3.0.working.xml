@@ -13924,8 +13924,8 @@
 				<S100FC:sourceIdentifier>9000003</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
-			<S100FC:role ref="supportedBy" />
-			<S100FC:role ref="supports" />
+			<S100FC:role ref="theStructure" />
+			<S100FC:role ref="theEquipment" />
 		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
 			<S100FC:name>Updated information</S100FC:name>
