@@ -13711,6 +13711,11 @@
 			<S100FC:definition>A pointer to the feature(s) supported by a structure feature.</S100FC:definition>
 			<S100FC:code>theEquipment</S100FC:code>
 		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
+			<S100FC:name>The Information</S100FC:name>
+			<S100FC:definition>A pointer to an object that provides more information about the referencing feature or information type.</S100FC:definition>
+			<S100FC:code>theInformation</S100FC:code>
+		</S100FC:S100_FC_Role>
 		
 		<!-- legacy roles -->
 		<S100FC:S100_FC_Role>
