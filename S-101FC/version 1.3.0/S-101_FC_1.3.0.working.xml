@@ -13764,8 +13764,7 @@
 				<S100FC:sourceIdentifier>8000001</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
-			<S100FC:role ref="informationProvidedFor" />
-			<S100FC:role ref="providesInformation" />
+			<S100FC:role ref="theInformation" />
 		</S100FC:S100_FC_InformationAssociation>
 		<S100FC:S100_FC_InformationAssociation isAbstract="false">
 			<S100FC:name>Quality of bathymetric data composition</S100FC:name>
