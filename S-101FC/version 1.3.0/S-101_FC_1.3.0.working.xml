@@ -13960,16 +13960,23 @@
 			<S100FC:role ref="theCollection" />
 			<S100FC:role ref="theComponent" />
 		</S100FC:S100_FC_FeatureAssociation>
+		<S100FC:S100_FC_FeatureAssociation>
+			<S100FC:name>Update Aggregation</S100FC:name>
+			<S100FC:definition>A feature association for the binding between an Update Information feature and its component Update Information features.</S100FC:definition>
+			<S100FC:code>UpdateAggregation</S100FC:code>
+			<S100FC:role ref="theCollection" />
+			<S100FC:role ref="theComponent" />
+		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
-			<S100FC:name>Updated information</S100FC:name>
+			<S100FC:name>Updated Information</S100FC:name>
 			<S100FC:definition>A feature association for the binding between an update information metadata feature and updated feature(s) that it identifies.</S100FC:definition>
 			<S100FC:code>UpdatedInformation</S100FC:code>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>9000004</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
-			<S100FC:role ref="updates" />
-			<S100FC:role ref="identifies" />
+			<S100FC:role ref="theUpdates" />
+			<S100FC:role ref="theUpdatedObject" />
 		</S100FC:S100_FC_FeatureAssociation>
 	</S100FC:S100_FC_FeatureAssociations>
 	<S100FC:S100_FC_InformationTypes>
