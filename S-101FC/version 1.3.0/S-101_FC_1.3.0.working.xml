@@ -16632,6 +16632,13 @@
 				</S100FC:multiplicity>
 				<S100FC:attribute ref="pictorialRepresentation" />
 			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>1</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="inTheWater" />
+			</S100FC:attributeBinding>
 			<S100FC:informationBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
@@ -17701,6 +17708,7 @@
 				</S100FC:multiplicity>
 				<S100FC:permittedValues>
 					<S100FC:value>3</S100FC:value>
+					<S100FC:value>13</S100FC:value>
 					<S100FC:value>16</S100FC:value>
 					<S100FC:value>17</S100FC:value>
 					<S100FC:value>18</S100FC:value>
