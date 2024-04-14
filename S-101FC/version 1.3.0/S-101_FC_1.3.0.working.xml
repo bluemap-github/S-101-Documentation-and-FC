@@ -13855,6 +13855,17 @@
 			<S100FC:role ref="theComponent" />
 		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
+			<S100FC:name>Fairway auxiliary</S100FC:name>
+			<S100FC:definition>A feature association for the binding between a fairway and related features auxiliary to the fairway.</S100FC:definition>
+			<S100FC:code>FairwayAuxiliary</S100FC:code>
+			<S100FC:definitionReference>
+				<S100FC:sourceIdentifier>9000017</S100FC:sourceIdentifier>
+				<S100FC:definitionSource ref="IHOREG" />
+			</S100FC:definitionReference>
+			<S100FC:role ref="thePrimaryFeature" />
+			<S100FC:role ref="theAuxiliaryFeature" />
+		</S100FC:S100_FC_FeatureAssociation>
+		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
 			<S100FC:name>Structure/equipment</S100FC:name>
 			<S100FC:definition>A feature association for the binding between a navigation aid equipment feature and the structure that supports it.</S100FC:definition>
 			<S100FC:code>StructureEquipment</S100FC:code>
@@ -13930,17 +13941,6 @@
 			</S100FC:definitionReference>
 			<S100FC:role ref="componentOf" />
 			<S100FC:role ref="consistsOf" />
-		</S100FC:S100_FC_FeatureAssociation>
-		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
-			<S100FC:name>Fairway auxiliary</S100FC:name>
-			<S100FC:definition>A feature association for the binding between a fairway and related features auxiliary to the fairway.</S100FC:definition>
-			<S100FC:code>FairwayAuxiliary</S100FC:code>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>9000017</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
-			<S100FC:role ref="auxiliaryTo" />
-			<S100FC:role ref="hasAuxiliary" />
 		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
 			<S100FC:name>Pilotage District Association</S100FC:name>
