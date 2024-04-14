@@ -18081,6 +18081,7 @@
 					<S100FC:value>15</S100FC:value>
 					<S100FC:value>16</S100FC:value>
 					<S100FC:value>17</S100FC:value>
+					<S100FC:value>21</S100FC:value>
 					<S100FC:value>22</S100FC:value>
 					<S100FC:value>25</S100FC:value>
 				</S100FC:permittedValues>
@@ -18125,6 +18126,7 @@
 				</S100FC:multiplicity>
 				<S100FC:permittedValues>
 					<S100FC:value>3</S100FC:value>
+					<S100FC:value>13</S100FC:value>
 					<S100FC:value>16</S100FC:value>
 					<S100FC:value>17</S100FC:value>
 					<S100FC:value>18</S100FC:value>
