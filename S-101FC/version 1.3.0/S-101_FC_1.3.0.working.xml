@@ -13939,6 +13939,17 @@
 			<S100FC:role ref="thePositionProvider" />
 		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
+			<S100FC:name>Traffic Separation Scheme aggregation</S100FC:name>
+			<S100FC:definition>A feature association for the binding between a Traffic Separation Scheme or a Traffic Separation Scheme System and its component features.</S100FC:definition>
+			<S100FC:code>TrafficSeparationSchemeAggregation</S100FC:code>
+			<S100FC:definitionReference>
+				<S100FC:sourceIdentifier>9000015</S100FC:sourceIdentifier>
+				<S100FC:definitionSource ref="IHOREG" />
+			</S100FC:definitionReference>
+			<S100FC:role ref="theCollection" />
+			<S100FC:role ref="theComponent" />
+		</S100FC:S100_FC_FeatureAssociation>
+		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
 			<S100FC:name>Updated information</S100FC:name>
 			<S100FC:definition>A feature association for the binding between an update information metadata feature and updated feature(s) that it identifies.</S100FC:definition>
 			<S100FC:code>UpdatedInformation</S100FC:code>
@@ -13955,17 +13966,6 @@
 			<S100FC:code>TwoWayRouteAggregation</S100FC:code>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>9000005</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
-			<S100FC:role ref="componentOf" />
-			<S100FC:role ref="consistsOf" />
-		</S100FC:S100_FC_FeatureAssociation>
-		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
-			<S100FC:name>Traffic Separation Scheme aggregation</S100FC:name>
-			<S100FC:definition>A feature association for the binding between a Traffic Separation Scheme or a Traffic Separation Scheme System and its component features.</S100FC:definition>
-			<S100FC:code>TrafficSeparationSchemeAggregation</S100FC:code>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>9000015</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:role ref="componentOf" />
