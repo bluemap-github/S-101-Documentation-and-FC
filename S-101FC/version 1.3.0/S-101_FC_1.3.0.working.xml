@@ -13745,6 +13745,11 @@
 			<S100FC:code>theStructure</S100FC:code>
 		</S100FC:S100_FC_Role>
 		<S100FC:S100_FC_Role>
+			<S100FC:name>The Support</S100FC:name>
+			<S100FC:definition>A pointer to the equipment feature(s) supported by a structure feature</S100FC:definition>
+			<S100FC:code>theSupport</S100FC:code>
+		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
 			<S100FC:name>The Update</S100FC:name>
 			<S100FC:definition>A pointer to a feature that describes changes made to a dataset.</S100FC:definition>
 			<S100FC:code>theUpdate</S100FC:code>
@@ -13975,7 +13980,7 @@
 				<S100FC:sourceIdentifier>9000004</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
-			<S100FC:role ref="theUpdates" />
+			<S100FC:role ref="theUpdate" />
 			<S100FC:role ref="theUpdatedObject" />
 		</S100FC:S100_FC_FeatureAssociation>
 	</S100FC:S100_FC_FeatureAssociations>
@@ -14268,6 +14273,13 @@
 			</S100FC:definitionReference>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="drawingIndex" />
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
 					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
@@ -14465,7 +14477,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="QualityOfBathymetricDataComposition" />
-				<S100FC:role ref="defines" />
+				<S100FC:role ref="theQualityInformation" />
 				<S100FC:informationType ref="SpatialQuality" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
