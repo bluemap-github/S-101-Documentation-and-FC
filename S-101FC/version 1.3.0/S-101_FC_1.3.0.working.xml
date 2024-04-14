@@ -13774,8 +13774,7 @@
 				<S100FC:sourceIdentifier>8000020</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
-			<S100FC:role ref="defines" />
-			<S100FC:role ref="definedFor" />
+			<S100FC:role ref="theQualityInformation" />
 		</S100FC:S100_FC_InformationAssociation>
 		<S100FC:S100_FC_InformationAssociation isAbstract="false">
 			<S100FC:name>Spatial Association</S100FC:name>
@@ -13785,8 +13784,7 @@
 				<S100FC:sourceIdentifier>8000019</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
-			<S100FC:role ref="defines" />
-			<S100FC:role ref="definedFor" />
+			<S100FC:role ref="theQualityInformation" />
 		</S100FC:S100_FC_InformationAssociation>
 	</S100FC:S100_FC_InformationAssociations>
 	<S100FC:S100_FC_FeatureAssociations>
@@ -13796,6 +13794,17 @@
 			<S100FC:code>AidsToNavigationAssociation</S100FC:code>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>9000006</S100FC:sourceIdentifier>
+				<S100FC:definitionSource ref="IHOREG" />
+			</S100FC:definitionReference>
+			<S100FC:role ref="theCollection" />
+			<S100FC:role ref="theComponent" />
+		</S100FC:S100_FC_FeatureAssociation>
+		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
+			<S100FC:name>ASL aggregation</S100FC:name>
+			<S100FC:definition>A feature association for the binding between an Archipelagic Sea Lane and its component features.</S100FC:definition>
+			<S100FC:code>ASLAggregation</S100FC:code>
+			<S100FC:definitionReference>
+				<S100FC:sourceIdentifier>9000007</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:role ref="theCollection" />
@@ -13829,17 +13838,6 @@
 			<S100FC:code>TwoWayRouteAggregation</S100FC:code>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>9000005</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
-			<S100FC:role ref="componentOf" />
-			<S100FC:role ref="consistsOf" />
-		</S100FC:S100_FC_FeatureAssociation>
-		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
-			<S100FC:name>ASL aggregation</S100FC:name>
-			<S100FC:definition>A feature association for the binding between an Archipelagic Sea Lane and its component features.</S100FC:definition>
-			<S100FC:code>ASLAggregation</S100FC:code>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>9000007</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:role ref="componentOf" />
