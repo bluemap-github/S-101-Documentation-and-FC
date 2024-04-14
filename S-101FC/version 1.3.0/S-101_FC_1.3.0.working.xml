@@ -7027,8 +7027,8 @@
 				<S100CD:textPattern>sxxxxx.xx; s = sign, negative values only</S100CD:textPattern>
 				<S100CD:range>
 					<S100Base:lowerBound>-30</S100Base:lowerBound>
-					<S100Base:upperBound>12000</S100Base:upperBound>
-					<S100Base:closure>closedInterval</S100Base:closure>
+					<S100Base:upperBound>12500</S100Base:upperBound>
+					<S100Base:closure>openInterval</S100Base:closure>
 				</S100CD:range>
 			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
