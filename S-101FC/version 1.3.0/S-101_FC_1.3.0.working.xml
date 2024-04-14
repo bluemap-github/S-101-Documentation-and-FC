@@ -6894,7 +6894,7 @@
 			<S100FC:listedValues>
 				<S100FC:listedValue>
 					<S100FC:label>Sunday</S100FC:label>
-					<S100FC:definition>The first day of the week.</S100FC:definition>
+					<S100FC:definition>The day of the week following Saturday and preceding Monday.</S100FC:definition>
 					<S100FC:code>1</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>813</S100FC:sourceIdentifier>
@@ -6903,7 +6903,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Monday</S100FC:label>
-					<S100FC:definition>The second day of the week.</S100FC:definition>
+					<S100FC:definition>The day of the week following Sunday and preceding Tuesday.</S100FC:definition>
 					<S100FC:code>2</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>814</S100FC:sourceIdentifier>
@@ -6912,7 +6912,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Tuesday</S100FC:label>
-					<S100FC:definition>The third day of the week.</S100FC:definition>
+					<S100FC:definition>The day of the week following Monday and preceding Wednesday.</S100FC:definition>
 					<S100FC:code>3</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>815</S100FC:sourceIdentifier>
@@ -6921,7 +6921,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Wednesday</S100FC:label>
-					<S100FC:definition>The fourth day of the week.</S100FC:definition>
+					<S100FC:definition>The day of the week following Tuesday and preceding Thursday.</S100FC:definition>
 					<S100FC:code>4</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>816</S100FC:sourceIdentifier>
@@ -6930,7 +6930,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Thursday</S100FC:label>
-					<S100FC:definition>The fifth day of the week.</S100FC:definition>
+					<S100FC:definition>The day of the week following Wednesday and preceding Friday.</S100FC:definition>
 					<S100FC:code>5</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>817</S100FC:sourceIdentifier>
@@ -6939,7 +6939,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Friday</S100FC:label>
-					<S100FC:definition>The sixth day of the week.</S100FC:definition>
+					<S100FC:definition>The day of the week following Thursday and preceding Saturday.</S100FC:definition>
 					<S100FC:code>6</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>818</S100FC:sourceIdentifier>
@@ -6948,7 +6948,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Saturday</S100FC:label>
-					<S100FC:definition>The seventh day of the week.</S100FC:definition>
+					<S100FC:definition>The day of the week following Friday and preceding Sunday.</S100FC:definition>
 					<S100FC:code>7</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>819</S100FC:sourceIdentifier>
