@@ -13692,6 +13692,11 @@
 			<S100FC:code>theAuxiliaryFeature</S100FC:code>
 		</S100FC:S100_FC_Role>
 		<S100FC:S100_FC_Role>
+			<S100FC:name>The Cartographic Text</S100FC:name>
+			<S100FC:definition>A pointer to a specific cartographically positioned location for text.</S100FC:definition>
+			<S100FC:code>theCartographicText</S100FC:code>
+		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
 			<S100FC:name>Positions</S100FC:name>
 			<S100FC:definition>A pointer to a specific cartographically positioned location for text.</S100FC:definition>
 			<S100FC:code>positions</S100FC:code>
