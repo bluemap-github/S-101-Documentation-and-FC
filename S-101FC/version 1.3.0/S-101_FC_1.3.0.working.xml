@@ -13731,6 +13731,17 @@
 			<S100FC:definition>A pointer to an information type providing spatial quality information.</S100FC:definition>
 			<S100FC:code>theQualityInformation</S100FC:code>
 		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
+			<S100FC:name>The Structure</S100FC:name>
+			<S100FC:definition>A pointer to the feature that equipment feature(s) are supported by.</S100FC:definition>
+			<S100FC:code>theStructure</S100FC:code>
+		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
+			<S100FC:name>The Update</S100FC:name>
+			<S100FC:definition>A pointer to a feature that describes changes made to a dataset.</S100FC:definition>
+			<S100FC:code>theUpdate</S100FC:code>
+		</S100FC:S100_FC_Role>
+			
 		
 		<!-- legacy roles -->
 		<S100FC:S100_FC_Role>
