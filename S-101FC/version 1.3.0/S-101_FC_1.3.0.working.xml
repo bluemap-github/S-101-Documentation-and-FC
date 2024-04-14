@@ -13928,6 +13928,17 @@
 			<S100FC:role ref="theEquipment" />
 		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
+			<S100FC:name>Text association</S100FC:name>
+			<S100FC:definition>A feature association for the binding between a geo feature and the cartographically positioned location for text.</S100FC:definition>
+			<S100FC:code>TextAssociation</S100FC:code>
+			<S100FC:definitionReference>
+				<S100FC:sourceIdentifier>9000014</S100FC:sourceIdentifier>
+				<S100FC:definitionSource ref="IHOREG" />
+			</S100FC:definitionReference>
+			<S100FC:role ref="theCartographicText" />
+			<S100FC:role ref="thePositionProvider" />
+		</S100FC:S100_FC_FeatureAssociation>
+		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
 			<S100FC:name>Updated information</S100FC:name>
 			<S100FC:definition>A feature association for the binding between an update information metadata feature and updated feature(s) that it identifies.</S100FC:definition>
 			<S100FC:code>UpdatedInformation</S100FC:code>
@@ -13948,17 +13959,6 @@
 			</S100FC:definitionReference>
 			<S100FC:role ref="componentOf" />
 			<S100FC:role ref="consistsOf" />
-		</S100FC:S100_FC_FeatureAssociation>
-		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
-			<S100FC:name>Text association</S100FC:name>
-			<S100FC:definition>A feature association for the binding between a geo feature and the cartographically positioned location for text.</S100FC:definition>
-			<S100FC:code>TextAssociation</S100FC:code>
-			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>9000014</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
-			<S100FC:role ref="identifies" />
-			<S100FC:role ref="positions" />
 		</S100FC:S100_FC_FeatureAssociation>
 		<S100FC:S100_FC_FeatureAssociation isAbstract="false">
 			<S100FC:name>Traffic Separation Scheme aggregation</S100FC:name>
