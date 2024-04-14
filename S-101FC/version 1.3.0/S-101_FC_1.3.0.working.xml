@@ -676,24 +676,6 @@
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Telephone</S100FC:label>
-					<S100FC:definition>A cable that transmits telephone signals.</S100FC:definition>
-					<S100FC:code>4</S100FC:code>
-					<S100FC:definitionReference>
-						<S100FC:sourceIdentifier>61</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
-				</S100FC:listedValue>
-				<S100FC:listedValue>
-					<S100FC:label>Telegraph</S100FC:label>
-					<S100FC:definition>An apparatus, system or process for communication at a distance by electric transmission over wire.</S100FC:definition>
-					<S100FC:code>5</S100FC:code>
-					<S100FC:definitionReference>
-						<S100FC:sourceIdentifier>62</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
-				</S100FC:listedValue>
-				<S100FC:listedValue>
 					<S100FC:label>Mooring Cable</S100FC:label>
 					<S100FC:definition>A chain or very strong fibre or wire rope used to anchor or moor vessels or buoys.</S100FC:definition>
 					<S100FC:code>6</S100FC:code>
