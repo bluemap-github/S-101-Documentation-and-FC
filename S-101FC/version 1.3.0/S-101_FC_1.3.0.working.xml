@@ -17612,9 +17612,10 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="BridgeAggregation" />
-				<S100FC:role ref="consistsOf" />
+				<S100FC:role ref="theComponent" />
 				<S100FC:featureType ref="SpanFixed" />
 				<S100FC:featureType ref="SpanOpening" />
+				<S100FC:featureType ref="Pontoon" />
 				<S100FC:featureType ref="PylonBridgeSupport" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -17764,7 +17765,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="BridgeAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="Bridge" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -17911,7 +17912,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="BridgeAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="Bridge" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -18872,7 +18873,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="BridgeAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="Bridge" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -24266,6 +24267,15 @@
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="aggregation">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="BridgeAggregation" />
+				<S100FC:role ref="theCollection" />
+				<S100FC:featureType ref="Bridge" />
+			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
@@ -31443,7 +31453,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="ASLAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -31534,7 +31544,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="ASLAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
