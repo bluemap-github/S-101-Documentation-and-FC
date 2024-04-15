@@ -31647,7 +31647,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="ASLAggregation" />
-				<S100FC:role ref="consistsOf" />
+				<S100FC:role ref="theComponent" />
 				<S100FC:featureType ref="ArchipelagicSeaLaneArea" />
 				<S100FC:featureType ref="ArchipelagicSeaLaneAxis" />
 			</S100FC:featureBinding>
