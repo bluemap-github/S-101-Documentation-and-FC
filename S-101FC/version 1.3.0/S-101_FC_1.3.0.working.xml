@@ -15137,13 +15137,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -15279,13 +15279,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -15377,13 +15377,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -15458,13 +15458,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -15539,13 +15539,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -15610,13 +15610,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -15678,13 +15678,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -15758,13 +15758,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -15836,13 +15836,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -15960,13 +15960,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -16078,13 +16078,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -16211,13 +16211,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -16339,13 +16339,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -16471,13 +16471,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -16531,13 +16531,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -16666,13 +16666,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -17018,13 +17018,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -17144,13 +17144,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -17268,13 +17268,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -17387,13 +17387,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -17667,13 +17667,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -18245,13 +18245,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -18440,13 +18440,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -18660,13 +18660,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -18926,6 +18926,15 @@
 				<S100FC:featureType ref="TrafficSeparationScheme" />
 				<S100FC:featureType ref="TwoWayRoute" />
 			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="composition">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="TextAssociation" />
+				<S100FC:role ref="theCartographicText" />
+				<S100FC:featureType ref="TextPlacement" />
+			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
@@ -19123,13 +19132,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -19225,13 +19234,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -19347,13 +19356,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -19488,13 +19497,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -19857,13 +19866,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -20155,13 +20164,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -20448,13 +20457,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -20662,13 +20671,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -20866,13 +20875,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -20956,13 +20965,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -21180,13 +21189,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -21427,13 +21436,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -21566,13 +21575,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -21859,13 +21868,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -22257,13 +22266,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -22387,13 +22396,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -22514,13 +22523,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -22697,13 +22706,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -22904,13 +22913,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -23176,13 +23185,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -23348,13 +23357,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -23614,13 +23623,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -23748,13 +23757,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -23919,13 +23928,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -24164,13 +24173,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -24341,13 +24350,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -24486,13 +24495,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -24609,13 +24618,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -24724,13 +24733,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -24804,13 +24813,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -24930,13 +24939,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -25025,13 +25034,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -25126,13 +25135,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -25200,13 +25209,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -25284,13 +25293,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -25401,13 +25410,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>pointSet</S100FC:permittedPrimitives>
@@ -25564,13 +25573,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -25640,13 +25649,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -25926,13 +25935,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -26000,13 +26009,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -26061,13 +26070,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -26178,13 +26187,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -26350,13 +26359,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -26583,13 +26592,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -26865,13 +26874,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -27001,13 +27010,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -27210,13 +27219,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -27450,13 +27459,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -27707,13 +27716,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -27831,13 +27840,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -27961,13 +27970,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -28164,13 +28173,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -28310,13 +28319,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -28535,13 +28544,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -28837,13 +28846,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -28972,13 +28981,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -29196,13 +29205,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -29338,13 +29347,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -29525,13 +29534,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -29832,13 +29841,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -30100,13 +30109,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -30321,13 +30330,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -30455,13 +30464,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -30719,13 +30728,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -31410,13 +31419,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -31501,13 +31510,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -31592,13 +31601,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -31715,13 +31724,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -31847,13 +31856,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -31960,13 +31969,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -32050,13 +32059,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -32145,13 +32154,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -32273,13 +32282,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -32449,13 +32458,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -32607,13 +32616,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -32754,13 +32763,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -32886,13 +32895,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -33021,13 +33030,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -33177,13 +33186,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -33272,13 +33281,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -33404,13 +33413,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -33609,13 +33618,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -33743,13 +33752,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -33936,13 +33945,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -34063,13 +34072,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -34136,13 +34145,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -34211,13 +34220,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -34293,13 +34302,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -34406,13 +34415,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -34655,13 +34664,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -34730,13 +34739,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -34810,13 +34819,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -34876,13 +34885,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -35065,13 +35074,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -35400,13 +35409,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -35675,13 +35684,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -35903,13 +35912,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -36132,13 +36141,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -36391,13 +36400,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -36650,13 +36659,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -36896,13 +36905,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -37142,13 +37151,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -37455,13 +37464,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -37666,13 +37675,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -37898,13 +37907,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -38135,13 +38144,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -38451,13 +38460,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -38767,13 +38776,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -39070,13 +39079,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -39373,13 +39382,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -39743,13 +39752,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -40138,13 +40147,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -40382,13 +40391,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -40619,13 +40628,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -41096,13 +41105,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -41247,13 +41256,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -41375,13 +41384,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -41516,13 +41525,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -41709,13 +41718,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -41868,13 +41877,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -41931,13 +41940,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -42037,13 +42046,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -42208,13 +42217,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -42375,13 +42384,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -42494,13 +42503,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -42732,13 +42741,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -42872,13 +42881,13 @@
 				<S100FC:role ref="updates" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
+			<S100FC:featureBinding roleType="composition">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="positions" />
+				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
