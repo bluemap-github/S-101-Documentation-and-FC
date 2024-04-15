@@ -22466,7 +22466,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
@@ -23729,7 +23729,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Dolphin" />
 				<S100FC:featureType ref="FortifiedStructure" />
 				<S100FC:featureType ref="Hulk" />
@@ -35326,7 +35326,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
@@ -35614,7 +35614,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
@@ -35853,7 +35853,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
@@ -36109,7 +36109,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
@@ -40060,7 +40060,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
@@ -40746,7 +40746,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
@@ -40878,7 +40878,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="CableOverhead" />
 				<S100FC:featureType ref="PipelineOverhead" />
 			</S100FC:featureBinding>
@@ -41046,7 +41046,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
@@ -41199,7 +41199,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
@@ -41659,7 +41659,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
@@ -42160,7 +42160,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
@@ -42327,7 +42327,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supportedBy" />
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Bridge" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Crane" />
