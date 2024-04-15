@@ -23318,7 +23318,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="MooringTrotAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="MooringTrot" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -24771,7 +24771,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="MooringTrotAggregation" />
-				<S100FC:role ref="consistsOf" />
+				<S100FC:role ref="theComponent" />
 				<S100FC:featureType ref="Berth" />
 				<S100FC:featureType ref="CableSubmarine" />
 				<S100FC:featureType ref="MooringBuoy" />
@@ -26835,7 +26835,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="MooringTrotAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="MooringTrot" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -27801,7 +27801,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="MooringTrotAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="MooringTrot" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -38096,7 +38096,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="MooringTrotAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="MooringTrot" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
