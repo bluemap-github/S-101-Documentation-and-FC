@@ -15054,7 +15054,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -15124,7 +15124,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -15266,7 +15266,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -15355,7 +15355,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -15426,7 +15426,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -15517,7 +15517,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -15588,7 +15588,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -15656,7 +15656,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -15736,7 +15736,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -15814,7 +15814,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -15937,7 +15937,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -16056,7 +16056,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -16189,7 +16189,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -16317,7 +16317,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -16449,7 +16449,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -16509,7 +16509,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -16644,7 +16644,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -16952,7 +16952,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -17119,7 +17119,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -17243,7 +17243,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -17362,7 +17362,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -17599,7 +17599,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -17751,7 +17751,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -17898,7 +17898,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -18188,7 +18188,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -18407,7 +18407,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -18605,7 +18605,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -18862,7 +18862,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -19091,7 +19091,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -19192,7 +19192,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -19315,7 +19315,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -19455,7 +19455,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -19771,7 +19771,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -20082,7 +20082,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -20383,7 +20383,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -20589,7 +20589,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -20831,7 +20831,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -20921,7 +20921,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -21118,7 +21118,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -21344,7 +21344,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -21534,7 +21534,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -21796,7 +21796,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -22205,7 +22205,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -22335,7 +22335,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -22417,7 +22417,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -22642,7 +22642,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -22852,7 +22852,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -23089,7 +23089,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -23284,7 +23284,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -23520,7 +23520,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -23680,7 +23680,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -23864,7 +23864,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -24080,7 +24080,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -24251,7 +24251,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -24422,7 +24422,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -24548,7 +24548,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -24660,7 +24660,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -24730,7 +24730,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -24869,7 +24869,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -24964,7 +24964,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25065,7 +25065,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25139,7 +25139,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25223,7 +25223,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25340,7 +25340,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25494,7 +25494,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25570,7 +25570,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25641,7 +25641,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25693,7 +25693,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25757,7 +25757,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25794,7 +25794,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25865,7 +25865,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -25939,7 +25939,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -26000,7 +26000,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -26064,7 +26064,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -26117,7 +26117,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -26289,7 +26289,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -26503,7 +26503,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -26795,7 +26795,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -26940,7 +26940,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -27001,7 +27001,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -27117,7 +27117,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -27388,7 +27388,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -27612,7 +27612,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -27760,7 +27760,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -27899,7 +27899,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -28102,7 +28102,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -28248,7 +28248,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -28473,7 +28473,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -28590,7 +28590,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -28767,7 +28767,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -28866,7 +28866,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -29087,7 +29087,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -29215,7 +29215,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -29436,7 +29436,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -29609,7 +29609,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -29699,7 +29699,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -29848,7 +29848,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -30010,7 +30010,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -30231,7 +30231,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -30331,7 +30331,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -30505,7 +30505,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -30638,7 +30638,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -30776,7 +30776,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -30855,7 +30855,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -30936,7 +30936,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -31055,7 +31055,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -31175,7 +31175,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -31263,7 +31263,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -31419,7 +31419,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -31510,7 +31510,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -31600,7 +31600,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -31771,7 +31771,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -31887,7 +31887,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -31977,7 +31977,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -32072,7 +32072,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -32200,7 +32200,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -32373,7 +32373,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -32531,7 +32531,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -32678,7 +32678,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -32810,7 +32810,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -32948,7 +32948,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -33104,7 +33104,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -33198,7 +33198,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -33331,7 +33331,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -33437,7 +33437,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -33536,7 +33536,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -33611,7 +33611,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -33670,7 +33670,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -33731,7 +33731,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -33789,7 +33789,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -33863,7 +33863,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -33990,7 +33990,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -34063,7 +34063,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -34137,7 +34137,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -34220,7 +34220,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -34333,7 +34333,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -34393,7 +34393,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -34483,7 +34483,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -34582,7 +34582,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -34648,7 +34648,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -34737,7 +34737,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -34803,7 +34803,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -34974,7 +34974,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -35255,7 +35255,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -35528,7 +35528,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -35783,7 +35783,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -36039,7 +36039,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -36277,7 +36277,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -36536,7 +36536,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -36782,7 +36782,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -37028,7 +37028,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -37341,7 +37341,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -37561,7 +37561,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -37806,7 +37806,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -38022,7 +38022,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -38327,7 +38327,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -38643,7 +38643,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -38946,7 +38946,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -39249,7 +39249,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -39619,7 +39619,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -39971,7 +39971,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -40268,7 +40268,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -40505,7 +40505,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -40676,7 +40676,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -40808,7 +40808,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -40975,7 +40975,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -41129,7 +41129,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -41302,7 +41302,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -41443,7 +41443,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -41589,7 +41589,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -41785,7 +41785,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -41857,7 +41857,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -41961,7 +41961,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 				<S100FC:informationType ref="NonStandardWorkingDay" />
@@ -42090,7 +42090,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -42257,7 +42257,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
@@ -42420,7 +42420,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -42658,7 +42658,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
@@ -42798,7 +42798,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
-				<S100FC:role ref="providesInformation" />
+				<S100FC:role ref="theInformation" />
 				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
