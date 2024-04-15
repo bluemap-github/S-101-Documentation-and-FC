@@ -16985,7 +16985,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
@@ -17643,7 +17643,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
 				<S100FC:featureType ref="TwoWayRoute" />
@@ -17793,7 +17793,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
 				<S100FC:featureType ref="TwoWayRoute" />
@@ -17940,7 +17940,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
 				<S100FC:featureType ref="TwoWayRoute" />
@@ -18221,7 +18221,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
 				<S100FC:featureType ref="TwoWayRoute" />
@@ -18636,7 +18636,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
 				<S100FC:featureType ref="TwoWayRoute" />
@@ -18902,7 +18902,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
 				<S100FC:featureType ref="TwoWayRoute" />
@@ -19805,7 +19805,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
@@ -20112,7 +20112,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
@@ -20414,7 +20414,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
@@ -20619,7 +20619,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
@@ -21147,7 +21147,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
 				<S100FC:featureType ref="TwoWayRoute" />
@@ -21374,7 +21374,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -21826,7 +21826,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
 				<S100FC:featureType ref="TwoWayRoute" />
@@ -22102,6 +22102,17 @@
 				<S100FC:attribute ref="pictorialRepresentation" />
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="aggregation">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="AidsToNavigationAssociation" />
+				<S100FC:role ref="theCollection" />
+				<S100FC:featureType ref="FairwaySystem" />
+				<S100FC:featureType ref="TrafficSeparationScheme" />
+				<S100FC:featureType ref="TwoWayRoute" />
+			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -23122,7 +23133,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
@@ -23551,7 +23562,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
@@ -24111,7 +24122,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
 				<S100FC:featureType ref="TwoWayRoute" />
@@ -24279,7 +24290,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
 				<S100FC:featureType ref="TwoWayRoute" />
@@ -27147,7 +27158,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
@@ -27644,7 +27655,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
@@ -36309,7 +36320,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -36568,7 +36579,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -36814,7 +36825,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -37060,7 +37071,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -37373,7 +37384,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -37575,7 +37586,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -38036,7 +38047,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
 				<S100FC:featureType ref="TrafficSeparationScheme" />
@@ -38360,7 +38371,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -38676,7 +38687,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -38979,7 +38990,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -39282,7 +39293,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -39652,7 +39663,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -40047,7 +40058,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -40300,7 +40311,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
@@ -40537,7 +40548,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="ArchipelagicSeaLane" />
 				<S100FC:featureType ref="DeepWaterRoute" />
 				<S100FC:featureType ref="FairwaySystem" />
