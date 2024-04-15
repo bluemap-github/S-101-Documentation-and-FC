@@ -28699,6 +28699,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -28824,6 +28825,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -29004,6 +29006,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -29139,6 +29142,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -29355,6 +29359,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -29512,6 +29517,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -29691,6 +29697,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -29847,6 +29854,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -29985,6 +29993,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -30092,6 +30101,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -30273,6 +30283,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -30487,6 +30498,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -30607,6 +30619,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -30742,6 +30755,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -30872,6 +30886,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -30998,6 +31013,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -31079,6 +31095,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -31159,6 +31176,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -31279,6 +31297,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -31412,6 +31431,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -31578,6 +31598,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -31669,6 +31690,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -31759,6 +31781,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -31894,6 +31917,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -32028,6 +32052,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -32122,6 +32147,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -32225,6 +32251,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -32338,6 +32365,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -35292,6 +35320,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -35612,6 +35641,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -35866,6 +35896,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -36102,6 +36133,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -36370,6 +36402,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -36629,6 +36662,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -36875,6 +36909,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -37121,6 +37156,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -37434,6 +37470,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -37676,6 +37713,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -37902,6 +37940,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -38121,6 +38160,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -38391,6 +38431,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -38714,6 +38755,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -39017,6 +39059,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -39320,6 +39363,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -39690,6 +39734,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -40032,6 +40077,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -40360,6 +40406,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -40605,6 +40652,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -40826,6 +40874,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -40958,6 +41007,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -41071,6 +41121,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -41272,6 +41323,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -41424,6 +41476,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -41590,6 +41643,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
@@ -41701,6 +41755,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="interoperabilityIdentifier" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
