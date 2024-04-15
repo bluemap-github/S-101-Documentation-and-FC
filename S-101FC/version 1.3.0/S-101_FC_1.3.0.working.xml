@@ -14259,6 +14259,15 @@
 				<S100FC:attribute ref="information" />
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdatedInformation" />
+				<S100FC:role ref="theUpdate" />
+				<S100FC:featureType ref="UpdateInformation" />
+			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -14338,6 +14347,15 @@
 				<S100FC:attribute ref="information" />
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdatedInformation" />
+				<S100FC:role ref="theUpdate" />
+				<S100FC:featureType ref="UpdateInformation" />
+			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -14384,6 +14402,15 @@
 				<S100FC:attribute ref="information" />
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdatedInformation" />
+				<S100FC:role ref="theUpdate" />
+				<S100FC:featureType ref="UpdateInformation" />
+			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -14480,6 +14507,15 @@
 				<S100FC:informationType ref="SpatialQuality" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdatedInformation" />
+				<S100FC:role ref="theUpdate" />
+				<S100FC:featureType ref="UpdateInformation" />
+			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -14531,6 +14567,15 @@
 				<S100FC:attribute ref="information" />
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdatedInformation" />
+				<S100FC:role ref="theUpdate" />
+				<S100FC:featureType ref="UpdateInformation" />
+			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -14574,6 +14619,15 @@
 				<S100FC:attribute ref="information" />
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdatedInformation" />
+				<S100FC:role ref="theUpdate" />
+				<S100FC:featureType ref="UpdateInformation" />
+			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
@@ -14751,6 +14805,15 @@
 				<S100FC:attribute ref="information" />
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdatedInformation" />
+				<S100FC:role ref="theUpdate" />
+				<S100FC:featureType ref="UpdateInformation" />
+			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
@@ -14813,11 +14876,29 @@
 			<S100FC:featureUseType>meta</S100FC:featureUseType>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
+					<S100Base:lower>2</S100Base:lower>
+					<S100Base:upper xsi:nil="true" infinite="true" />
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdateAggregation" />
+				<S100FC:role ref="theComponent" />
+				<S100FC:featureType ref="UpdateInformation" />
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="aggregation">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdateAggregation" />
+				<S100FC:role ref="theCollection" />
+				<S100FC:featureType ref="UpdateInformation" />
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="identifies" />
+				<S100FC:role ref="theUpdatedObject" />
 				<S100FC:featureType ref="AdministrationArea" />
 				<S100FC:featureType ref="AirportAirfield" />
 				<S100FC:featureType ref="AnchorBerth" />
@@ -14905,6 +14986,7 @@
 				<S100FC:featureType ref="LightFogDetector" />
 				<S100FC:featureType ref="LightSectored" />
 				<S100FC:featureType ref="LightVessel" />
+				<S100FC:featureType ref="LocalDirectionOfBuoyage" />
 				<S100FC:featureType ref="LocalMagneticAnomaly" />
 				<S100FC:featureType ref="LockBasin" />
 				<S100FC:featureType ref="LogPond" />
@@ -14916,6 +14998,7 @@
 				<S100FC:featureType ref="MooringBuoy" />
 				<S100FC:featureType ref="MooringTrot" />
 				<S100FC:featureType ref="NavigationLine" />
+				<S100FC:featureType ref="NavigationalSystemOfMarks" />
 				<S100FC:featureType ref="Obstruction" />
 				<S100FC:featureType ref="OffshorePlatform" />
 				<S100FC:featureType ref="OffshoreProductionArea" />
@@ -14930,6 +15013,9 @@
 				<S100FC:featureType ref="PrecautionaryArea" />
 				<S100FC:featureType ref="ProductionStorageArea" />
 				<S100FC:featureType ref="PylonBridgeSupport" />
+				<S100FC:featureType ref="QualityOfBathymetricData" />
+				<S100FC:featureType ref="QualityOfNonBathymetricData" />
+				<S100FC:featureType ref="QualityOfSurvey" />
 				<S100FC:featureType ref="RadarLine" />
 				<S100FC:featureType ref="RadarRange" />
 				<S100FC:featureType ref="RadarReflector" />
@@ -14965,6 +15051,7 @@
 				<S100FC:featureType ref="SlopeTopline" />
 				<S100FC:featureType ref="SlopingGround" />
 				<S100FC:featureType ref="Sounding" />
+				<S100FC:featureType ref="SoundingDatum" />
 				<S100FC:featureType ref="SpanFixed" />
 				<S100FC:featureType ref="SpanOpening" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBeacon" />
@@ -14988,7 +15075,9 @@
 				<S100FC:featureType ref="TwoWayRoutePart" />
 				<S100FC:featureType ref="UnderwaterAwashRock" />
 				<S100FC:featureType ref="UnsurveyedArea" />
+				<S100FC:featureType ref="UpdateInformation" />
 				<S100FC:featureType ref="Vegetation" />
+				<S100FC:featureType ref="VerticalDatumOfData" />
 				<S100FC:featureType ref="VesselTrafficServiceArea" />
 				<S100FC:featureType ref="VirtualAISAidToNavigation" />
 				<S100FC:featureType ref="WaterTurbulence" />
@@ -14996,6 +15085,15 @@
 				<S100FC:featureType ref="WeedKelp" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="association">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="UpdatedInformation" />
+				<S100FC:role ref="theUpdate" />
+				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -15064,7 +15162,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -15134,7 +15232,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -15276,7 +15374,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -15374,7 +15472,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -15455,7 +15553,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -15536,7 +15634,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -15607,7 +15705,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -15675,7 +15773,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -15755,7 +15853,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -15833,7 +15931,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -15957,7 +16055,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -16075,7 +16173,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -16208,7 +16306,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -16336,7 +16434,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -16468,7 +16566,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -16528,7 +16626,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -16663,7 +16761,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -17015,7 +17113,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -17141,7 +17239,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -17265,7 +17363,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -17384,7 +17482,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -17664,7 +17762,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -17814,7 +17912,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -17961,7 +18059,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -18242,7 +18340,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -18437,7 +18535,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -18657,7 +18755,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -18941,7 +19039,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -19129,7 +19227,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -19231,7 +19329,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -19353,7 +19451,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -19494,7 +19592,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -19863,7 +19961,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -20161,7 +20259,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -20454,7 +20552,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -20668,7 +20766,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -20872,7 +20970,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -20962,7 +21060,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -21186,7 +21284,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -21433,7 +21531,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -21572,7 +21670,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -21865,7 +21963,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -22087,7 +22185,7 @@
 					<S100FC:value>30</S100FC:value>
 					<S100FC:value>44</S100FC:value>
 				</S100FC:permittedValues>
-				<S100FC:attribute ref="verticalDataum" />
+				<S100FC:attribute ref="verticalDatum" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
@@ -22106,7 +22204,7 @@
 					<S100FC:value>2</S100FC:value>
 					<S100FC:value>3</S100FC:value>
 				</S100FC:permittedValues>
-				<S100FC:attribute ref="visualProminense" />
+				<S100FC:attribute ref="visualProminence" />
 			</S100FC:attributeBinding>
 			<S100FC:attributeBinding sequential="false">
 				<S100FC:multiplicity>
@@ -22263,7 +22361,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -22393,7 +22491,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -22520,7 +22618,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -22703,7 +22801,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -22910,7 +23008,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -23182,7 +23280,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -23354,7 +23452,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -23620,7 +23718,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -23754,7 +23852,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -23925,7 +24023,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -24170,7 +24268,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -24347,7 +24445,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -24492,7 +24590,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -24615,7 +24713,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -24730,7 +24828,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -24810,7 +24908,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -24936,7 +25034,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -25031,7 +25129,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -25132,7 +25230,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -25206,7 +25304,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -25290,7 +25388,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -25407,7 +25505,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -25570,7 +25668,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -25646,7 +25744,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -25708,7 +25806,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -25760,7 +25858,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -25824,7 +25922,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>pointSet</S100FC:permittedPrimitives>
@@ -25861,7 +25959,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -25932,7 +26030,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -26006,7 +26104,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -26067,7 +26165,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -26131,7 +26229,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -26184,7 +26282,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -26356,7 +26454,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -26589,7 +26687,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -26871,7 +26969,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -27007,7 +27105,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -27068,7 +27166,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -27216,7 +27314,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -27456,7 +27554,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -27713,7 +27811,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -27837,7 +27935,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -27967,7 +28065,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -28170,7 +28268,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -28316,7 +28414,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -28541,7 +28639,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -28666,7 +28764,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -28843,7 +28941,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -28978,7 +29076,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -29202,7 +29300,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -29344,7 +29442,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -29531,7 +29629,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -29704,7 +29802,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -29838,7 +29936,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -29926,7 +30024,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -30106,7 +30204,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -30327,7 +30425,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -30461,7 +30559,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -30592,7 +30690,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -30725,7 +30823,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -30863,7 +30961,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -30942,7 +31040,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -31023,7 +31121,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -31142,7 +31240,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -31262,7 +31360,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -31425,7 +31523,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -31516,7 +31614,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -31607,7 +31705,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -31730,7 +31828,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -31862,7 +31960,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -31975,7 +32073,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -32065,7 +32163,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -32160,7 +32258,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -32288,7 +32386,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -32464,7 +32562,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -32622,7 +32720,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -32769,7 +32867,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -32901,7 +32999,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -33036,7 +33134,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -33192,7 +33290,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -33287,7 +33385,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -33419,7 +33517,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -33544,7 +33642,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -33624,7 +33722,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -33699,7 +33797,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -33758,7 +33856,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -33819,7 +33917,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
@@ -33877,7 +33975,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -33951,7 +34049,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -34078,7 +34176,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -34151,7 +34249,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -34226,7 +34324,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -34308,7 +34406,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -34421,7 +34519,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -34481,7 +34579,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -34571,7 +34669,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -34670,7 +34768,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -34745,7 +34843,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -34825,7 +34923,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -34891,7 +34989,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -35080,7 +35178,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -35415,7 +35513,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -35611,13 +35709,13 @@
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="FogSignal" />
 				<S100FC:featureType ref="LightAirObstruction" />
 				<S100FC:featureType ref="LightAllAround" />
@@ -35690,7 +35788,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -35918,7 +36016,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -36147,7 +36245,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -36406,7 +36504,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -36665,7 +36763,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -36911,7 +37009,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -37157,7 +37255,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -37470,7 +37568,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -37681,7 +37779,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -37913,7 +38011,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -38150,7 +38248,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -38466,7 +38564,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -38782,7 +38880,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -39085,7 +39183,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -39388,7 +39486,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -39758,7 +39856,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -40153,7 +40251,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -40397,7 +40495,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -40634,7 +40732,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -40811,7 +40909,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -40906,7 +41004,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
@@ -41111,7 +41209,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -41262,7 +41360,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -41390,7 +41488,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -41531,7 +41629,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -41724,7 +41822,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -41883,7 +41981,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -41946,7 +42044,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -42052,7 +42150,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -42223,7 +42321,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -42390,7 +42488,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -42509,7 +42607,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -42747,7 +42845,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
@@ -42887,7 +42985,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="UpdatedInformation" />
-				<S100FC:role ref="updates" />
+				<S100FC:role ref="theUpdate" />
 				<S100FC:featureType ref="UpdateInformation" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="composition">
