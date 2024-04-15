@@ -16974,7 +16974,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -17633,7 +17633,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -17783,7 +17783,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -17930,7 +17930,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -18211,7 +18211,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -18428,7 +18428,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="RadarReflector" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -18626,7 +18626,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -18900,7 +18900,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -19803,7 +19803,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -20112,7 +20112,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -20413,7 +20413,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -20618,7 +20618,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -21147,7 +21147,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -21373,7 +21373,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -21825,7 +21825,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -23141,7 +23141,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -23570,7 +23570,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -24132,7 +24132,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -24309,7 +24309,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -26561,7 +26561,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -27176,7 +27176,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -27671,7 +27671,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -35373,7 +35373,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="FogSignal" />
 				<S100FC:featureType ref="LightAirObstruction" />
 				<S100FC:featureType ref="LightAllAround" />
@@ -35648,7 +35648,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="FogSignal" />
 				<S100FC:featureType ref="LightAirObstruction" />
 				<S100FC:featureType ref="LightAllAround" />
@@ -36348,7 +36348,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -36607,7 +36607,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -36853,7 +36853,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -37099,7 +37099,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -37412,7 +37412,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -37645,7 +37645,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -37877,7 +37877,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -38105,7 +38105,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -38398,7 +38398,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -38714,7 +38714,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -39017,7 +39017,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -39320,7 +39320,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -39690,7 +39690,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -40042,7 +40042,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
 				<S100FC:featureType ref="LightAllAround" />
@@ -40339,7 +40339,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
@@ -40576,7 +40576,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="supports" />
+				<S100FC:role ref="theEquipment" />
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
