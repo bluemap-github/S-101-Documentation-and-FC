@@ -29225,7 +29225,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
+				<S100FC:role ref="theComponent" />
 				<S100FC:featureType ref="CardinalBeacon" />
 				<S100FC:featureType ref="CardinalBuoy" />
 				<S100FC:featureType ref="Daymark" />
@@ -29261,6 +29261,7 @@
 				<S100FC:featureType ref="ShorelineConstruction" />
 				<S100FC:featureType ref="SpanFixed" />
 				<S100FC:featureType ref="SpanOpening" />
+				<S100FC:featureType ref="StructureOverNavigableWater" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -29709,7 +29710,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
+				<S100FC:role ref="theComponent" />
 				<S100FC:featureType ref="CardinalBeacon" />
 				<S100FC:featureType ref="CardinalBuoy" />
 				<S100FC:featureType ref="Daymark" />
@@ -29745,6 +29746,7 @@
 				<S100FC:featureType ref="ShorelineConstruction" />
 				<S100FC:featureType ref="SpanFixed" />
 				<S100FC:featureType ref="SpanOpening" />
+				<S100FC:featureType ref="StructureOverNavigableWater" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -30341,7 +30343,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
+				<S100FC:role ref="theComponent" />
 				<S100FC:featureType ref="CardinalBeacon" />
 				<S100FC:featureType ref="CardinalBuoy" />
 				<S100FC:featureType ref="Daymark" />
@@ -31273,7 +31275,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
+				<S100FC:role ref="theComponent" />
 				<S100FC:featureType ref="CardinalBeacon" />
 				<S100FC:featureType ref="CardinalBuoy" />
 				<S100FC:featureType ref="Daymark" />
@@ -31309,6 +31311,7 @@
 				<S100FC:featureType ref="ShorelineConstruction" />
 				<S100FC:featureType ref="SpanFixed" />
 				<S100FC:featureType ref="SpanOpening" />
+				<S100FC:featureType ref="StructureOverNavigableWater" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
@@ -31610,7 +31613,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="AidsToNavigationAssociation" />
-				<S100FC:role ref="consistsOf" />
+				<S100FC:role ref="theComponent" />
 				<S100FC:featureType ref="CardinalBeacon" />
 				<S100FC:featureType ref="CardinalBuoy" />
 				<S100FC:featureType ref="Daymark" />
