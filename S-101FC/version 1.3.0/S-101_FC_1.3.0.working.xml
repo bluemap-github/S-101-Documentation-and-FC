@@ -42939,13 +42939,13 @@
 				<S100FC:attribute ref="scaleMinimum" />
 			</S100FC:attributeBinding>
 			<S100FC:featureUseType>cartographic</S100FC:featureUseType>
-			<S100FC:featureBinding roleType="composition">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TextAssociation" />
-				<S100FC:role ref="identifies" />
+				<S100FC:role ref="thePositionProvider" />
 				<S100FC:featureType ref="AdministrationArea" />
 				<S100FC:featureType ref="AirportAirfield" />
 				<S100FC:featureType ref="AnchorBerth" />
@@ -43082,6 +43082,7 @@
 				<S100FC:featureType ref="Spring" />
 				<S100FC:featureType ref="SubmarinePipelineArea" />
 				<S100FC:featureType ref="SubmarineTransitLane" />
+				<S100FC:featureType ref="SweptArea" />
 				<S100FC:featureType ref="TidalStreamFloodEbb" />
 				<S100FC:featureType ref="TidalStreamPanelData" />
 				<S100FC:featureType ref="Tideway" />
