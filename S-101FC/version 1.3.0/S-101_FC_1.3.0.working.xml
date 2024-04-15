@@ -26449,6 +26449,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="surroundingDepth" />
 			</S100FC:attributeBinding>
 			<S100FC:informationBinding roleType="association">
@@ -26664,6 +26665,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="surroundingDepth" />
 			</S100FC:attributeBinding>
 			<S100FC:informationBinding roleType="association">
@@ -26957,6 +26959,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="surroundingDepth" />
 			</S100FC:attributeBinding>
 			<S100FC:informationBinding roleType="association">
@@ -27551,6 +27554,7 @@
 					<S100Base:lower>0</S100Base:lower>
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
+				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="surroundingDepth" />
 			</S100FC:attributeBinding>
 			<S100FC:informationBinding roleType="association">
