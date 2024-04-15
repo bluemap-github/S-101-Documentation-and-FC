@@ -29686,7 +29686,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="TwoWayRouteAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="TwoWayRoute" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -29814,13 +29814,13 @@
 				<S100FC:featureType ref="SpanOpening" />
 				<S100FC:featureType ref="StructureOverNavigableWater" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="aggregation">
+			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>1</S100Base:lower>
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="TwoWayRouteAggregation" />
-				<S100FC:role ref="consistsOf" />
+				<S100FC:role ref="theComponent" />
 				<S100FC:featureType ref="TwoWayRoutePart" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
