@@ -19827,7 +19827,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -21397,7 +21397,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -25525,7 +25525,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -25601,7 +25601,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -28825,7 +28825,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -28924,7 +28924,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -29127,7 +29127,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="hasAuxiliary" />
+				<S100FC:role ref="theAuxiliaryFeature" />
 				<S100FC:featureType ref="CardinalBeacon" />
 				<S100FC:featureType ref="CardinalBuoy" />
 				<S100FC:featureType ref="CautionArea" />
@@ -29477,7 +29477,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -33481,7 +33481,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -35008,7 +35008,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -36343,7 +36343,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -36602,7 +36602,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -36848,7 +36848,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -37094,7 +37094,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -37407,7 +37407,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -38403,7 +38403,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -38719,7 +38719,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -39022,7 +39022,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -39325,7 +39325,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -39695,7 +39695,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -40090,7 +40090,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -40334,7 +40334,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -40571,7 +40571,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="FairwayAuxiliary" />
-				<S100FC:role ref="auxiliaryTo" />
+				<S100FC:role ref="thePrimaryFeature" />
 				<S100FC:featureType ref="Fairway" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
