@@ -17006,7 +17006,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -19827,7 +19827,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -20134,7 +20134,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -20641,7 +20641,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -21397,7 +21397,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -23584,7 +23584,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -28630,7 +28630,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -28807,7 +28807,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -28906,7 +28906,7 @@
 					<S100Base:upper xsi:nil="true" infinite="true" />
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="consistsOf" />
+				<S100FC:role ref="theComponent" />
 				<S100FC:featureType ref="CardinalBeacon" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Daymark" />
@@ -28926,6 +28926,15 @@
 				<S100FC:featureType ref="SafeWaterBeacon" />
 				<S100FC:featureType ref="SiloTank" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBeacon" />
+			</S100FC:featureBinding>
+			<S100FC:featureBinding roleType="aggregation">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="RangeSystemAggregation" />
+				<S100FC:role ref="theCollection" />
+				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
@@ -29477,7 +29486,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -35361,7 +35370,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -35636,7 +35645,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
@@ -38403,7 +38412,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -38719,7 +38728,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -39022,7 +39031,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -39325,7 +39334,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -39695,7 +39704,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -40090,7 +40099,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
@@ -41697,7 +41706,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RangeSystemAggregation" />
-				<S100FC:role ref="componentOf" />
+				<S100FC:role ref="theCollection" />
 				<S100FC:featureType ref="RangeSystem" />
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
