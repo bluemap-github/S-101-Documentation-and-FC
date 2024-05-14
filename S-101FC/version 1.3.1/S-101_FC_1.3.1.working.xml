@@ -8524,7 +8524,7 @@
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Maximum Permitted Vessel Length</S100FC:name>
-			<S100FC:definition>The maximum draught of a vessel permitted in a channel or dock, at a berth, or at an anchorage or mooring.</S100FC:definition>
+			<S100FC:definition>The maximum length of a vessel permitted in a channel or dock, at a berth, or at an anchorage or mooring.</S100FC:definition>
 			<S100FC:code>maximumPermittedVesselLength</S100FC:code>
 			<S100FC:valueType>real</S100FC:valueType>
 			<S100FC:uom>
