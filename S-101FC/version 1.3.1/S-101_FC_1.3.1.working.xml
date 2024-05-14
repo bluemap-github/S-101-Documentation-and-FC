@@ -35810,21 +35810,6 @@
 				<S100FC:featureType ref="LightSectored" />
 				<S100FC:featureType ref="Daymark" />
 			</S100FC:featureBinding>
-			<S100FC:featureBinding roleType="association">
-				<S100FC:multiplicity>
-					<S100Base:lower>0</S100Base:lower>
-					<S100Base:upper xsi:nil="true" infinite="true" />
-				</S100FC:multiplicity>
-				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="theEquipment" />
-				<S100FC:featureType ref="FogSignal" />
-				<S100FC:featureType ref="LightAirObstruction" />
-				<S100FC:featureType ref="LightAllAround" />
-				<S100FC:featureType ref="LightFogDetector" />
-				<S100FC:featureType ref="LightSectored" />
-				<S100FC:featureType ref="RadarTransponderBeacon" />
-				<S100FC:featureType ref="Retroreflector" />
-			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="aggregation">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
