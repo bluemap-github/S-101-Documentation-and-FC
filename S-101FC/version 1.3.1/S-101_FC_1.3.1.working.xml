@@ -8551,7 +8551,7 @@
 				<S100FC:sourceIdentifier>855</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
-			<S100FC:valueType>real</S100FC:valueType>
+			<S100FC:valueType>integer</S100FC:valueType>
 			<S100FC:uom>
 				<S100Base:name>metre</S100Base:name>
 				<S100Base:symbol>m</S100Base:symbol>
@@ -8566,7 +8566,7 @@
 				<S100FC:sourceIdentifier>856</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
-			<S100FC:valueType>real</S100FC:valueType>
+			<S100FC:valueType>integer</S100FC:valueType>
 			<S100FC:uom>
 				<S100Base:name>metre</S100Base:name>
 				<S100Base:symbol>m</S100Base:symbol>
