@@ -17760,7 +17760,6 @@
 					<S100FC:value>3</S100FC:value>
 					<S100FC:value>4</S100FC:value>
 					<S100FC:value>5</S100FC:value>
-					<S100FC:value>6</S100FC:value>
 					<S100FC:value>7</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="categoryOfOpeningBridge" />
