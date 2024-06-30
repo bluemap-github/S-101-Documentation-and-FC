@@ -12456,7 +12456,6 @@
 			<S100FC:definition>The best estimate of the accuracy of a position.</S100FC:definition>
 			<S100FC:code>horizontalPositionUncertainty</S100FC:code>
 			<S100FC:remarks>The expected input is the maximum of the two-dimensional error. The error is assumed to be positive and negative.</S100FC:remarks>
-			<S100FC:alias>POSACC</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>233</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -13594,6 +13593,7 @@
 			<S100FC:definition>The best estimate of the vertical accuracy of depths, heights, vertical distances and vertical clearances.</S100FC:definition>
 			<S100FC:code>verticalUncertainty</S100FC:code>
 			<S100FC:remarks>Encodes the vertical uncertainty associated with any vertical measurement.</S100FC:remarks>
+			<S100FC:alias>SOUACC</S100FC:alias>			
 			<S100FC:alias>VERACC</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>261</S100FC:sourceIdentifier>
