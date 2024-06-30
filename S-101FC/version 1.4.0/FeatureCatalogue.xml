@@ -7250,7 +7250,6 @@
 			<S100FC:name>File Locator</S100FC:name>
 			<S100FC:definition>The location of a fragment of text or other information in a support file.</S100FC:definition>
 			<S100FC:code>fileLocator</S100FC:code>
-			<S100FC:remarks>Application schemas must describe how the associated file is identified. The associated file will commonly be named in a file reference co-attribute of the same complex attribute. Each DCEG must specify requirements for the format of the associated file and the semantics of file locator. For example, the value of file locator may be an HTML ID in an HTML file, line number in a text file) or a bookmark in a PDF file.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>101</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
