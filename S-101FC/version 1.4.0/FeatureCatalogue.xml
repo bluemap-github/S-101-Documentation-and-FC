@@ -17696,6 +17696,17 @@
 				<S100FC:informationType ref="ServiceHours" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="composition">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="StructureEquipment" />
+				<S100FC:role ref="theStructure"></S100FC:role>
+				<S100FC:featureType ref="Building" />
+				<S100FC:featureType ref="Landmark" />
+				<S100FC:featureType ref="OffshorePlatform" />
+			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
 				<S100FC:multiplicity>
 					<S100Base:lower>0</S100Base:lower>
