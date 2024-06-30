@@ -7038,6 +7038,7 @@
 			<S100FC:name>Distance Mark Visible</S100FC:name>
 			<S100FC:definition>A statement indicating whether a distance mark is visible or not.</S100FC:definition>
 			<S100FC:code>distanceMarkVisible</S100FC:code>
+			<S100FC:alias>CATDIS</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>994</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
