@@ -33180,6 +33180,7 @@
 				</S100FC:multiplicity>
 				<S100FC:association ref="AdditionalInformation" />
 				<S100FC:role ref="theInformation" />
+				<S100FC:informationType ref="ContactDetails" />
 				<S100FC:informationType ref="NauticalInformation" />
 			</S100FC:informationBinding>
 			<S100FC:featureUseType>geographic</S100FC:featureUseType>
