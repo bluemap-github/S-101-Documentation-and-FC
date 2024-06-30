@@ -12266,6 +12266,12 @@
 			<S100FC:alias>CSCALE</S100FC:alias>
 			<S100FC:valueType>integer</S100FC:valueType>
 		</S100FC:S100_FC_SimpleAttribute>
+		<S100FC:S100_FC_SimpleAttribute>
+			<S100FC:name>Drawing Instruction</S100FC:name>
+			<S100FC:definition>Text describing one or more graphic elements that must be rendered in an end-user system.</S100FC:definition>
+			<S100FC:code>drawingInstruction</S100FC:code>
+			<S100FC:valueType>text</S100FC:valueType>
+		</S100FC:S100_FC_SimpleAttribute>
 	</S100FC:S100_FC_SimpleAttributes>
 	<S100FC:S100_FC_ComplexAttributes>
 		<S100FC:S100_FC_ComplexAttribute>
