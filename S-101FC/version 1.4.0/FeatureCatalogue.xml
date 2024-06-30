@@ -8641,11 +8641,6 @@
 					<S100FC:definition>The name is intended to be displayed when the end-user system is set to an alternate name/text display setting, for example an alternate language.</S100FC:definition>
 					<S100FC:code>2</S100FC:code>
 				</S100FC:listedValue>
-				<S100FC:listedValue>
-					<S100FC:label>No Chart Display</S100FC:label>
-					<S100FC:definition>The name or text is not intended to be displayed.</S100FC:definition>
-					<S100FC:code>3</S100FC:code>
-				</S100FC:listedValue>
 			</S100FC:listedValues>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
