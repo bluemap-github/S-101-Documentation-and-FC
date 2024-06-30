@@ -3633,7 +3633,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>AIS Base Station</S100FC:label>
-					<S100FC:definition>An onshore AIS unit that monitors traffic in the waterways.</S100FC:definition>
+					<S100FC:definition>An AIS shore station for use by competent authorities to provide AIS service, manage the data link and enable effective ship to shore / shore to ship transmission of information.</S100FC:definition>
 					<S100FC:code>20</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>389</S100FC:sourceIdentifier>
