@@ -9051,7 +9051,7 @@
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Pictorial Representation</S100FC:name>
-			<S100FC:definition>Indicates whether a pictorial representation of the feature is available.</S100FC:definition>
+			<S100FC:definition>The file name of an externally referenced picture file.</S100FC:definition>
 			<S100FC:code>pictorialRepresentation</S100FC:code>
 			<S100FC:remarks>The 'pictorial representation' could be a drawing or a photo. The string encodes the file name of an external graphic file (pixel/vector).</S100FC:remarks>
 			<S100FC:alias>PICREP</S100FC:alias>
