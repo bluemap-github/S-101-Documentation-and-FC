@@ -24293,7 +24293,6 @@
 				<S100FC:role ref="theCartographicText" />
 				<S100FC:featureType ref="TextPlacement" />
 			</S100FC:featureBinding>
-			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
 			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
