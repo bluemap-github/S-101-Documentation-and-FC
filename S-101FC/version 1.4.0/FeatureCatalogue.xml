@@ -44322,5 +44322,38 @@
 			</S100FC:featureBinding>
 			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
+		<S100FC:S100_FC_FeatureType isAbstract="false">
+			<S100FC:name>Chart 1 Feature</S100FC:name>
+			<S100FC:definition>A feature which exists to support the rendering of graphics or text in order to provide additional information that cannot be encoded using other features.</S100FC:definition>
+			<S100FC:code>Chart1Feature</S100FC:code>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>1</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="drawingInstruction" />
+			</S100FC:attributeBinding>
+			<S100FC:attributeBinding sequential="false">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="true" infinite="true" />
+				</S100FC:multiplicity>
+				<S100FC:attribute ref="featureName" />
+			</S100FC:attributeBinding>
+			<S100FC:featureUseType>geographic</S100FC:featureUseType>
+			<S100FC:featureBinding roleType="composition">
+				<S100FC:multiplicity>
+					<S100Base:lower>0</S100Base:lower>
+					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
+				</S100FC:multiplicity>
+				<S100FC:association ref="TextAssociation" />
+				<S100FC:role ref="theCartographicText" />
+				<S100FC:featureType ref="TextPlacement" />
+			</S100FC:featureBinding>
+			<S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
+			<S100FC:permittedPrimitives>pointSet</S100FC:permittedPrimitives>
+			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
+			<S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
+		</S100FC:S100_FC_FeatureType>
 	</S100FC:S100_FC_FeatureTypes>
 </S100FC:S100_FC_FeatureCatalogue>
