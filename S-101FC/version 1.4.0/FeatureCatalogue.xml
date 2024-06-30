@@ -20242,6 +20242,7 @@
 				<S100FC:featureType ref="Daymark" />
 				<S100FC:featureType ref="DistanceMark" />
 				<S100FC:featureType ref="FogSignal" />
+				<S100FC:featureType ref="Helipad" />
 				<S100FC:featureType ref="LightAllAround" />
 				<S100FC:featureType ref="LightFogDetector" />
 				<S100FC:featureType ref="PhysicalAISAidToNavigation" />
