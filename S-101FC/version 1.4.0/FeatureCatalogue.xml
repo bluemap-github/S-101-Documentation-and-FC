@@ -12321,7 +12321,6 @@
 				<S100FC:permittedValues>
 					<S100FC:value>1</S100FC:value>
 					<S100FC:value>2</S100FC:value>
-					<S100FC:value>3</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attributeVisibility>privateVisibility</S100FC:attributeVisibility>
 				<S100FC:attribute ref="nameUsage" />
