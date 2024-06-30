@@ -10444,7 +10444,7 @@
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Surrounding Depth</S100FC:name>
-			<S100FC:definition>The depth value determined for seabed around an underwater hazard of unknown depth, based on the depth of the surrounding area.</S100FC:definition>
+			<S100FC:definition>The depth value determined for seabed around an underwater hazard, based on the depth of the surrounding area.</S100FC:definition>
 			<S100FC:code>surroundingDepth</S100FC:code>
 			<S100FC:remarks>The value for surrounding depth is determined from the attribute depth range minimum value for the surrounding encoded Depth Area. For an area feature covered by more than one depth area, the surrounding depth is determined as the depth range minimum attribute value of the deeper of the depth areas covering the feature.</S100FC:remarks>
 			<S100FC:definitionReference>
