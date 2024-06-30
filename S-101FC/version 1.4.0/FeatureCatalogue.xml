@@ -3096,15 +3096,6 @@
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>Pontoon Bridge</S100FC:label>
-					<S100FC:definition>A fixed floating bridge supported by pontoons.</S100FC:definition>
-					<S100FC:code>6</S100FC:code>
-					<S100FC:definitionReference>
-						<S100FC:sourceIdentifier>46</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
-				</S100FC:listedValue>
-				<S100FC:listedValue>
 					<S100FC:label>Drawbridge</S100FC:label>
 					<S100FC:definition>A general name for bridges of which part or the entire span of the bridge may be raised or drawn aside to allow ships to pass through.</S100FC:definition>
 					<S100FC:code>7</S100FC:code>
