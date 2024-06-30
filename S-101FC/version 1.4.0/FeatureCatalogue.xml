@@ -8469,7 +8469,7 @@
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>No System</S100FC:label>
+					<S100FC:label>no system</S100FC:label>
 					<S100FC:definition>Navigational aids do not conform to any defined system.</S100FC:definition>
 					<S100FC:code>9</S100FC:code>
 					<S100FC:definitionReference>
@@ -8478,8 +8478,8 @@
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>CEVNI</S100FC:label>
-					<S100FC:definition>CEVNI (European Code for Navigation on Inland Waterways) is the European code for rivers, canals and land lakes in most of Europe.</S100FC:definition>
+					<S100FC:label>main European inland waterway marking system</S100FC:label>
+					<S100FC:definition>Navigational aids as required in international, national or regional regulations that contain the same navigational aids as the European Code for Inland Waterways of UNECE, or if there is no regulation for a waterway, navigational aids as recommended in the European Code for Inland Waterways of UNECE.</S100FC:definition>
 					<S100FC:code>11</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>940</S100FC:sourceIdentifier>
