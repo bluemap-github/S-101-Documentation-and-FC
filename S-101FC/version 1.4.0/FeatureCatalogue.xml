@@ -11352,9 +11352,6 @@
 			<S100FC:name>Uncertainty Fixed</S100FC:name>
 			<S100FC:definition>The best estimate of the fixed horizontal or vertical accuracy component for positions, depths, heights, vertical distances and vertical clearances.</S100FC:definition>
 			<S100FC:code>uncertaintyFixed</S100FC:code>
-			<S100FC:alias>POSACC</S100FC:alias>
-			<S100FC:alias>SOUACC</S100FC:alias>
-			<S100FC:alias>VERACC</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>885</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
