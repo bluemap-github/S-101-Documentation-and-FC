@@ -12848,7 +12848,7 @@
 		</S100FC:S100_FC_ComplexAttribute>
 		<S100FC:S100_FC_ComplexAttribute>
 			<S100FC:name>Orientation</S100FC:name>
-			<S100FC:definition>(1) The angular distance measured from true north to the major axis of the feature. (2) In ECDIS, the mode in which information on the ECDIS is being presented. Typical modes include: north-up - as shown on a nautical chart, north is at the top of the display; Ships head-up - based on the actual heading of the ship, (e.g. Ships gyrocompass); course-up display - based on the course or route being taken.</S100FC:definition>
+			<S100FC:definition>The angular distance measured from true north to the major axis of the feature.</S100FC:definition>
 			<S100FC:code>orientation</S100FC:code>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>225</S100FC:sourceIdentifier>
