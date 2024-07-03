@@ -4721,7 +4721,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Ramp</S100FC:label>
-					<S100FC:definition>(1) A sloping structure which may include rails that can either be used, as a landing place, at variable water levels, for small vessels, landing ships, or a ferry boat, or for hauling a cradle carrying a vessel. (2) An accumulation of snow that forms an inclined plane between land or land ice elements and sea ice or ice shelf. Also called drift ice foot.</S100FC:definition>
+					<S100FC:definition>A sloping structure which may include rails that can either be used, as a landing place, at variable water levels, for small vessels, landing ships, or a ferry boat, or for hauling a cradle carrying a vessel.</S100FC:definition>
 					<S100FC:code>12</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>545</S100FC:sourceIdentifier>
