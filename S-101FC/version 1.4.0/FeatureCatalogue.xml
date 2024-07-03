@@ -6591,7 +6591,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Black</S100FC:label>
-					<S100FC:definition>The achromatic color of least lightness characteristically perceived to belong to objects that neither reflect nor transmit light.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>2</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>786</S100FC:sourceIdentifier>
