@@ -7044,6 +7044,14 @@
 				<S100Base:name>metre</S100Base:name>
 				<S100Base:symbol>m</S100Base:symbol>
 			</S100FC:uom>
+			<S100FC:constraints>
+				<S100CD:textPattern>sxxxxx.xx; s = sign, negative values only</S100CD:textPattern>
+				<S100CD:range>
+					<S100Base:lowerBound>-30.0</S100Base:lowerBound>
+					<S100Base:upperBound>12500.0</S100Base:upperBound>
+					<S100Base:closure>openInterval</S100Base:closure>
+				</S100CD:range>
+			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Depth Range Maximum Value</S100FC:name>
