@@ -6582,7 +6582,7 @@
 			<S100FC:listedValues>
 				<S100FC:listedValue>
 					<S100FC:label>White</S100FC:label>
-					<S100FC:definition>The achromatic object colour of greatest lightness characteristically perceived to belong to objects that reflect diffusely nearly all incident energy throughout the visible spectrum.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>1</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>785</S100FC:sourceIdentifier>
