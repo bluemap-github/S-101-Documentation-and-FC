@@ -6600,7 +6600,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Red</S100FC:label>
-					<S100FC:definition>A color whose hue resembles that of blood or of the ruby or is that of the long-wave extreme of the visible spectrum.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>3</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>787</S100FC:sourceIdentifier>
@@ -6609,7 +6609,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Green</S100FC:label>
-					<S100FC:definition>Of the color green.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>4</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>788</S100FC:sourceIdentifier>
@@ -6618,7 +6618,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Blue</S100FC:label>
-					<S100FC:definition>A color whose hue is that of the clear sky or that of the portion of the color spectrum lying between green and violet.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>5</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>789</S100FC:sourceIdentifier>
@@ -6636,7 +6636,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Grey</S100FC:label>
-					<S100FC:definition>Of the color grey.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>7</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>791</S100FC:sourceIdentifier>
@@ -6645,7 +6645,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Brown</S100FC:label>
-					<S100FC:definition>Any of a group of colors between red and yellow in hue, of medium to low lightness, and of moderate to low saturation.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>8</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>792</S100FC:sourceIdentifier>
@@ -6654,7 +6654,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Amber</S100FC:label>
-					<S100FC:definition>A variable color averaging a dark orange yellow.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>9</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>793</S100FC:sourceIdentifier>
@@ -6663,7 +6663,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Violet</S100FC:label>
-					<S100FC:definition>Any of a group of colors of reddish-blue hue, low lightness, and medium saturation.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>10</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>794</S100FC:sourceIdentifier>
@@ -6672,7 +6672,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Orange</S100FC:label>
-					<S100FC:definition>Any of a group of colors that are between red and yellow in hue.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>11</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>795</S100FC:sourceIdentifier>
@@ -6681,7 +6681,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Magenta</S100FC:label>
-					<S100FC:definition>A deep purplish red.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>12</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>796</S100FC:sourceIdentifier>
@@ -6690,7 +6690,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Pink</S100FC:label>
-					<S100FC:definition>Any of a group of colors bluish red to red in hue, of medium to high lightness, and of low to moderate saturation.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>13</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>797</S100FC:sourceIdentifier>
