@@ -14441,7 +14441,7 @@
 			<S100FC:code>DataCoverage</S100FC:code>
 			<S100FC:alias>M_COVR</S100FC:alias>
 			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>187</S100FC:sourceIdentifier>
+				<S100FC:sourceIdentifier>661</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:attributeBinding sequential="false">
@@ -15044,7 +15044,7 @@
 			<S100FC:definition>The Update Information metadata feature is used to represent a change to the information shown.</S100FC:definition>
 			<S100FC:code>UpdateInformation</S100FC:code>
 			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>626</S100FC:sourceIdentifier>
+				<S100FC:sourceIdentifier>663</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:attributeBinding sequential="false">
@@ -15648,7 +15648,7 @@
 			<S100FC:code>LandArea</S100FC:code>
 			<S100FC:alias>LNDARE</S100FC:alias>
 			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>198</S100FC:sourceIdentifier>
+				<S100FC:sourceIdentifier>720</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:attributeBinding sequential="false">
@@ -17005,7 +17005,7 @@
 			<S100FC:code>BuiltUpArea</S100FC:code>
 			<S100FC:alias>BUAARE</S100FC:alias>
 			<S100FC:definitionReference>
-				<S100FC:sourceIdentifier>212</S100FC:sourceIdentifier>
+				<S100FC:sourceIdentifier>719</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:attributeBinding sequential="false">
