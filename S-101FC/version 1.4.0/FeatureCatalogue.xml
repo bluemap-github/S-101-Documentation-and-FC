@@ -8485,7 +8485,7 @@
 			<S100FC:listedValues>
 				<S100FC:listedValue>
 					<S100FC:label>East</S100FC:label>
-					<S100FC:definition>078.75-101.25 degrees.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>5</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>1777</S100FC:sourceIdentifier>
@@ -8494,7 +8494,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>West</S100FC:label>
-					<S100FC:definition>258.75-281.25 degrees.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>13</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>1785</S100FC:sourceIdentifier>
