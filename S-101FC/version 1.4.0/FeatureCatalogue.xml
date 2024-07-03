@@ -13598,7 +13598,7 @@
 			<S100FC:definition>The best estimate of the vertical accuracy of depths, heights, vertical distances and vertical clearances.</S100FC:definition>
 			<S100FC:code>verticalUncertainty</S100FC:code>
 			<S100FC:remarks>Encodes the vertical uncertainty associated with any vertical measurement.</S100FC:remarks>
-			<S100FC:alias>SOUACC</S100FC:alias>			
+			<S100FC:alias>SOUACC</S100FC:alias>
 			<S100FC:alias>VERACC</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>261</S100FC:sourceIdentifier>
@@ -17703,7 +17703,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="StructureEquipment" />
-				<S100FC:role ref="theStructure"></S100FC:role>
+				<S100FC:role ref="theStructure" />
 				<S100FC:featureType ref="Building" />
 				<S100FC:featureType ref="Landmark" />
 				<S100FC:featureType ref="OffshorePlatform" />
