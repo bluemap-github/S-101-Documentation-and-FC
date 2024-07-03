@@ -4411,7 +4411,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Hill</S100FC:label>
-					<S100FC:definition>[1]  A small isolated elevation, smaller than a mountain.  [2]  A distinct elevation generally of irregular shape, less than 1000m above the surrounding relief as measured from the deepest isobath that surrounds most of the feature.</S100FC:definition>
+					<S100FC:definition>A distinct elevation generally of irregular shape, less than 1000m above the surrounding relief as measured from the deepest isobath that surrounds most of the feature.</S100FC:definition>
 					<S100FC:code>35</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>513</S100FC:sourceIdentifier>
