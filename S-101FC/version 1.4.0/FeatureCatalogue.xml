@@ -291,7 +291,6 @@
 			<S100FC:name>Buoy Shape</S100FC:name>
 			<S100FC:definition>The principal shape and/or design of a buoy.</S100FC:definition>
 			<S100FC:code>buoyShape</S100FC:code>
-			<S100FC:remarks>The principal shapes are those recommended in the International Association of Lighthouse Authorities - IALA System.</S100FC:remarks>
 			<S100FC:alias>BOYSHP</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>3</S100FC:sourceIdentifier>
@@ -765,7 +764,6 @@
 			<S100FC:name>Category of Cardinal Mark</S100FC:name>
 			<S100FC:definition>The four quadrants (north, east, south and west) are bounded by the true bearings NW-NE, NE-SE, SE-SW and SW-NW taken from the point of interest. A cardinal mark is named after the quadrant in which it is placed. The name of the cardinal mark indicates that it should be passed to the named side of the mark.</S100FC:definition>
 			<S100FC:code>categoryOfCardinalMark</S100FC:code>
-			<S100FC:remarks>Cardinal marks are used in conjunction with the compass to indicate where a mariner will find safe navigable water.Cardinal marks do not have a distinctive shape but are normally pillar or spar. They are always painted in yellow and black horizontal bands and their distinctive double cone top-marks are always black. (Note that such top-marks are encoded as separate TOPMAR objects). Cardinal marks may also have a special system of flashing white lights and if such lights are fitted they are encoded as separate LIGHTS objects.</S100FC:remarks>
 			<S100FC:alias>CATCAM</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>11</S100FC:sourceIdentifier>
@@ -1326,7 +1324,6 @@
 			<S100FC:name>Category of Fog Signal</S100FC:name>
 			<S100FC:definition>Classification of the various means of generating the fog signal.</S100FC:definition>
 			<S100FC:code>categoryOfFogSignal</S100FC:code>
-			<S100FC:remarks>The classification 'horn' is the generic term for fog signals 'nautophone', 'reed' and 'tyfon'.</S100FC:remarks>
 			<S100FC:alias>CATFOG</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>23</S100FC:sourceIdentifier>
@@ -2308,7 +2305,6 @@
 			<S100FC:name>Category of Lateral Mark</S100FC:name>
 			<S100FC:definition>Classification of lateral marks in the IALA Buoyage System.</S100FC:definition>
 			<S100FC:code>categoryOfLateralMark</S100FC:code>
-			<S100FC:remarks>There are two international buoyage regions, A and B, between which lateral marks differ. When top-marks, retro reflectors and/or lights are fitted to these marks, they are encoded as separate features.</S100FC:remarks>
 			<S100FC:alias>CATLAM</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>34</S100FC:sourceIdentifier>
@@ -2358,7 +2354,6 @@
 			<S100FC:name>Category of Light</S100FC:name>
 			<S100FC:definition>Classification of different light types.</S100FC:definition>
 			<S100FC:code>categoryOfLight</S100FC:code>
-			<S100FC:remarks>All lights are considered to be marine lights unless the category of light indicates otherwise.</S100FC:remarks>
 			<S100FC:alias>CATLIT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>88</S100FC:sourceIdentifier>
@@ -3626,7 +3621,6 @@
 			<S100FC:name>Category of Radio Station</S100FC:name>
 			<S100FC:definition>Classification of radio services offered by a radio station.</S100FC:definition>
 			<S100FC:code>categoryOfRadioStation</S100FC:code>
-			<S100FC:remarks>A radiobeacon is a radio transmitter which emits a distinctive or characteristic signal on which a bearing may be taken.</S100FC:remarks>
 			<S100FC:alias>CATROS</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>52</S100FC:sourceIdentifier>
@@ -5483,7 +5477,6 @@
 			<S100FC:name>Category of Special Purpose Mark</S100FC:name>
 			<S100FC:definition>Classification of an aid to navigation which signifies some special purpose.</S100FC:definition>
 			<S100FC:code>categoryOfSpecialPurposeMark</S100FC:code>
-			<S100FC:remarks>A mark may be a beacon, a buoy, a signpost or may take another form.</S100FC:remarks>
 			<S100FC:alias>CATSPM</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>92</S100FC:sourceIdentifier>
@@ -6504,7 +6497,6 @@
 			<S100FC:name>Category of Zone of Confidence In Data</S100FC:name>
 			<S100FC:definition>Classification of the zone of confidence in data within an area based on the positional accuracy, survey equipment and coverage.</S100FC:definition>
 			<S100FC:code>categoryOfZoneOfConfidenceInData</S100FC:code>
-			<S100FC:remarks>See S-57 Appendix A, Chapter 2, Page 2.107 for the full list of ZOC categories.</S100FC:remarks>
 			<S100FC:alias>CATZOC</S100FC:alias>
 			<S100FC:alias>ZOC</S100FC:alias>
 			<S100FC:definitionReference>
@@ -6770,7 +6762,6 @@
 			<S100FC:name>Communication Channel</S100FC:name>
 			<S100FC:definition>A channel number assigned to a specific radio frequency, frequencies or frequency band.</S100FC:definition>
 			<S100FC:code>communicationChannel</S100FC:code>
-			<S100FC:remarks>The expected input is the specific VHF-Channel. The attribute 'communication channel' encodes the various VHF-channels used for communication.</S100FC:remarks>
 			<S100FC:alias>COMCHA</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1149</S100FC:sourceIdentifier>
@@ -6782,7 +6773,6 @@
 			<S100FC:name>Condition</S100FC:name>
 			<S100FC:definition>The various conditions of buildings and other constructions.</S100FC:definition>
 			<S100FC:code>condition</S100FC:code>
-			<S100FC:remarks>The default 'condition' should be considered to be completed, undamaged and working normally.</S100FC:remarks>
 			<S100FC:alias>CONDTN</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>75</S100FC:sourceIdentifier>
@@ -6900,7 +6890,6 @@
 			<S100FC:name>Date End</S100FC:name>
 			<S100FC:definition>The latest date on which an object (for example a buoy) will be present.</S100FC:definition>
 			<S100FC:code>dateEnd</S100FC:code>
-			<S100FC:remarks>The Date End should be encoded using 4 digits for the calendar year (YYYY), 2 digits for the month (MM) (for example April = 04) and 2 digits for the day (DD). When no specific month and/or day is required/known, indication of the month and/or day is omitted, and replaced with dashes (-). When no specific year is required (that is, the event or date range ends at the same time each year) the following two cases may be considered:- same day each year: ----MMDD- same month each year: ----MM--This conforms to ISO 8601: 2004. Date End indicates the latest date of an event or the end of a date range. It is used to indicate the end of a fixed date range, the end of a periodic date range, or the removal or cancellation of a feature at a specific date in the future.</S100FC:remarks>
 			<S100FC:alias>DATEND</S100FC:alias>
 			<S100FC:alias>PEREND</S100FC:alias>
 			<S100FC:alias>SUREND</S100FC:alias>
@@ -6924,7 +6913,6 @@
 			<S100FC:name>Date Start</S100FC:name>
 			<S100FC:definition>The earliest date on which an object (for example a buoy) will be present.</S100FC:definition>
 			<S100FC:code>dateStart</S100FC:code>
-			<S100FC:remarks>The Date Start should be encoded using 4 digits for the calendar year (YYYY), 2 digits for the month (MM) (for example April = 04) and 2 digits for the day (DD). When no specific month and/or day is required/known, indication of the month and/or day is omitted, and replaced with dashes (-). When no specific year is required (that is, the event or date range ends at the same time each year) the following two cases may be considered:- same day each year: ----MMDD- same month each year: ----MM--This conforms to ISO 8601: 2004. Date Start indicates the earliest date of an event or the start of a date range. It is used to indicate the start of a fixed date range, the start of a periodic date range, or the deployment or implementation of a feature at a specific date in the future.</S100FC:remarks>
 			<S100FC:alias>DATSTA</S100FC:alias>
 			<S100FC:alias>PERSTA</S100FC:alias>
 			<S100FC:alias>SURSTA</S100FC:alias>
@@ -6938,7 +6926,6 @@
 			<S100FC:name>Date Variable</S100FC:name>
 			<S100FC:definition>A day which is not fixed in the Gregorian calendar.</S100FC:definition>
 			<S100FC:code>dateVariable</S100FC:code>
-			<S100FC:remarks>Examples: The fourth Thursday in November; new moon day of Kartika (Diwali); Easter Sunday.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1151</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -7024,7 +7011,6 @@
 			<S100FC:name>Day of Week is Range</S100FC:name>
 			<S100FC:definition>A statement expressing if the days of the week identified define a range or not.</S100FC:definition>
 			<S100FC:code>dayOfWeekIsRange</S100FC:code>
-			<S100FC:remarks>A True value is an indication that the identified days of the week define a range between and inclusive of those days.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>84</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -7057,7 +7043,6 @@
 			<S100FC:name>Depth Range Maximum Value</S100FC:name>
 			<S100FC:definition>The maximum (deepest) value of a depth range.</S100FC:definition>
 			<S100FC:code>depthRangeMaximumValue</S100FC:code>
-			<S100FC:remarks>Where the area dries, the value is negative or zero (0).</S100FC:remarks>
 			<S100FC:alias>DRVAL2</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1152</S100FC:sourceIdentifier>
@@ -7082,7 +7067,6 @@
 			<S100FC:name>Depth Range Minimum Value</S100FC:name>
 			<S100FC:definition>The minimum (shoalest) value of a depth range.</S100FC:definition>
 			<S100FC:code>depthRangeMinimumValue</S100FC:code>
-			<S100FC:remarks>Where the area dries, the value is negative.</S100FC:remarks>
 			<S100FC:alias>DRVAL1</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1153</S100FC:sourceIdentifier>
@@ -7107,7 +7091,6 @@
 			<S100FC:name>Destination</S100FC:name>
 			<S100FC:definition>The place or general direction to which a vessel is going or directed.</S100FC:definition>
 			<S100FC:code>destination</S100FC:code>
-			<S100FC:remarks>The attribute destination should contain no more than 100 characters.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1154</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -7186,7 +7169,6 @@
 			<S100FC:name>Dredged Date</S100FC:name>
 			<S100FC:definition>The date that dredging occurred.</S100FC:definition>
 			<S100FC:code>dredgedDate</S100FC:code>
-			<S100FC:remarks>Dredged date indicates the latest date of dredging (which may be the latest known date if the dredged area is not maintained), or the date of the latest control survey confirming the depth in a maintained dredged area.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>96</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -7218,7 +7200,6 @@
 			<S100FC:name>Estimated Range of Transmission</S100FC:name>
 			<S100FC:definition>The estimated range of a non-optical electromagnetic transmission.</S100FC:definition>
 			<S100FC:code>estimatedRangeOfTransmission</S100FC:code>
-			<S100FC:remarks>The estimated range (distance) assumes 'in vacuo' transmission and a standard antenna height of 5 metres. Thus it gives a hint to the mariner whether they are likely to receive transmission at a certain distance from an object.</S100FC:remarks>
 			<S100FC:alias>ESTRNG</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1156</S100FC:sourceIdentifier>
@@ -7289,7 +7270,6 @@
 			<S100FC:name>Exposition of Sounding</S100FC:name>
 			<S100FC:definition>Indicates the relationship of the depth of a feature to the range of depth of the surrounding depth area.</S100FC:definition>
 			<S100FC:code>expositionOfSounding</S100FC:code>
-			<S100FC:remarks>These objects could be a potential danger for navigation.</S100FC:remarks>
 			<S100FC:alias>EXPSOU</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>100</S100FC:sourceIdentifier>
@@ -7351,7 +7331,6 @@
 			<S100FC:name>Flare Bearing</S100FC:name>
 			<S100FC:definition>The bearing about which the light flare symbol is rotated to be displayed in ECDIS.</S100FC:definition>
 			<S100FC:code>flareBearing</S100FC:code>
-			<S100FC:remarks>The initial flare bearing is calculated by ENC production software systems.  The attribute flare bearing may also be populated manually to cartographically align the light flare along, for example, a transit or leading line (noting that the in such cases the bearing to be encoded will be the reciprocal (+/- 180 degrees) of the bearing encoded for the navigational line).</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>922</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -7376,7 +7355,6 @@
 			<S100FC:name>Frequency Shore Station Receives</S100FC:name>
 			<S100FC:definition>The shore station receiver frequency.</S100FC:definition>
 			<S100FC:code>frequencyShoreStationReceives</S100FC:code>
-			<S100FC:remarks>Examples:  4379.1 kHz becomes 043791; 13162.8 kHz becomes 131628.</S100FC:remarks>
 			<S100FC:alias>FRQRXV</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1159</S100FC:sourceIdentifier>
@@ -7392,7 +7370,6 @@
 			<S100FC:name>Frequency Shore Station Transmits</S100FC:name>
 			<S100FC:definition>The shore station transmitter frequency.</S100FC:definition>
 			<S100FC:code>frequencyShoreStationTransmits</S100FC:code>
-			<S100FC:remarks>Examples:  4379.1 kHz becomes 043791; 13162.8 kHz becomes 131628.</S100FC:remarks>
 			<S100FC:alias>FRQTXM</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1160</S100FC:sourceIdentifier>
@@ -7408,14 +7385,12 @@
 			<S100FC:name>Drawing Index</S100FC:name>
 			<S100FC:definition>A numeric value used to indicate that datasets are intended to form a seamless presentation.</S100FC:definition>
 			<S100FC:code>drawingIndex</S100FC:code>
-			<S100FC:remarks>The attribute drawing index is required where the datasets intended to form a seamless presentation do not share a common minimum display scale. Also required if the dataset may need to form a seamless presentation with one or more S-57 datasets, in which case the value should correspond to the usage band of the adjoining or overlapping S-57 dataset(s).</S100FC:remarks>
 			<S100FC:valueType>integer</S100FC:valueType>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Full Seafloor Coverage Achieved</S100FC:name>
 			<S100FC:definition>Expression stating if full seafloor coverage has been achieved in the area covered by hydrographic surveys.</S100FC:definition>
 			<S100FC:code>fullSeafloorCoverageAchieved</S100FC:code>
-			<S100FC:remarks>Full seafloor coverage achieved applies to both the spatial completeness of feature detection and to the spatial completeness of the measurement of the regular seafloor. The former is further specified by the complex attribute features detected, the latter by the attributes depth range maximum value and depth range minimum value.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>204</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -7863,7 +7838,6 @@
 			<S100FC:name>Height</S100FC:name>
 			<S100FC:definition>The value of the vertical distance to the highest point of the feature, measured from a specified vertical datum.</S100FC:definition>
 			<S100FC:code>height</S100FC:code>
-			<S100FC:remarks>Height must not be used for floating objects.</S100FC:remarks>
 			<S100FC:alias>HEIGHT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1162</S100FC:sourceIdentifier>
@@ -7922,7 +7896,6 @@
 			<S100FC:name>Horizontal Distance Uncertainty</S100FC:name>
 			<S100FC:definition>The best estimate of the horizontal accuracy of horizontal clearances and distances.</S100FC:definition>
 			<S100FC:code>horizontalDistanceUncertainty</S100FC:code>
-			<S100FC:remarks>The error is assumed to be positive and negative. The plus/minus character must not be encoded.</S100FC:remarks>
 			<S100FC:alias>HORACC</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1216</S100FC:sourceIdentifier>
@@ -8017,7 +7990,6 @@
 			<S100FC:name>In the Water</S100FC:name>
 			<S100FC:definition>An indication if the feature is located in or over navigable water.</S100FC:definition>
 			<S100FC:code>inTheWater</S100FC:code>
-			<S100FC:remarks>A True value is an indication that the feature is to be included in the ECDIS Base Display viewing group.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>269</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -8028,7 +8000,6 @@
 			<S100FC:name>Is MRCC</S100FC:name>
 			<S100FC:definition>A statement that expresses if a coastguard station performs the function of a Maritime Rescue and Coordination Centre.</S100FC:definition>
 			<S100FC:code>isMRCC</S100FC:code>
-			<S100FC:remarks>A True value is an indication that an encoded coastguard station performs the function of a Maritime Rescue and Coordination Centre.</S100FC:remarks>
 			<S100FC:alias>Maritime Rescue and Coordination Centre</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>118</S100FC:sourceIdentifier>
@@ -8080,7 +8051,6 @@
 			<S100FC:name>Language</S100FC:name>
 			<S100FC:definition>The method of human communication, either spoken or written, consisting of the use of words in a structured and conventional way.</S100FC:definition>
 			<S100FC:code>language</S100FC:code>
-			<S100FC:remarks>The language is encoded by a 3 character code following ISO 639-2/T.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1169</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -8091,7 +8061,6 @@
 			<S100FC:name>Least Depth of Detected Features Measured</S100FC:name>
 			<S100FC:definition>Expression stating if the least depth of detected features in an area was measured.</S100FC:definition>
 			<S100FC:code>leastDepthOfDetectedFeaturesMeasured</S100FC:code>
-			<S100FC:remarks>A feature in this context is any object, whether man-made or not, projecting above the seafloor, which may be a danger for surface navigation (reference: IHO publication S-44).- least depth of detected features measured does not describe the least depth of features that were actually detected during a hydrographic survey, but the ability of the survey to detect the least depth of features with a maximum uncertainty as defined in IHO publication S-44.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>206</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -8461,7 +8430,6 @@
 			<S100FC:name>Magnetic Anomaly Value</S100FC:name>
 			<S100FC:definition>The value of the deviation from the normal magnetic variation.</S100FC:definition>
 			<S100FC:code>magneticAnomalyValue</S100FC:code>
-			<S100FC:remarks>The deviation is assumed to be positive and negative by default. The plus/minus character must not be encoded.</S100FC:remarks>
 			<S100FC:alias>VALLMA</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1171</S100FC:sourceIdentifier>
@@ -8515,7 +8483,6 @@
 			<S100FC:name>Major Light</S100FC:name>
 			<S100FC:definition>A statement expressing if a light is considered to be a major light in terms of ECDIS display in a particular area.</S100FC:definition>
 			<S100FC:code>majorLight</S100FC:code>
-			<S100FC:remarks>Major light is only intended to provide an indication to the ECDIS that the light is considered to be an important light in terms of its display. As such this is a cartographic attribute to aid the compiler in determining the most appropriate display for a light; it is not intended to be used as a formal classification method for lights.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>127</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -8848,7 +8815,6 @@
 			<S100FC:name>Nature of Surface</S100FC:name>
 			<S100FC:definition>The general material which the land surface or the seabed is composed.</S100FC:definition>
 			<S100FC:code>natureOfSurface</S100FC:code>
-			<S100FC:remarks>Mud, sand, stone, rock are terms used for the general description. Clay, silt, gravel, pebbles, cobbles are more specific terms related to particle size.</S100FC:remarks>
 			<S100FC:alias>NATSUR</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>138</S100FC:sourceIdentifier>
@@ -9140,7 +9106,6 @@
 			<S100FC:name>Pictorial Representation</S100FC:name>
 			<S100FC:definition>The file name of an externally referenced picture file.</S100FC:definition>
 			<S100FC:code>pictorialRepresentation</S100FC:code>
-			<S100FC:remarks>The 'pictorial representation' could be a drawing or a photo. The string encodes the file name of an external graphic file (pixel/vector).</S100FC:remarks>
 			<S100FC:alias>PICREP</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1181</S100FC:sourceIdentifier>
@@ -9701,7 +9666,6 @@
 			<S100FC:name>Restriction</S100FC:name>
 			<S100FC:definition>The official legal statute of each kind of restricted area.</S100FC:definition>
 			<S100FC:code>restriction</S100FC:code>
-			<S100FC:remarks>Defines the kind of restriction(s), for example, the restriction for 'a game preserve' may be 'entry prohibited', the restriction for an 'anchoring prohibition' is 'anchoring prohibited'. The complete information about the restriction(s), actually held in handbooks or other publications, may be encoded using an Information type.</S100FC:remarks>
 			<S100FC:alias>RESTRN</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>155</S100FC:sourceIdentifier>
@@ -9976,7 +9940,6 @@
 			<S100FC:name>Scale Minimum</S100FC:name>
 			<S100FC:definition>The minimum scale at which the feature may be used for example for ECDIS presentation.</S100FC:definition>
 			<S100FC:code>scaleMinimum</S100FC:code>
-			<S100FC:remarks>The modulus of the scale is indicated, that is 1:1 250 000 is encoded as 1250000.</S100FC:remarks>
 			<S100FC:alias>SCAMIN</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1186</S100FC:sourceIdentifier>
@@ -9988,7 +9951,6 @@
 			<S100FC:name>Scale Value Maximum</S100FC:name>
 			<S100FC:definition>The largest scale for the range of survey scale.</S100FC:definition>
 			<S100FC:code>scaleValueMaximum</S100FC:code>
-			<S100FC:remarks>The modulus of the scale is indicated, that is 1:25 000 is encoded as 25000.</S100FC:remarks>
 			<S100FC:alias>SCVAL1</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1225</S100FC:sourceIdentifier>
@@ -10000,7 +9962,6 @@
 			<S100FC:name>Scale Value Minimum</S100FC:name>
 			<S100FC:definition>The smallest scale for the range of survey scale.</S100FC:definition>
 			<S100FC:code>scaleValueMinimum</S100FC:code>
-			<S100FC:remarks>The modulus of the scale is indicated, that is 1:250 000 is encoded as 250000.</S100FC:remarks>
 			<S100FC:alias>SCVAL2</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1226</S100FC:sourceIdentifier>
@@ -10012,7 +9973,6 @@
 			<S100FC:name>Sector Bearing</S100FC:name>
 			<S100FC:definition>A sector is the part of a circle between two straight lines drawn from the centre to the circumference. Sector bearing specifies the limit of the sector.</S100FC:definition>
 			<S100FC:code>sectorBearing</S100FC:code>
-			<S100FC:remarks>The values given to the common limits of adjacent sectors should be identical. The orientation of bearing is from seaward to the central object. This conforms with the method used in 'List of Lights' publications. A generic term such as 'to shore' cannot be used; a specific bearing must be encoded. Where a light sector limit is defined as 'to the shore', it should be encoded using a value that ensures that, when the limit is drawn, it will fall entirely on land.</S100FC:remarks>
 			<S100FC:alias>SECTR1</S100FC:alias>
 			<S100FC:alias>SECTR2</S100FC:alias>
 			<S100FC:definitionReference>
@@ -10217,7 +10177,6 @@
 			<S100FC:name>Significant Features Detected</S100FC:name>
 			<S100FC:definition>A statement expressing if significant features have or have not been detected in the course of a survey.</S100FC:definition>
 			<S100FC:code>significantFeaturesDetected</S100FC:code>
-			<S100FC:remarks>A feature in this context is any object, whether manmade or not, projecting above the sea floor, which may be a danger for surface navigation (reference: IHO publication S-44). Significant features detected does not describe if significant features were actually detected during a hydrographic survey, but whether the survey had the capacity to detect significant features.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>218</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -10228,7 +10187,6 @@
 			<S100FC:name>Size of Features Detected</S100FC:name>
 			<S100FC:definition>The size of detected bathymetric features in an area.</S100FC:definition>
 			<S100FC:code>sizeOfFeaturesDetected</S100FC:code>
-			<S100FC:remarks>A feature in this context is any object, whether man-made or not, projecting above the sea floor, which may be a danger for surface navigation (reference: IHO publication S-44).- least depth of detected features measured does not describe the least depth of features that were actually detected during a hydrographic survey, but the ability of the survey to detect the least depth of features with a maximum uncertainty as defined in IHO publication S-44.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1227</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -10243,7 +10201,6 @@
 			<S100FC:name>Source</S100FC:name>
 			<S100FC:definition>The publication, document, or reference work from which information comes or is acquired.</S100FC:definition>
 			<S100FC:code>source</S100FC:code>
-			<S100FC:remarks>May be populated with the corresponding paper chart Notice to Mariners numbers, although other references are permitted.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1228</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -10305,7 +10262,6 @@
 			<S100FC:name>Speed Units</S100FC:name>
 			<S100FC:definition>The units for description of speed.</S100FC:definition>
 			<S100FC:code>speedUnits</S100FC:code>
-			<S100FC:remarks>Defines the units of speed for other attributes for the object to which speedUnits is assigned.</S100FC:remarks>
 			<S100FC:alias>SUNITS</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>654</S100FC:sourceIdentifier>
@@ -10555,7 +10511,6 @@
 			<S100FC:name>Surrounding Depth</S100FC:name>
 			<S100FC:definition>The depth value determined for seabed around an underwater hazard, based on the depth of the surrounding area.</S100FC:definition>
 			<S100FC:code>surroundingDepth</S100FC:code>
-			<S100FC:remarks>The value for surrounding depth is determined from the attribute depth range minimum value for the surrounding encoded Depth Area. For an area feature covered by more than one depth area, the surrounding depth is determined as the depth range minimum attribute value of the deeper of the depth areas covering the feature.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>880</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -10570,7 +10525,6 @@
 			<S100FC:name>Survey Authority</S100FC:name>
 			<S100FC:definition>The authority which was responsible for the survey.</S100FC:definition>
 			<S100FC:code>surveyAuthority</S100FC:code>
-			<S100FC:remarks>Encodes the name of the source survey authority. (Examples: Hydrographic Service, Royal Australian Navy; Port of Melbourne Authority.)</S100FC:remarks>
 			<S100FC:alias>SURATH</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1229</S100FC:sourceIdentifier>
@@ -11013,7 +10967,6 @@
 			<S100FC:name>Text</S100FC:name>
 			<S100FC:definition>A non-formatted digital text string.</S100FC:definition>
 			<S100FC:code>text</S100FC:code>
-			<S100FC:remarks>Should be used, for example, to hold the information that is for short cautionary or explanatory notes. Therefore, text populated in text must not exceed 300 characters. Text may be in English, or in a national language. No formatting of text is possible within text. If formatted text, or text strings exceeding 300 characters, is required, then an alternate concept should be used.</S100FC:remarks>
 			<S100FC:alias>INFORM</S100FC:alias>
 			<S100FC:alias>NINFOM</S100FC:alias>
 			<S100FC:definitionReference>
@@ -11101,7 +11054,6 @@
 			<S100FC:name>Time of Day End</S100FC:name>
 			<S100FC:definition>The time corresponding to the end of an active period.</S100FC:definition>
 			<S100FC:code>timeOfDayEnd</S100FC:code>
-			<S100FC:remarks>The time of day end must be encoded using 2 digits for the hour (hh), 2 digits for the minutes(mm) and 2 digits for the seconds (ss). This conforms to ISO 8601:2004.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>180</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -11112,7 +11064,6 @@
 			<S100FC:name>Time of Day Start</S100FC:name>
 			<S100FC:definition>The time corresponding to the start of an active period.</S100FC:definition>
 			<S100FC:code>timeOfDayStart</S100FC:code>
-			<S100FC:remarks>The time of day start must be encoded using 2 digits for the hour (hh), 2 digits for the minutes(mm) and 2 digits for the seconds (ss). This conforms to ISO 8601:2004.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>181</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -11123,7 +11074,6 @@
 			<S100FC:name>Time Relative to Tide</S100FC:name>
 			<S100FC:definition>The time difference relative to the reference tide.</S100FC:definition>
 			<S100FC:code>timeRelativeToTide</S100FC:code>
-			<S100FC:remarks>Positive values are time after the referenced tide, negative values are time before the referenced tide.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1203</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -11534,7 +11484,6 @@
 			<S100FC:name>Value of Annual Change in Magnetic Variation</S100FC:name>
 			<S100FC:definition>The annual change in magnetic variation values.</S100FC:definition>
 			<S100FC:code>valueOfAnnualChangeInMagneticVariation</S100FC:code>
-			<S100FC:remarks>A positive value; that is, unsigned, indicates a change in an easterly direction and a negative value indicates a change in a westerly direction.</S100FC:remarks>
 			<S100FC:alias>VALACM</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1205</S100FC:sourceIdentifier>
@@ -11550,7 +11499,6 @@
 			<S100FC:name>Value of Depth Contour</S100FC:name>
 			<S100FC:definition>The depth of a sea bottom contour.</S100FC:definition>
 			<S100FC:code>valueOfDepthContour</S100FC:code>
-			<S100FC:remarks>Drying contours are indicated by a negative value.</S100FC:remarks>
 			<S100FC:alias>VALDCO</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1206</S100FC:sourceIdentifier>
@@ -11566,7 +11514,6 @@
 			<S100FC:name>Value of Magnetic Variation</S100FC:name>
 			<S100FC:definition>The angle between the magnetic and geographical meridians at any place, expressed in degrees east or west to indicate the direction of magnetic north from true north.</S100FC:definition>
 			<S100FC:code>valueOfMagneticVariation</S100FC:code>
-			<S100FC:remarks>A positive value; that is, unsigned, indicates variation in an easterly direction and a negative value indicates variation in a westerly direction.</S100FC:remarks>
 			<S100FC:alias>VALMAG</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1207</S100FC:sourceIdentifier>
@@ -11582,7 +11529,6 @@
 			<S100FC:name>Value of Maximum Range</S100FC:name>
 			<S100FC:definition>The extreme distance at which a feature can be seen or a signal detected.</S100FC:definition>
 			<S100FC:code>valueOfMaximumRange</S100FC:code>
-			<S100FC:remarks>Does not apply to lights where the "value of nominal range" should be used.</S100FC:remarks>
 			<S100FC:alias>VALMXR</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1208</S100FC:sourceIdentifier>
@@ -11613,7 +11559,6 @@
 			<S100FC:name>Value of Sounding</S100FC:name>
 			<S100FC:definition>The value of the measurement of a sounding relative to the chart datum.</S100FC:definition>
 			<S100FC:code>valueOfSounding</S100FC:code>
-			<S100FC:remarks>A drying height is indicated by a negative value.</S100FC:remarks>
 			<S100FC:alias>VALSOU</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1210</S100FC:sourceIdentifier>
@@ -11954,7 +11899,6 @@
 			<S100FC:name>Vertical Length</S100FC:name>
 			<S100FC:definition>The total vertical length of a feature.</S100FC:definition>
 			<S100FC:code>verticalLength</S100FC:code>
-			<S100FC:remarks>For floating objects: the vertical distance from the surface of water to the highest point of that object. For fixed objects: the vertical distance from seabed or ground to the highest point of that object. For objects on top of other objects: the vertical distance from the lowest to the highest point of that object. Vertical length measurements do not require a datum.</S100FC:remarks>
 			<S100FC:alias>VERLEN</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1212</S100FC:sourceIdentifier>
@@ -12251,7 +12195,6 @@
 			<S100FC:name>Category of Cargo</S100FC:name>
 			<S100FC:definition>Classification of the different types of cargo that a ship may be carrying.</S100FC:definition>
 			<S100FC:code>categoryOfCargo</S100FC:code>
-			<S100FC:remarks>If item 7 is used, the nature of dangerous or hazardous cargoes can be amplified with category of dangerous or hazardous cargo.</S100FC:remarks>
 			<S100FC:alias>CATCGO</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>401</S100FC:sourceIdentifier>
@@ -12400,7 +12343,6 @@
 			<S100FC:name>Minimum Berth Depth</S100FC:name>
 			<S100FC:definition>The least depth of the body of water at the berth or in a berth pocket adjacent to the berth.</S100FC:definition>
 			<S100FC:code>minimumBerthDepth</S100FC:code>
-			<S100FC:remarks>The minimum depth is measured from a specified sounding datum. A berth pocket is the body of water at a berth or anchor berth, of adequate dimensions to allow a vessel to make fast to the shore, mooring buoys, berthing dolphins or to anchor.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1019</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -12492,7 +12434,6 @@
 			<S100FC:name>Features Detected</S100FC:name>
 			<S100FC:definition>The uniform assessment of detected features.</S100FC:definition>
 			<S100FC:code>featuresDetected</S100FC:code>
-			<S100FC:remarks>A feature in this context is meant to be any object, whether man made or not, projecting above the sea floor, which may be a danger for surface navigation. (Refer IHO document S-44). Features detected does not describe if features were actually detected during a hydrographic survey, but whether the survey had the capacity to detect features.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>228</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -12523,7 +12464,6 @@
 			<S100FC:name>Fixed Date Range</S100FC:name>
 			<S100FC:definition>An active period of a single fixed event or occurrence, as the date range between discrete start and end dates.</S100FC:definition>
 			<S100FC:code>fixedDateRange</S100FC:code>
-			<S100FC:remarks>Dates must be encoded in the format YYYYMMDD; using 4 digits for the calendar year (YYYY) and, optionally, 2 digits for the month (MM) (for example April = 04) and 2 digits for the day (DD). When no specific month and/or day is required/known, the values are replaced with dashes (-). The date range of a recurring event or occurrence must be encoded using periodicDateRange.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>798</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -12616,7 +12556,6 @@
 			<S100FC:name>Horizontal Position Uncertainty</S100FC:name>
 			<S100FC:definition>The best estimate of the accuracy of a position.</S100FC:definition>
 			<S100FC:code>horizontalPositionUncertainty</S100FC:code>
-			<S100FC:remarks>The expected input is the maximum of the two-dimensional error. The error is assumed to be positive and negative.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>233</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -12640,7 +12579,6 @@
 			<S100FC:name>Information</S100FC:name>
 			<S100FC:definition>Textual information about the feature. The information may be provided as a string of text or as a file name of a single external text file that contains the text.</S100FC:definition>
 			<S100FC:code>information</S100FC:code>
-			<S100FC:remarks>At least one of the sub-attributes file reference or text must be populated.The sub-attribute file reference is generally used for long text strings or those that require formatting, however, there is no restriction on the type of text (except for lexical level) that can be held in files referenced by sub-attribute file reference.</S100FC:remarks>
 			<S100FC:alias>INFORM</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1130</S100FC:sourceIdentifier>
@@ -13178,7 +13116,6 @@
 			<S100FC:name>Shape Information</S100FC:name>
 			<S100FC:definition>Textual information about the shape of a non-standard topmark.</S100FC:definition>
 			<S100FC:code>shapeInformation</S100FC:code>
-			<S100FC:remarks>No formatting of text is possible within shape information. If formatted text is required, then an associated text file referenced by the complex attribute textual description must be used.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>251</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -13363,7 +13300,6 @@
 			<S100FC:name>Telecommunications</S100FC:name>
 			<S100FC:definition>A means or channel of communicating at a distance by electrical or electromagnetic means such as telegraphy, telephony, or broadcasting.</S100FC:definition>
 			<S100FC:code>telecommunications</S100FC:code>
-			<S100FC:remarks>If no value is populated for the sub-attribute telecommunication service, this means the service is by voice communication. If no value is populated for the sub-attribute telecommunication carrier, this means the service is by land line communication.</S100FC:remarks>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>255</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
@@ -13673,7 +13609,6 @@
 			<S100FC:name>Vertical Clearance Fixed</S100FC:name>
 			<S100FC:definition>The vertical clearance measured from the horizontal plane towards a fixed (non-opening) feature overhead.</S100FC:definition>
 			<S100FC:code>verticalClearanceFixed</S100FC:code>
-			<S100FC:remarks>Vertical clearance fixed must not be used to populate authorized safe clearances.</S100FC:remarks>
 			<S100FC:alias>VERCLR</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>263</S100FC:sourceIdentifier>
@@ -13753,7 +13688,6 @@
 			<S100FC:name>Vertical Uncertainty</S100FC:name>
 			<S100FC:definition>The best estimate of the vertical accuracy of depths, heights, vertical distances and vertical clearances.</S100FC:definition>
 			<S100FC:code>verticalUncertainty</S100FC:code>
-			<S100FC:remarks>Encodes the vertical uncertainty associated with any vertical measurement.</S100FC:remarks>
 			<S100FC:alias>SOUACC</S100FC:alias>
 			<S100FC:alias>VERACC</S100FC:alias>
 			<S100FC:definitionReference>
@@ -15848,7 +15782,6 @@
 			<S100FC:name>Land Elevation</S100FC:name>
 			<S100FC:definition>An elevation is the vertical distance of a point or a level, on, or affixed to, the surface of the earth, measured from a specified vertical datum.</S100FC:definition>
 			<S100FC:code>LandElevation</S100FC:code>
-			<S100FC:remarks>Used to encode both spot heights and land (height) contours.</S100FC:remarks>
 			<S100FC:alias>LNDELV</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>200</S100FC:sourceIdentifier>
@@ -17153,7 +17086,6 @@
 			<S100FC:name>Building</S100FC:name>
 			<S100FC:definition>A free-standing self-supporting construction that is roofed, usually walled, and is intended for human occupancy (for example: a place of work or recreation) and/or habitation.</S100FC:definition>
 			<S100FC:code>Building</S100FC:code>
-			<S100FC:remarks>This feature is used to encode single buildings, including those with a particular function or service of major interest.</S100FC:remarks>
 			<S100FC:alias>BUISGL</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>211</S100FC:sourceIdentifier>
@@ -17888,7 +17820,6 @@
 			<S100FC:name>Bridge</S100FC:name>
 			<S100FC:definition>A structure erected over a depression or an obstacle such as a body of water, railroad, etc., to provide a roadway for vehicles or pedestrians.</S100FC:definition>
 			<S100FC:code>Bridge</S100FC:code>
-			<S100FC:remarks>A bridge may consist of portions which cover the land and the water.</S100FC:remarks>
 			<S100FC:alias>BRIDGE</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>752</S100FC:sourceIdentifier>
@@ -18778,7 +18709,6 @@
 			<S100FC:name>Cable Overhead</S100FC:name>
 			<S100FC:definition>A single continuous rope-like bundle consisting of multiple strands of fiber, plastic, metal, and/or glass, which is supported by structures such as poles or pylons and passing over or nearby navigable waters.</S100FC:definition>
 			<S100FC:code>CableOverhead</S100FC:code>
-			<S100FC:remarks>The cable supports are encoded as separate pylon/bridge support features.</S100FC:remarks>
 			<S100FC:alias>CBLOHD</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>219</S100FC:sourceIdentifier>
@@ -18980,7 +18910,6 @@
 			<S100FC:name>Overhead Pipeline</S100FC:name>
 			<S100FC:definition>A string of interconnected pipes, supported by pylons and passing over or nearby navigable waters, used for the transport of matter, nowadays mainly oil or gas.</S100FC:definition>
 			<S100FC:code>PipelineOverhead</S100FC:code>
-			<S100FC:remarks>A pipeline is a string of interconnected pipes used for the transport of matter, nowadays mainly oil or gas (IHO Dictionary, S-32, 5th Edition, 3857).</S100FC:remarks>
 			<S100FC:alias>PIPOHD</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>220</S100FC:sourceIdentifier>
@@ -21073,7 +21002,6 @@
 			<S100FC:name>Fortified Structure</S100FC:name>
 			<S100FC:definition>A structure that is specifically designed or reinforced to provide for defence from armed attack.</S100FC:definition>
 			<S100FC:code>FortifiedStructure</S100FC:code>
-			<S100FC:remarks>A fortified structure is often disused, decayed or used for non-defence purpose. Such structures range from major castles and forts to minor lookout posts.</S100FC:remarks>
 			<S100FC:alias>FORSTC</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>229</S100FC:sourceIdentifier>
@@ -21509,7 +21437,6 @@
 			<S100FC:name>Checkpoint</S100FC:name>
 			<S100FC:definition>An official location at which to register, declare and/or inspect goods and/or people.</S100FC:definition>
 			<S100FC:code>Checkpoint</S100FC:code>
-			<S100FC:remarks>The object 'checkpoint' does not include facilities such as buildings, gates or other installations.</S100FC:remarks>
 			<S100FC:alias>CHKPNT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>231</S100FC:sourceIdentifier>
@@ -23228,7 +23155,6 @@
 			<S100FC:name>Gate</S100FC:name>
 			<S100FC:definition>A structure that may be swung, drawn, or lowered to block an entrance or passageway on a watercourse.</S100FC:definition>
 			<S100FC:code>Gate</S100FC:code>
-			<S100FC:remarks>Used to encode gates that control the flow of water.</S100FC:remarks>
 			<S100FC:alias>GATCON</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>240</S100FC:sourceIdentifier>
@@ -23635,7 +23561,6 @@
 			<S100FC:name>Crane</S100FC:name>
 			<S100FC:definition>A machine for lifting, shifting and lowering objects or materials by means of a swinging boom or with a lifting apparatus supported on an overhead track.</S100FC:definition>
 			<S100FC:code>Crane</S100FC:code>
-			<S100FC:remarks>The position of a sheerlegs or a travelling crane is defined as its resting position.</S100FC:remarks>
 			<S100FC:alias>CRANES</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>242</S100FC:sourceIdentifier>
@@ -25622,7 +25547,6 @@
 			<S100FC:name>Sea Area/Named Water Area</S100FC:name>
 			<S100FC:definition>A geographically defined part of the sea or other navigable waters. It may be specified within its limits by its proper name.</S100FC:definition>
 			<S100FC:code>SeaAreaNamedWaterArea</S100FC:code>
-			<S100FC:remarks>Each sea area is defined independent of any other. Smaller sea areas may be located within larger sea areas.</S100FC:remarks>
 			<S100FC:alias>SEAARE</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>252</S100FC:sourceIdentifier>
@@ -25756,7 +25680,6 @@
 			<S100FC:name>Tidal Stream - Flood/Ebb</S100FC:name>
 			<S100FC:definition>Approximate tidal stream rates given as discrete rate values for flood and ebb flow during springs.</S100FC:definition>
 			<S100FC:code>TidalStreamFloodEbb</S100FC:code>
-			<S100FC:remarks>A tidal stream (or tidal current) is a horizontal movement of water associated with the rise and fall of the tide caused by tide-producing forces.</S100FC:remarks>
 			<S100FC:alias>TS_FEB</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>254</S100FC:sourceIdentifier>
@@ -25859,7 +25782,6 @@
 			<S100FC:name>Current - Non-Gravitational</S100FC:name>
 			<S100FC:definition>Any current that is caused by other than tide producing forces.</S100FC:definition>
 			<S100FC:code>CurrentNonGravitational</S100FC:code>
-			<S100FC:remarks>Non-gravitational currents include either singly or in combination: ocean currents (wind and/or density driven), inter-oceanic equalizing currents, currents of navigable rivers, river outflow effects offshore and other non-tidal flows.</S100FC:remarks>
 			<S100FC:alias>CURENT</S100FC:alias>
 			<S100FC:alias>Non-Tidal Current</S100FC:alias>
 			<S100FC:definitionReference>
@@ -26051,7 +25973,6 @@
 			<S100FC:name>Tidal Stream Panel Data</S100FC:name>
 			<S100FC:definition>Approximate tidal stream characteristics given as discrete value sets at a specified interval before and/or after a high or low water.</S100FC:definition>
 			<S100FC:code>TidalStreamPanelData</S100FC:code>
-			<S100FC:remarks>A tidal stream (or tidal current) is an alternating horizontal movement of water associated with the rise and fall of the tide caused by tide-producing forces.</S100FC:remarks>
 			<S100FC:alias>TS_PAD</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>257</S100FC:sourceIdentifier>
@@ -26142,7 +26063,6 @@
 			<S100FC:name>Sounding</S100FC:name>
 			<S100FC:definition>Measured or charted depth of water (may be a drying height), or the measurement of such a depth, which has been reduced to a vertical datum.</S100FC:definition>
 			<S100FC:code>Sounding</S100FC:code>
-			<S100FC:remarks>Drying heights (drying soundings) are indicated by a negative value.</S100FC:remarks>
 			<S100FC:alias>SOUNDG</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>721</S100FC:sourceIdentifier>
@@ -26521,7 +26441,6 @@
 			<S100FC:name>Depth Contour</S100FC:name>
 			<S100FC:definition>A line connecting points of equal water depth which is sometimes significantly displaced outside of soundings, symbols, and other chart detail for clarity as well as generalization. Depth contours therefore often represent an approximate location of the line of equal depth as related to the surveyed line delineated on the source.</S100FC:definition>
 			<S100FC:code>DepthContour</S100FC:code>
-			<S100FC:remarks>Drying contours are encoded with negative values.</S100FC:remarks>
 			<S100FC:alias>DEPCNT</S100FC:alias>
 			<S100FC:alias>Depth Curve</S100FC:alias>
 			<S100FC:definitionReference>
@@ -26582,7 +26501,6 @@
 			<S100FC:name>Depth Area</S100FC:name>
 			<S100FC:definition>A water area whose depth is within a defined range of values.</S100FC:definition>
 			<S100FC:code>DepthArea</S100FC:code>
-			<S100FC:remarks>Intertidal areas are encoded as depth areas. These do not have to include soundings. The depth range within a depth area is defined by the attributes depth range maximum value and depth range minimum value.</S100FC:remarks>
 			<S100FC:alias>DEPARE</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>262</S100FC:sourceIdentifier>
@@ -26759,7 +26677,6 @@
 			<S100FC:name>Seabed Area</S100FC:name>
 			<S100FC:definition>A region of the seabed including the material of which it is composed and its physical characteristics. Also called nature of bottom, character (or characteristics) of the bottom, or quality of the bottom.</S100FC:definition>
 			<S100FC:code>SeabedArea</S100FC:code>
-			<S100FC:remarks>Generally, it is not possible to define a seabed area by its real extent. For that reason, the characteristics of the seabed area may be represented at one single position.</S100FC:remarks>
 			<S100FC:alias>SBDARE</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>264</S100FC:sourceIdentifier>
@@ -29003,7 +28920,6 @@
 			<S100FC:name>Pipeline Submarine/On Land</S100FC:name>
 			<S100FC:definition>A connected set of pipes for conveying liquids, slurries, or gases.</S100FC:definition>
 			<S100FC:code>PipelineSubmarineOnLand</S100FC:code>
-			<S100FC:remarks>A pipeline is a string of interconnected pipes used for the transport of matter, nowadays mainly oil or gas (IHO Dictionary, S-32, 5th Edition, 3857). It must be assumed that the pipes are vulnerable to damage from anchoring or trawling. They may be a potential danger to navigation (IHO Chart Specifications, M-4).</S100FC:remarks>
 			<S100FC:alias>PIPSOL</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>728</S100FC:sourceIdentifier>
@@ -29601,7 +29517,6 @@
 			<S100FC:name>Navigation Line</S100FC:name>
 			<S100FC:definition>A straight line extending towards an area of navigational interest and generally generated by two navigational aids or one navigational aid and a bearing.</S100FC:definition>
 			<S100FC:code>NavigationLine</S100FC:code>
-			<S100FC:remarks>The extent of the navigation line depends on the visibility of the navigational aid(s). The recommended track is that portion of a 'navigation line' that a ship should use for navigation.</S100FC:remarks>
 			<S100FC:alias>NAVLNE</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>665</S100FC:sourceIdentifier>
@@ -29718,7 +29633,6 @@
 			<S100FC:name>Recommended Track</S100FC:name>
 			<S100FC:definition>A route which has been specially examined to ensure so far as possible that it is free of dangers and along which ships are advised to navigate.</S100FC:definition>
 			<S100FC:code>RecommendedTrack</S100FC:code>
-			<S100FC:remarks>Recommended tracks include all channels recommended for hydrographic reasons to lead safely between shoal depths. The use of such tracks is generally left to the discretion of the mariner and will depend on the vessel's draught, the state of the tide, adequacy of navigational aids and so on (IHO Chart Specifications, M-4). The recommended track is that portion of a 'navigation line' that a ship should use for navigation. In the case of a two-way recommended track only one value of orientation is encoded; the other value can be deduced (that is, the value encoded + 180 degrees).</S100FC:remarks>
 			<S100FC:alias>RECTRC</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>666</S100FC:sourceIdentifier>
@@ -30266,7 +30180,6 @@
 			<S100FC:name>Fairway System</S100FC:name>
 			<S100FC:definition>That part of a river, harbour and so on, where the main navigable channel for vessels of larger size lies. It is also the usual course followed by vessels entering or leaving harbours, called 'ship channel'. A fairway system is an aggregation of connected fairway features making up a complex fairway system.</S100FC:definition>
 			<S100FC:code>FairwaySystem</S100FC:code>
-			<S100FC:remarks>A fairway system is composed of two or more Fairway features that comprise a complex fairway routeing system, for instance a long fairway comprising several bends.</S100FC:remarks>
 			<S100FC:alias>C_AGGR</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>669</S100FC:sourceIdentifier>
@@ -30410,7 +30323,6 @@
 			<S100FC:name>Recommended Route Centreline</S100FC:name>
 			<S100FC:definition>The recommended route centreline indicates the 'centreline' of a recommended route.</S100FC:definition>
 			<S100FC:code>RecommendedRouteCentreline</S100FC:code>
-			<S100FC:remarks>A recommended route is a route of undefined width, for the convenience of ships in transit, which is often marked by centerline buoys (IHO Dictionary, S-32, 5th Edition, 4448). A recommended route describes the regulation of navigation for non-hydrographic reasons such as the prevention of collision or the avoidance of pollution risks. It is generally laid down by a national or international authority other than the hydrographic authority. (IHO Chart Specifications, S-4)</S100FC:remarks>
 			<S100FC:alias>RCRTCL</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>670</S100FC:sourceIdentifier>
@@ -30597,7 +30509,6 @@
 			<S100FC:name>Two-Way Route Part</S100FC:name>
 			<S100FC:definition>An area of a two-way route within which traffic flow is generally along one bearing (and possibly its reciprocal).</S100FC:definition>
 			<S100FC:code>TwoWayRoutePart</S100FC:code>
-			<S100FC:remarks>The complete two-way route consists of one or more parts depending on the shape of the two-way route. The orientation of the two-way route part is defined by its centerline and is related to the general direction of the two-way route.</S100FC:remarks>
 			<S100FC:alias>TWRTPT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>671</S100FC:sourceIdentifier>
@@ -30907,7 +30818,6 @@
 			<S100FC:name>Recommended Traffic Lane Part</S100FC:name>
 			<S100FC:definition>A traffic flow pattern indicating a recommended directional movement of traffic where it is impractical or unnecessary to adopt an established direction of traffic flow.</S100FC:definition>
 			<S100FC:code>RecommendedTrafficLanePart</S100FC:code>
-			<S100FC:remarks>Several Hydrographic Offices, in consultation with their Ministries of Transport, have added recommended directions in areas such as the outer approaches to major ports in order to show the best routes for crossing traffic or to minimize head-on encounters.(IHO Chart Specifications, M-4). The object 'recommended traffic lane part' indicates the recommended traffic flow, for example, between two TSS; in the entrance areas of a TSS; or beside a deep water route. The complete recommended traffic lane consists of one or more parts depending on the various shapes of the recommended traffic lane. The orientation of the recommended traffic lane part is defined by the middle-line of the recommended traffic lane part relating to the general direction of the recommended traffic lane part.</S100FC:remarks>
 			<S100FC:alias>RCTLPT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>673</S100FC:sourceIdentifier>
@@ -30987,7 +30897,6 @@
 			<S100FC:name>Deep Water Route Centreline</S100FC:name>
 			<S100FC:definition>The Deep Water route centreline indicates the centreline of a route, the width of which is not explicitly defined.</S100FC:definition>
 			<S100FC:code>DeepWaterRouteCentreline</S100FC:code>
-			<S100FC:remarks>A deep water route is a route in a designated area, within defined limits, which has been accurately surveyed for clearance of sea bottom and submerged obstacles to a minimum indicated depth of water (IHO Dictionary, S-32, 5th Edition, 1280). Additional information can be found in IHO Technical Resolution A1.17.</S100FC:remarks>
 			<S100FC:alias>DWRTCL</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>674</S100FC:sourceIdentifier>
@@ -31176,7 +31085,6 @@
 			<S100FC:name>Deep Water Route Part</S100FC:name>
 			<S100FC:definition>An area of a deep water route within which ships proceed in the same direction.</S100FC:definition>
 			<S100FC:code>DeepWaterRoutePart</S100FC:code>
-			<S100FC:remarks>A deep water route is a route in a designated area, within defined limits, which has been accurately surveyed for clearance of sea bottom and submerged obstacles to a minimum indicated depth of water (IHO Dictionary, S-32, 5th Edition, 1280). The complete deep water route consists of one or more parts depending on the shape of the deep water route. The orientation of the route part is defined by the middle line of the part relating to the general direction of the deep water route. Additional information can be found in IHO Technical Resolution A1.17.</S100FC:remarks>
 			<S100FC:alias>DWRTPT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>733</S100FC:sourceIdentifier>
@@ -31398,7 +31306,6 @@
 			<S100FC:name>Deep Water Route</S100FC:name>
 			<S100FC:definition>A route within defined limits which has been accurately surveyed for clearance of sea bottom and submerged obstacles as indicated on the chart.</S100FC:definition>
 			<S100FC:code>DeepWaterRoute</S100FC:code>
-			<S100FC:remarks>A complete Deep Water route (DW) system are composed of the features Deep Water Route Centreline, Deep Water Route Part and any associated navigation aids that comprise a complex Deep Water Route system.</S100FC:remarks>
 			<S100FC:alias>C_AGGR</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>734</S100FC:sourceIdentifier>
@@ -31800,7 +31707,6 @@
 			<S100FC:name>Traffic Separation Scheme Lane Part</S100FC:name>
 			<S100FC:definition>An area within defined limits in which one-way traffic is established. Natural obstacles, including those forming separation zones, may constitute a boundary.</S100FC:definition>
 			<S100FC:code>TrafficSeparationSchemeLanePart</S100FC:code>
-			<S100FC:remarks>The complete traffic lane may consist of one or more lane parts depending on the shape of the lane.</S100FC:remarks>
 			<S100FC:alias>TSSLPT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>737</S100FC:sourceIdentifier>
@@ -32597,7 +32503,6 @@
 			<S100FC:name>Archipelagic Sea Lane Axis</S100FC:name>
 			<S100FC:definition>The reference line used to determine the maximum extents of an Archipelagic Sea Lane. It may not indicate the deepest water nor any recommended route or track.</S100FC:definition>
 			<S100FC:code>ArchipelagicSeaLaneAxis</S100FC:code>
-			<S100FC:remarks>Article 53 of the United Nations Convention on the Law of the Sea (UNCLOS) states that: an archipelagic State may designate sea lanes ..., suitable for the continuous and expeditious passage of foreign ships ... through ... its archipelagic waters and the adjacent Territorial Sea. ... All ships ... enjoy the right of archipelagic sea lanes passage in such sea lanes ... [which] include all normal passage routes used as routes for international navigation through archipelagic waters. (Note: references to aircraft and air routes in UNCLOS have been omitted in these extracts from Article 53).</S100FC:remarks>
 			<S100FC:alias>ASLXIS</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>686</S100FC:sourceIdentifier>
@@ -32814,7 +32719,6 @@
 			<S100FC:name>Radio Calling-In Point</S100FC:name>
 			<S100FC:definition>A designated position at which vessels are required to report to a traffic control centre. Also called reporting point or radio reporting point.</S100FC:definition>
 			<S100FC:code>RadioCallingInPoint</S100FC:code>
-			<S100FC:remarks>Radio calling-in points are established in certain busy waterways and port approaches to assist traffic control.</S100FC:remarks>
 			<S100FC:alias>RDOCAL</S100FC:alias>
 			<S100FC:alias>Radio Reporting Point</S100FC:alias>
 			<S100FC:alias>Reporting Point</S100FC:alias>
@@ -33151,7 +33055,6 @@
 			<S100FC:name>Radar Range</S100FC:name>
 			<S100FC:definition>Indicates the coverage of a sea area by a radar surveillance station. Inside this area a vessel may request shore-based radar assistance, particularly in poor visibility.</S100FC:definition>
 			<S100FC:code>RadarRange</S100FC:code>
-			<S100FC:remarks>Many large ports have a radar surveillance system covering their approaches to provide guidance for vessels, particularly in poor visibility. The maximum range of the system forms an arc or series of overlapping arcs (IHO Chart Specifications, M-4).</S100FC:remarks>
 			<S100FC:alias>RADRNG</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>691</S100FC:sourceIdentifier>
@@ -33248,7 +33151,6 @@
 			<S100FC:name>Radar Station</S100FC:name>
 			<S100FC:definition>A station with a transmitter emitting pulses of ultra-high frequency radio waves which are reflected by solid objects and are detected upon their return to the sending station.</S100FC:definition>
 			<S100FC:code>RadarStation</S100FC:code>
-			<S100FC:remarks>The feature 'radar station' is used to encode the technical equipment itself independent of the building or structure where it is installed. This building or structure, for example mast, tower, building, radar dome is a different feature.</S100FC:remarks>
 			<S100FC:alias>RADSTA</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>692</S100FC:sourceIdentifier>
@@ -33729,7 +33631,6 @@
 			<S100FC:name>Anchor Berth</S100FC:name>
 			<S100FC:definition>A designated area of water where a vessel, sea plane, etc., may anchor.</S100FC:definition>
 			<S100FC:code>AnchorBerth</S100FC:code>
-			<S100FC:remarks>In general the anchor berth is defined by the centre point and a swinging circle radius.</S100FC:remarks>
 			<S100FC:alias>ACHBRT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>646</S100FC:sourceIdentifier>
@@ -34434,7 +34335,6 @@
 			<S100FC:name>Cargo Transhipment Area</S100FC:name>
 			<S100FC:definition>An area designated for transfer of cargo from one vessel to another sometimes in order to reduce a vessel's draught.</S100FC:definition>
 			<S100FC:code>CargoTranshipmentArea</S100FC:code>
-			<S100FC:remarks>The transhipment of cargo is often known as 'lightering' and the area may be known as 'lightering area' or 'cargo transfer area'.</S100FC:remarks>
 			<S100FC:alias>CTSARE</S100FC:alias>
 			<S100FC:alias>Cargo Lightening Area</S100FC:alias>
 			<S100FC:alias>Cargo Transfer Area</S100FC:alias>
@@ -34574,7 +34474,6 @@
 			<S100FC:name>Caution Area</S100FC:name>
 			<S100FC:definition>Generally, an area where the mariner has to be made aware of circumstances influencing the safety of navigation.</S100FC:definition>
 			<S100FC:code>CautionArea</S100FC:code>
-			<S100FC:remarks>This may be required to identify: a danger, a risk, a rule, or advice -- which is not directly related to a specific object.</S100FC:remarks>
 			<S100FC:alias>CTNARE</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>314</S100FC:sourceIdentifier>
@@ -35071,7 +34970,6 @@
 			<S100FC:name>Fishery Zone</S100FC:name>
 			<S100FC:definition>The offshore zone in which exclusive fishing rights and management are held by the coastal nation.</S100FC:definition>
 			<S100FC:code>FisheryZone</S100FC:code>
-			<S100FC:remarks>The fishery zone commonly coincides with other zones such as: Continental Shelf, Exclusive Economic Zone.</S100FC:remarks>
 			<S100FC:alias>FSHZNE</S100FC:alias>
 			<S100FC:alias>Fishing Zone</S100FC:alias>
 			<S100FC:definitionReference>
@@ -37454,7 +37352,6 @@
 			<S100FC:name>Lateral Buoy</S100FC:name>
 			<S100FC:definition>A lateral buoy is used to indicate the port or starboard hand side of the route to be followed. They are generally used for well-defined channels and are used in conjunction with a conventional direction of buoyage.</S100FC:definition>
 			<S100FC:code>LateralBuoy</S100FC:code>
-			<S100FC:remarks>A buoy is a floating object moored to the bottom in a particular place, as an aid to navigation or for other specific purposes. (IHO Dictionary, S-32, 5th Edition, 565). Light, fog signal, radar reflector and retro-reflector are separate objects.</S100FC:remarks>
 			<S100FC:alias>BOYLAT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>697</S100FC:sourceIdentifier>
@@ -37714,7 +37611,6 @@
 			<S100FC:name>Cardinal Buoy</S100FC:name>
 			<S100FC:definition>A cardinal buoy is used in conjunction with the compass to indicate where the mariner may find the best navigable water. It is placed in one of the four quadrants (North, East, South and West), bounded by inter-cardinal bearings from the point marked.</S100FC:definition>
 			<S100FC:code>CardinalBuoy</S100FC:code>
-			<S100FC:remarks>A buoy is a floating object moored to the bottom in a particular place, as an aid to navigation or for other specific purposes. (IHO Dictionary S-32 5th Edition, 565). Topmark, light, fog signal, radar reflector and retro-reflector are separate objects.</S100FC:remarks>
 			<S100FC:alias>BOYCAR</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>698</S100FC:sourceIdentifier>
@@ -37974,7 +37870,6 @@
 			<S100FC:name>Isolated Danger Buoy</S100FC:name>
 			<S100FC:definition>An isolated danger buoy is a buoy moored on or above an isolated danger of limited extent, which has navigable water all around it.</S100FC:definition>
 			<S100FC:code>IsolatedDangerBuoy</S100FC:code>
-			<S100FC:remarks>A buoy is a floating object moored to the bottom in a particular place, as an aid to navigation or for other specific purposes. (IHO Dictionary, S-32, 5th Edition, 565). Topmark, light, fog signal, radar reflector and retro-reflector are separate objects.</S100FC:remarks>
 			<S100FC:alias>BOYISD</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>699</S100FC:sourceIdentifier>
@@ -38221,7 +38116,6 @@
 			<S100FC:name>Safe Water Buoy</S100FC:name>
 			<S100FC:definition>A safe water buoy is used to indicate that there is navigable water around the mark.</S100FC:definition>
 			<S100FC:code>SafeWaterBuoy</S100FC:code>
-			<S100FC:remarks>A buoy is a floating object moored to the bottom in a particular place, as an aid to navigation or for other specific purposes. (IHO Dictionary, S-32, 5th Edition, 565). Topmark, light, fog signal, radar reflector and retro-reflector are separate objects.</S100FC:remarks>
 			<S100FC:alias>BOYSAW</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>700</S100FC:sourceIdentifier>
@@ -38468,7 +38362,6 @@
 			<S100FC:name>Special Purpose/General Buoy</S100FC:name>
 			<S100FC:definition>A special purpose buoy is primarily used to indicate an area or feature, the nature of which is apparent from reference to a chart, Sailing Directions or Notices to Mariners.</S100FC:definition>
 			<S100FC:code>SpecialPurposeGeneralBuoy</S100FC:code>
-			<S100FC:remarks>A buoy is a floating object moored to the bottom in a particular place, as an aid to navigation or for other specific purposes. (IHO Dictionary, S-32, 5th Edition, 565). Light, fog signal, radar reflector and retro-reflector are separate objects.</S100FC:remarks>
 			<S100FC:alias>BOYSPP</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>701</S100FC:sourceIdentifier>
@@ -38994,7 +38887,6 @@
 			<S100FC:name>Installation Buoy</S100FC:name>
 			<S100FC:definition>An installation buoy is a buoy used for loading tankers with gas or oil.</S100FC:definition>
 			<S100FC:code>InstallationBuoy</S100FC:code>
-			<S100FC:remarks>A buoy is a floating object moored to the bottom in a particular place, as an aid to navigation or for other specific purposes. (IHO Dictionary, S-32, 5th Edition, 565).</S100FC:remarks>
 			<S100FC:alias>BOYINB</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>703</S100FC:sourceIdentifier>
@@ -39465,7 +39357,6 @@
 			<S100FC:name>Lateral Beacon</S100FC:name>
 			<S100FC:definition>A lateral beacon is used to indicate the port or starboard hand side of the route to be followed. They are generally used for well defined channels and are used in conjunction with a conventional direction of buoyage.</S100FC:definition>
 			<S100FC:code>LateralBeacon</S100FC:code>
-			<S100FC:remarks>A beacon is a prominent specially constructed object forming a conspicuous mark as a fixed aid to navigation or for use in hydrographic survey (IHO Dictionary, S-32, 5th Edition, 420). Light, fog signal, radar reflector and retro-reflector are separate objects.</S100FC:remarks>
 			<S100FC:alias>BCNLAT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>704</S100FC:sourceIdentifier>
@@ -39782,7 +39673,6 @@
 			<S100FC:name>Cardinal Beacon</S100FC:name>
 			<S100FC:definition>A cardinal beacon is used in conjunction with the compass to indicate where the mariner may find the best navigable water. It is placed in one of the four quadrants (North, East, South and West), bounded by inter-cardinal bearings from the point marked.</S100FC:definition>
 			<S100FC:code>CardinalBeacon</S100FC:code>
-			<S100FC:remarks>A beacon is a prominent specially constructed object forming a conspicuous mark as a fixed aid to navigation or for use in hydrographic survey (IHO Dictionary, S-32, 5th Edition, 420). Light, fog signal, radar reflector and retro-reflector are separate objects.</S100FC:remarks>
 			<S100FC:alias>BCNCAR</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>705</S100FC:sourceIdentifier>
@@ -40099,7 +39989,6 @@
 			<S100FC:name>Isolated Danger Beacon</S100FC:name>
 			<S100FC:definition>An isolated danger beacon is a beacon erected on an isolated danger of limited extent, which has navigable water all around it.</S100FC:definition>
 			<S100FC:code>IsolatedDangerBeacon</S100FC:code>
-			<S100FC:remarks>A beacon is a prominent specially constructed object forming a conspicuous mark as a fixed aid to navigation or for use in hydrographic survey (IHO Dictionary, S-32, 5th Edition, 420). Light, fog signal, radar reflector and retro-reflector are separate objects.</S100FC:remarks>
 			<S100FC:alias>BCNISD</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>706</S100FC:sourceIdentifier>
@@ -40403,7 +40292,6 @@
 			<S100FC:name>Safe Water Beacon</S100FC:name>
 			<S100FC:definition>A safe water beacon is used to indicate that there is navigable water around the mark.</S100FC:definition>
 			<S100FC:code>SafeWaterBeacon</S100FC:code>
-			<S100FC:remarks>A beacon is a prominent specially constructed object forming a conspicuous mark as a fixed aid to navigation or for use in hydrographic survey (IHO Dictionary, S-32, 5th Edition, 420). Light, fog signal, radar reflector and retro-reflector are separate objects.</S100FC:remarks>
 			<S100FC:alias>BCNSAW</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>707</S100FC:sourceIdentifier>
@@ -40707,7 +40595,6 @@
 			<S100FC:name>Special Purpose/General Beacon</S100FC:name>
 			<S100FC:definition>A special purpose beacon is primarily used to indicate an area or feature, the nature of which is apparent from reference to a chart, Sailing Directions or Notices to Mariners.</S100FC:definition>
 			<S100FC:code>SpecialPurposeGeneralBeacon</S100FC:code>
-			<S100FC:remarks>A beacon is a prominent specially constructed object forming a conspicuous mark as a fixed aid to navigation or for use in hydrographic survey (IHO Dictionary, S-32, 5th Edition, 420). Light, fog signal, radar reflector and retro-reflector are separate features.</S100FC:remarks>
 			<S100FC:alias>BCNSPP</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>708</S100FC:sourceIdentifier>
@@ -41474,7 +41361,6 @@
 			<S100FC:name>Light Float</S100FC:name>
 			<S100FC:definition>A boat-like structure used instead of a light buoy in waters where strong streams or currents are experienced, or when a greater elevation than that of a light buoy is necessary.</S100FC:definition>
 			<S100FC:code>LightFloat</S100FC:code>
-			<S100FC:remarks>The light of a light float is a separate feature, handled as with buoys, beacons, etc.</S100FC:remarks>
 			<S100FC:alias>LITFLT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>710</S100FC:sourceIdentifier>
@@ -41719,7 +41605,6 @@
 			<S100FC:name>Light Vessel</S100FC:name>
 			<S100FC:definition>A distinctively marked vessel anchored or moored at a charted point, to serve as an aid to navigation. By night, it displays a characteristic light(s) and is usually equipped with other devices, such as fog signal, submarine sound signal, and radio-beacon, to assist navigation.</S100FC:definition>
 			<S100FC:code>LightVessel</S100FC:code>
-			<S100FC:remarks>The light(s), fog signal etc. of a light vessel are separate features, handled as with buoys, beacons, etc.</S100FC:remarks>
 			<S100FC:alias>LITVES</S100FC:alias>
 			<S100FC:alias>Lightship</S100FC:alias>
 			<S100FC:definitionReference>
@@ -41957,7 +41842,6 @@
 			<S100FC:name>Retroreflector</S100FC:name>
 			<S100FC:definition>A means of distinguishing unlighted marks at night. Retroreflective material is secured to the mark in a particular pattern to reflect back light.</S100FC:definition>
 			<S100FC:code>Retroreflector</S100FC:code>
-			<S100FC:remarks>The body carrying the retro-reflector is a separate feature.</S100FC:remarks>
 			<S100FC:alias>RETRFL</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>712</S100FC:sourceIdentifier>
@@ -42126,7 +42010,6 @@
 			<S100FC:name>Radar Reflector</S100FC:name>
 			<S100FC:definition>A device capable of, or intended for, reflecting radar signals.</S100FC:definition>
 			<S100FC:code>RadarReflector</S100FC:code>
-			<S100FC:remarks>A radar reflector is usually a tetrahedron or pentagonal corner reflector to facilitate reflection towards the sender (International Maritime Dictionary, 2nd Ed.).</S100FC:remarks>
 			<S100FC:alias>RADRFL</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>713</S100FC:sourceIdentifier>
@@ -42718,7 +42601,6 @@
 			<S100FC:name>Radio Station</S100FC:name>
 			<S100FC:definition>A place equipped to transmit radio waves. Such a station may be either stationary or mobile, and may also be provided with a radio receiver.</S100FC:definition>
 			<S100FC:code>RadioStation</S100FC:code>
-			<S100FC:remarks>The transmission of a radio station may serve to provide mariners with a line of position (IHO Chart Specifications, M-4). The feature 'radio station' is used to encode the point of transmission of the signal.</S100FC:remarks>
 			<S100FC:alias>RDOSTA</S100FC:alias>
 			<S100FC:alias>W/T Station</S100FC:alias>
 			<S100FC:definitionReference>
@@ -42861,7 +42743,6 @@
 			<S100FC:name>Radar Transponder Beacon</S100FC:name>
 			<S100FC:definition>A transponder beacon transmitting a coded signal on radar frequency, permitting an interrogating craft to determine the bearing and range of the transponder.</S100FC:definition>
 			<S100FC:code>RadarTransponderBeacon</S100FC:code>
-			<S100FC:remarks>The feature 'radar transponder beacon' is only used to encode the technical equipment independent of the structure on which it is located (for example a beacon, light-vessel or tower).</S100FC:remarks>
 			<S100FC:alias>RTPBCN</S100FC:alias>
 			<S100FC:alias>Radar Beacon</S100FC:alias>
 			<S100FC:alias>RACON</S100FC:alias>
@@ -43293,7 +43174,6 @@
 			<S100FC:name>Coast Guard Station</S100FC:name>
 			<S100FC:definition>A station at which a visual/radio/radar marine watch is kept either continuously or at certain times only.</S100FC:definition>
 			<S100FC:code>CoastGuardStation</S100FC:code>
-			<S100FC:remarks>This feature is used to describe the function of the coastguard rather than the building in which the coastguard is sited.</S100FC:remarks>
 			<S100FC:alias>CGUSTA</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>363</S100FC:sourceIdentifier>
@@ -43588,7 +43468,6 @@
 			<S100FC:name>Signal Station Traffic</S100FC:name>
 			<S100FC:definition>A traffic signal station is a place on shore from which signals are made to regulate the movement of traffic.</S100FC:definition>
 			<S100FC:code>SignalStationTraffic</S100FC:code>
-			<S100FC:remarks>A signal station is a place on shore from which signals are made to ships at sea (IHO Dictionary, S-32, 5th Edition).</S100FC:remarks>
 			<S100FC:alias>SISTAT</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>365</S100FC:sourceIdentifier>
@@ -43764,7 +43643,6 @@
 			<S100FC:name>Rescue Station</S100FC:name>
 			<S100FC:definition>A place where equipment for saving life at sea is maintained.</S100FC:definition>
 			<S100FC:code>RescueStation</S100FC:code>
-			<S100FC:remarks>Encodes the service available at this location. The structure housing the service should be encoded separately.</S100FC:remarks>
 			<S100FC:alias>RSCSTA</S100FC:alias>
 			<S100FC:alias>Life Saving Station</S100FC:alias>
 			<S100FC:definitionReference>
@@ -44137,7 +44015,6 @@
 			<S100FC:name>Small Craft Facility</S100FC:name>
 			<S100FC:definition>A place at which a service generally of interest to small craft or pleasure boats is available.</S100FC:definition>
 			<S100FC:code>SmallCraftFacility</S100FC:code>
-			<S100FC:remarks>Encodes the service available at this location. The structure housing the service should be encoded separately.</S100FC:remarks>
 			<S100FC:alias>SMCFAC</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>368</S100FC:sourceIdentifier>
