@@ -694,12 +694,12 @@
 					</S100FC:definitionReference>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>junction cable</S100FC:label>
+					<S100FC:label>Junction Cable</S100FC:label>
 					<S100FC:definition>A cable used for joining components of complex marine structures, for example mooring trots.</S100FC:definition>
 					<S100FC:code>9</S100FC:code>
 				</S100FC:listedValue>
 				<S100FC:listedValue>
-					<S100FC:label>telecommunications cable</S100FC:label>
+					<S100FC:label>Telecommunications Cable</S100FC:label>
 					<S100FC:definition>A cable used for the transmission and reception of modulated communication waves/signals.</S100FC:definition>
 					<S100FC:code>10</S100FC:code>
 				</S100FC:listedValue>
