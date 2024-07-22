@@ -9915,7 +9915,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Dragging Prohibited</S100FC:label>
-					<S100FC:definition>An area in which the dragging of anything along the bottom, for example bottom trawling, is prohibited.</S100FC:definition>
+					<S100FC:definition>An area in which the dragging of anything along the seabed, for example bottom trawling, is prohibited.</S100FC:definition>
 					<S100FC:code>24</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>1039</S100FC:sourceIdentifier>
