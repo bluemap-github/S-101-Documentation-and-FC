@@ -15228,6 +15228,7 @@
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
 				<S100FC:featureType ref="Spring" />
 				<S100FC:featureType ref="StraightTerritorialSeaBaseline" />
+				<S100FC:featureType ref="StructureOverNavigableWater" />
 				<S100FC:featureType ref="SubmarinePipelineArea" />
 				<S100FC:featureType ref="SubmarineTransitLane" />
 				<S100FC:featureType ref="SweptArea" />
