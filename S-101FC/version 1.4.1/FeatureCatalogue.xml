@@ -10158,6 +10158,7 @@
 			</S100FC:definitionReference>
 			<S100FC:valueType>text</S100FC:valueType>
 			<S100FC:constraints>
+				<S100CD:stringLength>15</S100CD:stringLength>
 				<S100CD:textPattern>(c)(c)</S100CD:textPattern>
 			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
