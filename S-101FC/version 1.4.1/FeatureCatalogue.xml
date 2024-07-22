@@ -8701,7 +8701,7 @@
 				<S100FC:sourceIdentifier>1177</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
-			<S100FC:valueType>URI</S100FC:valueType>
+			<S100FC:valueType>text</S100FC:valueType>
 			<S100FC:constraints>
 				<S100CD:stringLength>100</S100CD:stringLength>
 			</S100FC:constraints>
