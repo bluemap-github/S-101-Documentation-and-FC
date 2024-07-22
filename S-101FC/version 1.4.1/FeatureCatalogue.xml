@@ -9680,6 +9680,9 @@
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:valueType>text</S100FC:valueType>
+			<S100FC:constraints>
+				<S100CD:stringLength>50</S100CD:stringLength>
+			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Reported Date</S100FC:name>
