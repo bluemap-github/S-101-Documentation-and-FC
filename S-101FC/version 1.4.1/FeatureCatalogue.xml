@@ -6622,7 +6622,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Yellow</S100FC:label>
-					<S100FC:definition>A color whose hue resembles that of ripe lemons or sunflowers or is that of the portion of the spectrum lying between green and orange.</S100FC:definition>
+					<S100FC:definition></S100FC:definition>
 					<S100FC:code>6</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>790</S100FC:sourceIdentifier>
