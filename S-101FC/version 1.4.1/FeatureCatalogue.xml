@@ -10993,7 +10993,7 @@
 				<S100CD:range>
 					<S100Base:lowerBound>0.0</S100Base:lowerBound>
 					<S100Base:upperBound>360.0</S100Base:upperBound>
-					<S100Base:closure>closedInterval</S100Base:closure>
+					<S100Base:closure>geLtInterval</S100Base:closure>
 				</S100CD:range>
 			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
