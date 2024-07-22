@@ -24361,7 +24361,6 @@
 					<S100FC:value>8</S100FC:value>
 					<S100FC:value>12</S100FC:value>
 					<S100FC:value>14</S100FC:value>
-					<S100FC:value>17</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="status" />
 			</S100FC:attributeBinding>
