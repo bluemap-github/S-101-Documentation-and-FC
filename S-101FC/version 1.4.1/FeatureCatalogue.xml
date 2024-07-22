@@ -27031,7 +27031,7 @@
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Sandwave</S100FC:name>
-			<S100FC:definition>A large mobile wave-like sediment feature in shallow water and composed of sand. The wavelength may reach 100 metres, the amplitude may be up to 20 metres.</S100FC:definition>
+			<S100FC:definition>Large mobile wave-like sediment feature in shallow water and composed of sand. The wavelength may reach 100 metres, the amplitude may be up to 20 metres.</S100FC:definition>
 			<S100FC:code>Sandwave</S100FC:code>
 			<S100FC:alias>SNDWAV</S100FC:alias>
 			<S100FC:alias>Sand Wave</S100FC:alias>
