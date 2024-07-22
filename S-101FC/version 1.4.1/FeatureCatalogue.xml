@@ -44250,6 +44250,7 @@
 				<S100FC:featureType ref="CardinalBeacon" />
 				<S100FC:featureType ref="CargoTranshipmentArea" />
 				<S100FC:featureType ref="Causeway" />
+				<S100FC:featureType ref="Chart1Feature" />
 				<S100FC:featureType ref="Checkpoint" />
 				<S100FC:featureType ref="CoastGuardStation" />
 				<S100FC:featureType ref="Coastline" />
@@ -44361,9 +44362,12 @@
 				<S100FC:featureType ref="SlopingGround" />
 				<S100FC:featureType ref="SmallCraftFacility" />
 				<S100FC:featureType ref="Sounding" />
+				<S100FC:featureType ref="SpanFixed" />
+				<S100FC:featureType ref="SpanOpening" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBeacon" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
 				<S100FC:featureType ref="Spring" />
+				<S100FC:featureType ref="StructureOverNavigableWater" />
 				<S100FC:featureType ref="SubmarinePipelineArea" />
 				<S100FC:featureType ref="SubmarineTransitLane" />
 				<S100FC:featureType ref="SweptArea" />
