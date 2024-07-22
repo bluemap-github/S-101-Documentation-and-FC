@@ -13843,7 +13843,7 @@
 		</S100FC:S100_FC_Role>
 		<S100FC:S100_FC_Role>
 			<S100FC:name>The Support</S100FC:name>
-			<S100FC:definition>A pointer to the equipment feature(s) supported by a structure feature</S100FC:definition>
+			<S100FC:definition>A pointer to the feature(s) that support a structure.</S100FC:definition>
 			<S100FC:code>theSupport</S100FC:code>
 		</S100FC:S100_FC_Role>
 		<S100FC:S100_FC_Role>
