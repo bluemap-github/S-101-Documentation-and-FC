@@ -7040,7 +7040,6 @@
 				<S100Base:symbol>m</S100Base:symbol>
 			</S100FC:uom>
 			<S100FC:constraints>
-				<S100CD:textPattern>sxxxxx.xx; s = sign, negative values only</S100CD:textPattern>
 				<S100CD:range>
 					<S100Base:lowerBound>-30.0</S100Base:lowerBound>
 					<S100Base:upperBound>12500.0</S100Base:upperBound>
@@ -7064,7 +7063,6 @@
 			</S100FC:uom>
 			<S100FC:quantitySpecification>otherQuantity</S100FC:quantitySpecification>
 			<S100FC:constraints>
-				<S100CD:textPattern>sxxxxx.xx; s = sign, negative values only</S100CD:textPattern>
 				<S100CD:range>
 					<S100Base:lowerBound>-30</S100Base:lowerBound>
 					<S100Base:upperBound>12500</S100Base:upperBound>
@@ -7088,7 +7086,6 @@
 			</S100FC:uom>
 			<S100FC:quantitySpecification>otherQuantity</S100FC:quantitySpecification>
 			<S100FC:constraints>
-				<S100CD:textPattern>sxxxxx.xx; s = sign, negative values only</S100CD:textPattern>
 				<S100CD:range>
 					<S100Base:lowerBound>-30</S100Base:lowerBound>
 					<S100Base:upperBound>12500</S100Base:upperBound>
@@ -8000,9 +7997,6 @@
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:valueType>URN</S100FC:valueType>
-			<S100FC:constraints>
-				<S100CD:textPattern>urn:mrn:[Organisational ID]:...:...</S100CD:textPattern>
-			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>In the Water</S100FC:name>
@@ -8459,7 +8453,6 @@
 				<S100Base:symbol>°</S100Base:symbol>
 			</S100FC:uom>
 			<S100FC:constraints>
-				<S100CD:textPattern>xx.x</S100CD:textPattern>
 				<S100CD:range>
 					<S100Base:lowerBound>0.1</S100Base:lowerBound>
 					<S100Base:upperBound>180.0</S100Base:upperBound>
@@ -10019,7 +10012,6 @@
 			</S100FC:uom>
 			<S100FC:quantitySpecification>planeAngle</S100FC:quantitySpecification>
 			<S100FC:constraints>
-				<S100CD:textPattern>xxx.xx</S100CD:textPattern>
 				<S100CD:range>
 					<S100Base:lowerBound>0.0</S100Base:lowerBound>
 					<S100Base:upperBound>360.0</S100Base:upperBound>
@@ -10159,7 +10151,6 @@
 			<S100FC:valueType>text</S100FC:valueType>
 			<S100FC:constraints>
 				<S100CD:stringLength>15</S100CD:stringLength>
-				<S100CD:textPattern>(c)(c)</S100CD:textPattern>
 			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
@@ -10242,7 +10233,6 @@
 			<S100FC:valueType>text</S100FC:valueType>
 			<S100FC:constraints>
 				<S100CD:stringLength>150</S100CD:stringLength>
-				<S100CD:textPattern>c…</S100CD:textPattern>
 			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
@@ -10259,7 +10249,6 @@
 				<S100Base:symbol>kt</S100Base:symbol>
 			</S100FC:uom>
 			<S100FC:constraints>
-				<S100CD:textPattern>xx.x</S100CD:textPattern>
 				<S100CD:precision>1</S100CD:precision>
 			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
@@ -11038,7 +11027,6 @@
 				<S100Base:symbol>°</S100Base:symbol>
 			</S100FC:uom>
 			<S100FC:constraints>
-				<S100CD:textPattern>xxx</S100CD:textPattern>
 				<S100CD:range>
 					<S100Base:lowerBound>0.0</S100Base:lowerBound>
 					<S100Base:upperBound>360.0</S100Base:upperBound>
@@ -11055,9 +11043,6 @@
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
 			<S100FC:valueType>integer</S100FC:valueType>
-			<S100FC:constraints>
-				<S100CD:textPattern>xx</S100CD:textPattern>
-			</S100FC:constraints>
 		</S100FC:S100_FC_SimpleAttribute>
 		<S100FC:S100_FC_SimpleAttribute>
 			<S100FC:name>Text Rotation</S100FC:name>
