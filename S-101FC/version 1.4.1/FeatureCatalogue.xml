@@ -17602,7 +17602,7 @@
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Runway</S100FC:name>
-			<S100FC:definition>A defined area, on a land aerodrome, prepared for the landing and take-off run of aircraft, including helicopters.</S100FC:definition>
+			<S100FC:definition>A defined area, on a land aerodrome, prepared for the landing and take-off run of aircraft.</S100FC:definition>
 			<S100FC:code>Runway</S100FC:code>
 			<S100FC:alias>RUNWAY</S100FC:alias>
 			<S100FC:definitionReference>
