@@ -18978,7 +18978,7 @@
 			<S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
-			<S100FC:name>Overhead Pipeline</S100FC:name>
+			<S100FC:name>Pipeline Overhead</S100FC:name>
 			<S100FC:definition>A string of interconnected pipes, supported by pylons and passing over or nearby navigable waters, used for the transport of matter, nowadays mainly oil or gas.</S100FC:definition>
 			<S100FC:code>PipelineOverhead</S100FC:code>
 			<S100FC:alias>PIPOHD</S100FC:alias>
