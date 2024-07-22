@@ -19935,7 +19935,7 @@
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Tunnel</S100FC:name>
-			<S100FC:definition>A passage that is open to the atmosphere at both ends, buried under the sea bed or laid over the sea floor or bored under the ground or through mountains.</S100FC:definition>
+			<S100FC:definition>A passage that is open to the atmosphere at both ends, buried under the seabed or laid over the seafloor or bored under the ground or through mountains.</S100FC:definition>
 			<S100FC:code>Tunnel</S100FC:code>
 			<S100FC:alias>TUNNEL</S100FC:alias>
 			<S100FC:definitionReference>
