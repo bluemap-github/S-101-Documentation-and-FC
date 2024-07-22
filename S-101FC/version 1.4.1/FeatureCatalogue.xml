@@ -41367,6 +41367,7 @@
 				<S100FC:featureType ref="SpanOpening" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBeacon" />
 				<S100FC:featureType ref="SpecialPurposeGeneralBuoy" />
+				<S100FC:featureType ref="StructureOverNavigableWater" />
 				<S100FC:featureType ref="WindTurbine" />
 				<S100FC:featureType ref="Wreck" />
 			</S100FC:featureBinding>
