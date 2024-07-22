@@ -15745,7 +15745,7 @@
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Island Group</S100FC:name>
-			<S100FC:definition>A named group of islands, including archipelago's.</S100FC:definition>
+			<S100FC:definition>A named group of islands, including archipelagos.</S100FC:definition>
 			<S100FC:code>IslandGroup</S100FC:code>
 			<S100FC:alias>C_AGGR</S100FC:alias>
 			<S100FC:definitionReference>
