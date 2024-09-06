@@ -29290,6 +29290,7 @@
 					<S100FC:value>24</S100FC:value>
 					<S100FC:value>25</S100FC:value>
 					<S100FC:value>26</S100FC:value>
+					<S100FC:value>27</S100FC:value>
 					<S100FC:value>39</S100FC:value>
 				</S100FC:permittedValues>
 				<S100FC:attribute ref="restriction" />
