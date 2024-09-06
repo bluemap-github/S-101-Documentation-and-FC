@@ -13867,6 +13867,11 @@
 			<S100FC:code>theQualityInformation</S100FC:code>
 		</S100FC:S100_FC_Role>
 		<S100FC:S100_FC_Role>
+			<S100FC:name>The Roofed Structure</S100FC:name>
+			<S100FC:definition>A pointer to a supported roofed structure.</S100FC:definition>
+			<S100FC:code>theRoofedStructure</S100FC:code>
+		</S100FC:S100_FC_Role>
+		<S100FC:S100_FC_Role>
 			<S100FC:name>The Structure</S100FC:name>
 			<S100FC:definition>A pointer to the feature that equipment feature(s) are supported by.</S100FC:definition>
 			<S100FC:code>theStructure</S100FC:code>
