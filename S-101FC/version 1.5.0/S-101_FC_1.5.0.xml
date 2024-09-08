@@ -19415,7 +19415,7 @@
 					<S100Base:upper xsi:nil="false" infinite="false">1</S100Base:upper>
 				</S100FC:multiplicity>
 				<S100FC:association ref="RoofedStructureAggregation" />
-				<S100FC:role ref="theStructure" />
+				<S100FC:role ref="theRoofedStructure" />
 				<S100FC:featureType ref="StructureOverNavigableWater" />
 			</S100FC:featureBinding>
 			<S100FC:featureBinding roleType="association">
