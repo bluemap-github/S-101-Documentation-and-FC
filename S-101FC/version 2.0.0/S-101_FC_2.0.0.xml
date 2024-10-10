@@ -14415,6 +14415,7 @@
 			<S100FC:definition>A geographical area that describes the coverage and extent of spatial objects.</S100FC:definition>
 			<S100FC:code>DataCoverage</S100FC:code>
 			<S100FC:alias>M_COVR</S100FC:alias>
+			<S100FC:alias>M_CSCL</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>661</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
