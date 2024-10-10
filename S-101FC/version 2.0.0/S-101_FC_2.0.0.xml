@@ -11858,7 +11858,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>International Great Lakes Datum 1985</S100FC:label>
-					<S100FC:definition>A vertical reference system with its zero based on the mean water level at Rimouski/Pointe-au-Pere, Quebec, over the period 1970 to 1988.</S100FC:definition>
+					<S100FC:definition>A vertical reference system with its zero based on the mean water level at Rimouski/Pointe-au-Père, Quebec, over the period 1970 to 1988.</S100FC:definition>
 					<S100FC:code>25</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>1207</S100FC:sourceIdentifier>
