@@ -7367,7 +7367,6 @@
 			<S100FC:name>Frequency Shore Station Receives</S100FC:name>
 			<S100FC:definition>The shore station receiver frequency.</S100FC:definition>
 			<S100FC:code>frequencyShoreStationReceives</S100FC:code>
-			<S100FC:alias>FRQRXV</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1159</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
