@@ -10280,7 +10280,6 @@
 			<S100FC:name>Speed Units</S100FC:name>
 			<S100FC:definition>The units for description of speed.</S100FC:definition>
 			<S100FC:code>speedUnits</S100FC:code>
-			<S100FC:alias>SUNITS</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>654</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
