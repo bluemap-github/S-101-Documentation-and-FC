@@ -33714,7 +33714,7 @@
 		</S100FC:S100_FC_FeatureType>
 		<S100FC:S100_FC_FeatureType isAbstract="false">
 			<S100FC:name>Anchor Berth</S100FC:name>
-			<S100FC:definition>A designated area of water where a vessel, sea plane, etc., may anchor.</S100FC:definition>
+			<S100FC:definition>A designated area of water where a vessel, seaplane, etc., may anchor.</S100FC:definition>
 			<S100FC:code>AnchorBerth</S100FC:code>
 			<S100FC:alias>ACHBRT</S100FC:alias>
 			<S100FC:definitionReference>
