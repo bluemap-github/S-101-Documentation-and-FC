@@ -7333,6 +7333,7 @@
 			<S100FC:definition>The file name of an externally referenced text file.</S100FC:definition>
 			<S100FC:code>fileReference</S100FC:code>
 			<S100FC:alias>TXTDSC</S100FC:alias>
+			<S100FC:alias>NTXTDS</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1158</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
