@@ -2286,7 +2286,7 @@
 				</S100FC:listedValue>
 				<S100FC:listedValue>
 					<S100FC:label>Bridge</S100FC:label>
-					<S100FC:definition>A structure erected over a depression or an obstacle such as a body of water, railroad, etc., to provide a roadway for vehicles or pedestrians</S100FC:definition>
+					<S100FC:definition>A structure erected over a depression or an obstacle such as a body of water, railroad, etc., to provide a roadway for vehicles or pedestrians.</S100FC:definition>
 					<S100FC:code>26</S100FC:code>
 					<S100FC:definitionReference>
 						<S100FC:sourceIdentifier>1375</S100FC:sourceIdentifier>
