@@ -7381,7 +7381,7 @@
 			<S100FC:name>Frequency Shore Station Transmits</S100FC:name>
 			<S100FC:definition>The shore station transmitter frequency.</S100FC:definition>
 			<S100FC:code>frequencyShoreStationTransmits</S100FC:code>
-			<S100FC:alias>FRQTXM</S100FC:alias>
+			<S100FC:alias>SIGFRQ</S100FC:alias>
 			<S100FC:definitionReference>
 				<S100FC:sourceIdentifier>1160</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
